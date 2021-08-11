@@ -1,6 +1,5 @@
 import React from "react";
-import { Heading, Box, Flex, VStack, Image, Text } from "@chakra-ui/react";
-import { GetStaticProps } from "next";
+import { Heading, Box, Flex, VStack, Image } from "@chakra-ui/react";
 
 type Props = {
   data: string;
