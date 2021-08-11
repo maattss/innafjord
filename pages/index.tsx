@@ -17,14 +17,6 @@ const Home: React.FC<Props> = ({ data }) => {
           justifyContent="center"
         >
           Innafjord 2.0
-          <Image
-            src="/emojis/waving_hand.svg"
-            alt=""
-            width="1.2em"
-            display="inline"
-            ml="6"
-            mb="2"
-          />
         </Heading>
 
         <VStack>
