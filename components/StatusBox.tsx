@@ -5,24 +5,27 @@ export type Status = "error" | "warning" | "success";
 
 type StatusBoxProps = {
   status: Status;
+  message?: string;
 };
 
-export const StatusBox: React.FC<StatusBoxProps> = ({ status }) => {
+export const StatusBox: React.FC<StatusBoxProps> = ({ status, message }) => {
   let bg = useColorModeValue("green.300", "green.500");
-  let message = "Relax, everything is fine";
+  let text = "Relax, everything is fine";
   if (status === "error") {
     bg = "red.500";
-    message = "Uh no, something is wrong!";
+
+    text = "Uh no, something is wrong!";
   }
   if (status === "warning") {
     bg = "yellow.500";
-    message = "One of the turbines need some looking after";
+    text = "One of the turbines need some looking after";
   }
+  if (message && message !== "") text = message;
 
   return (
     <Box bg={bg} borderRadius="lg" w="100%" p={8} mb="4">
       <Text fontWeight="medium" textAlign="center" fontSize="xl">
-        {message}
+        {text}
       </Text>
     </Box>
   );

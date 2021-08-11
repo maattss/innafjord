@@ -9,7 +9,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
-import StatusBox from "../components/StatusBox";
+import StatusBox, { Status } from "../components/StatusBox";
 
 type Props = {
   powerPriceData: string;
@@ -25,6 +25,17 @@ type GroupStateData = {
 
 const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
+  let status: Status = "success";
+  let statusText = "";
+  if (groupStateData.waterLevel < 30 || groupStateData.waterLevel > 35) {
+    status = "warning";
+    statusText = "Please check the water level.";
+  }
+  if (groupStateData.waterLevel < 25 || groupStateData.waterLevel > 40) {
+    status = "error";
+    statusText = "Please check the water level immediately!";
+  }
+
   return (
     <>
       <Heading
@@ -36,18 +47,19 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
       >
         Status
       </Heading>
-      <StatusBox status="success" />
+      <StatusBox status={status} message={statusText} />
       <Heading
         fontSize="5xl"
         w="100%"
         textAlign="center"
         justifyContent="center"
         mb="5"
+        mt="5"
       >
         Realtime data
       </Heading>
       <Flex flexWrap="wrap">
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Power price
           </Text>
@@ -58,7 +70,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           </Box>
         </VStack>
         <Spacer />
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Earnings
           </Text>
@@ -68,7 +80,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             </Text>
           </Box>
         </VStack>
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Water level
           </Text>
@@ -79,7 +91,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           </Box>
         </VStack>
         <Spacer />
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Environment cost
           </Text>
