@@ -17,9 +17,7 @@ const Turbines: React.FC<Props> = ({ turbinesData }) => {
   return (
     <>
       <Meta title="Turbine Status" />
-      <Heading textAlign="center" mb="5">
-        Turbines
-      </Heading>
+      <Heading mb="5">Turbines</Heading>
       <Flex flexWrap={"wrap"} justifyContent="center">
         {turbinesData.map((turbine, key) => {
           counter++;
