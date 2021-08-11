@@ -11,7 +11,7 @@ const Home: React.FC = () => {
           textAlign="center"
           justifyContent="center"
         >
-          Innafjord 2.0
+          Innafjord A/S
         </Heading>
 
         <VStack>
