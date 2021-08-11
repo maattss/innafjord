@@ -42,7 +42,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   );
 };
 
-export const getStaticProps: GetServerSideProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   if (
     !process.env.API_URL ||
     !process.env.GROUP_ID ||
