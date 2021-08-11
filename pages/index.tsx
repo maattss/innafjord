@@ -1,11 +1,7 @@
 import React from "react";
 import { Heading, Box, Flex, VStack, Image } from "@chakra-ui/react";
 
-type Props = {
-  data: string;
-};
-
-const Home: React.FC<Props> = ({ data }) => {
+const Home: React.FC<Props> = () => {
   return (
     <>
       <Flex flexDirection="column" justifyContent="space-between" height="100%">
