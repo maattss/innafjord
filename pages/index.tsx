@@ -9,7 +9,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
-import StatusBox from "../components/StatusBox";
+import StatusBox, { Status } from "../components/StatusBox";
 
 type Props = {
   powerPriceData: string;
@@ -25,6 +25,17 @@ type GroupStateData = {
 
 const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
+  let status: Status = "success";
+  let statusText = "";
+  if (groupStateData.waterLevel < 30 || groupStateData.waterLevel > 35) {
+    status = "warning";
+    statusText = "Please check the water level.";
+  }
+  if (groupStateData.waterLevel < 25 || groupStateData.waterLevel > 40) {
+    status = "error";
+    statusText = "Please check the water level immediately!";
+  }
+
   return (
     <>
       <Heading
@@ -36,7 +47,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
       >
         Status
       </Heading>
-      <StatusBox status="success" />
+      <StatusBox status={status} message={statusText} />
       <Heading
         fontSize="5xl"
         w="100%"
