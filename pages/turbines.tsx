@@ -12,14 +12,12 @@ type Props = {
   turbinesData: [TurbineData];
 };
 
-const Contact: React.FC<Props> = ({ turbinesData }) => {
+const Turbines: React.FC<Props> = ({ turbinesData }) => {
   let counter = 0;
   return (
     <>
       <Meta title="Turbine Status" />
-      <Heading textAlign="center" mb="5">
-        Turbines
-      </Heading>
+      <Heading mb="5">Turbines</Heading>
       <Flex flexWrap={"wrap"} justifyContent="center">
         {turbinesData.map((turbine, key) => {
           counter++;
@@ -105,4 +103,4 @@ export const getServerSideProps: GetServerSideProps = async () => {
   };
 };
 
-export default Contact;
+export default Turbines;
