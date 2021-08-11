@@ -1,5 +1,13 @@
 import React from "react";
-import { Heading, Box, Flex, VStack, Text, Spacer } from "@chakra-ui/react";
+import {
+  Heading,
+  Box,
+  Flex,
+  VStack,
+  Text,
+  Spacer,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import StatusBox from "../components/StatusBox";
 
@@ -16,6 +24,7 @@ type GroupStateData = {
 };
 
 const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
+  const bg = useColorModeValue("gray.100", "gray.700");
   return (
     <>
       <Heading
@@ -25,52 +34,66 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         justifyContent="center"
         mb="5"
       >
-        Current status
+        Status
       </Heading>
       <StatusBox status="success" />
+      <Heading
+        fontSize="5xl"
+        w="100%"
+        textAlign="center"
+        justifyContent="center"
+        mb="5"
+      >
+        Realtime data
+      </Heading>
       <Flex flexWrap="wrap">
-        <VStack w={["100%", null, 400]}>
+        <VStack w={["100%", null, 350]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
-            PowerPrice
+            Power price
           </Text>
-          <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
-            <Text fontWeight="medium" textAlign="center">
-              {powerPriceData}
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {powerPriceData} NOK/MWh
             </Text>
           </Box>
         </VStack>
         <Spacer />
-        <VStack w="400px">
+        <VStack w={["100%", null, 350]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
-            Money
+            Earnings
           </Text>
-          <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
-            <Text fontWeight="medium" textAlign="center">
-              {groupStateData.money}
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {groupStateData.money} NOK
             </Text>
           </Box>
         </VStack>
-        <VStack w="400px" mt="2">
+        <VStack w={["100%", null, 350]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Water level
           </Text>
-          <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
-            <Text fontWeight="medium" textAlign="center">
-              {groupStateData.waterLevel}
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {groupStateData.waterLevel} m
             </Text>
           </Box>
         </VStack>
         <Spacer />
-        <VStack w="400px" mt="2">
+        <VStack w={["100%", null, 350]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Environment cost
           </Text>
-          <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
-            <Text fontWeight="medium" textAlign="center">
-              {groupStateData.environmentCost}
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {groupStateData.environmentCost} NOK
             </Text>
           </Box>
         </VStack>
+        <Box w="100%" mt="2">
+          <Text fontStyle="italic" textAlign="right" pr={2}>
+            Updated at {new Date().toLocaleTimeString()}
+          </Text>
+        </Box>
       </Flex>
     </>
   );
