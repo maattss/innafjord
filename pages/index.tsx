@@ -7,6 +7,7 @@ import {
   Text,
   Spacer,
   useColorModeValue,
+  Link,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
@@ -25,6 +26,7 @@ type GroupStateData = {
 
 const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
+  const bgHover = useColorModeValue("gray.200", "gray.600");
   let status: Status = "success";
   let statusText = "";
   if (groupStateData.waterLevel < 30 || groupStateData.waterLevel > 35) {
@@ -84,11 +86,21 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           <Text fontWeight="medium" fontSize="xl">
             Water level
           </Text>
-          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
-            <Text fontWeight="medium" textAlign="center" fontSize="lg">
-              {groupStateData.waterLevel} m
-            </Text>
-          </Box>
+          <Link
+            w="100%"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./waterLevel"
+          >
+            <Box borderRadius="lg" w="100%" p={6}>
+              <Text fontWeight="medium" textAlign="center" fontSize="lg">
+                {groupStateData.waterLevel} m
+              </Text>
+            </Box>
+          </Link>
         </VStack>
         <Spacer />
         <VStack w={["100%", null, 360]} mb="4">

@@ -18,7 +18,7 @@ const data = {
   labels: ["1", "2", "3", "4", "5", "6", "7"],
   datasets: [
     {
-      label: "Water level",
+      label: "Production",
       data: [25, 26, 27, 26, 28, 29, 30],
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
