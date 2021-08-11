@@ -14,8 +14,8 @@ import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const Links: { name: string; path: string }[] = [
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
+  { name: "Production", path: "/production" },
+  { name: "Water", path: "/water" },
 ];
 
 const Nav: React.FC = () => {

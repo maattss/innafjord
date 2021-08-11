@@ -16,7 +16,7 @@ const Home: React.FC<Props> = ({ data }) => {
           textAlign="center"
           justifyContent="center"
         >
-          Hello there, welcome to my website
+          Innafjord 2.0
           <Image
             src="/emojis/waving_hand.svg"
             alt=""
@@ -29,38 +29,12 @@ const Home: React.FC<Props> = ({ data }) => {
 
         <VStack>
           <Box p={5}>
-            <Image src={"/images/memoji.png"} alt={"Memoji"} />
-          </Box>
-          <Box p={5}>
-            <Text>API result {data}</Text>
+            <Image src={"/images/placeholder.svg"} alt={"Placeholder image"} />
           </Box>
         </VStack>
       </Flex>
     </>
   );
-};
-
-export const getStaticProps: GetStaticProps = async () => {
-  if (!process.env.API_URL || !process.env.TEST_FUNCTION_STRING_URL)
-    return {
-      props: { data: "Result undefined" },
-    };
-
-  const url = process.env.API_URL + process.env.TEST_FUNCTION_STRING_URL;
-  const res = await fetch(url);
-  const data = await res.text();
-
-  if (!data) {
-    return {
-      notFound: true,
-    };
-  }
-
-  return {
-    props: {
-      data,
-    },
-  };
 };
 
 export default Home;
