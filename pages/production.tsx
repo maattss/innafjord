@@ -40,6 +40,7 @@ const options = {
 };
 
 const Production: React.FC = () => {
+  // eslint-disable-next-line no-unused-vars
   const [filterGraph, setFilterGraph] = useState<string>("today");
   return (
     <>
