@@ -1,5 +1,13 @@
 import React from "react";
-import { Heading, Box, Flex, VStack, Image, Text } from "@chakra-ui/react";
+import {
+  Heading,
+  Box,
+  Flex,
+  VStack,
+  Image,
+  Text,
+  Spacer,
+} from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 
 type Props = {
@@ -23,20 +31,58 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           w="100%"
           textAlign="center"
           justifyContent="center"
+          mb="4"
         >
           Innafjord A/S
         </Heading>
-
-        <VStack>
-          <Box p={5}>
-            <Image src={"/images/placeholder.svg"} alt={"Placeholder image"} />
-          </Box>
-          <Text>PowerPrice: {powerPriceData}</Text>
-          <Text>Money: {groupStateData.money}</Text>
-          <Text>Water level: {groupStateData.waterLevel}</Text>
-          <Text>Environment cost: {groupStateData.environmentCost}</Text>
-          <Text>Group name: {groupStateData.groupName}</Text>
-        </VStack>
+        <Box
+          bg="green.500"
+          borderRadius="lg"
+          w="100%"
+          p={4}
+          color="white"
+          mb="4"
+        >
+          <Text fontWeight="medium" textAlign="center">
+            Everything ok!
+          </Text>
+        </Box>
+        <Flex flexWrap="wrap">
+          <VStack w="45%">
+            <Text fontWeight="medium">PowerPrice</Text>
+            <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
+              <Text fontWeight="medium" textAlign="center">
+                {powerPriceData}
+              </Text>
+            </Box>
+          </VStack>
+          <Spacer />
+          <VStack w="45%">
+            <Text fontWeight="medium">Money</Text>
+            <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
+              <Text fontWeight="medium" textAlign="center">
+                {groupStateData.money}
+              </Text>
+            </Box>
+          </VStack>
+          <VStack w="45%" mt="2">
+            <Text fontWeight="medium">Water level</Text>
+            <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
+              <Text fontWeight="medium" textAlign="center">
+                {groupStateData.waterLevel}
+              </Text>
+            </Box>
+          </VStack>
+          <Spacer />
+          <VStack w="45%" mt="2">
+            <Text fontWeight="medium">Environment cost</Text>
+            <Box bg="gray.500" borderRadius="lg" w="100%" p={4} color="white">
+              <Text fontWeight="medium" textAlign="center">
+                {groupStateData.environmentCost}
+              </Text>
+            </Box>
+          </VStack>
+        </Flex>
       </Flex>
     </>
   );
