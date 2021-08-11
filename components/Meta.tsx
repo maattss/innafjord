@@ -39,6 +39,7 @@ const Meta = ({ title, keywords, description }: metaProps) => {
 Meta.defaultProps = {
   title: "Innafjord 2.0",
   keywords: "Innafjord",
+  description: "Innafjord",
 };
 
 export default Meta;

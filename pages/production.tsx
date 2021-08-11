@@ -5,8 +5,8 @@ import Meta from "../components/Meta";
 const About: React.FC = () => {
   return (
     <>
-      <Meta title="About" />
-      <Heading>About</Heading>
+      <Meta title="Production" />
+      <Heading>Production</Heading>
     </>
   );
 };
