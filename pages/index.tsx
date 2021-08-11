@@ -54,11 +54,12 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         textAlign="center"
         justifyContent="center"
         mb="5"
+        mt="5"
       >
         Realtime data
       </Heading>
       <Flex flexWrap="wrap">
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Power price
           </Text>
@@ -69,7 +70,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           </Box>
         </VStack>
         <Spacer />
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Earnings
           </Text>
@@ -79,7 +80,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             </Text>
           </Box>
         </VStack>
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Water level
           </Text>
@@ -90,7 +91,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           </Box>
         </VStack>
         <Spacer />
-        <VStack w={["100%", null, 350]} mb="4">
+        <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Environment cost
           </Text>

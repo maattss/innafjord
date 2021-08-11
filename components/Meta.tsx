@@ -31,15 +31,15 @@ const Meta = ({ title, keywords, description }: metaProps) => {
         sizes="16x16"
         href="/favicons/favicon-16x16.png"
       />
-      <title>{title}</title>
+      <title>{title} - Innafjord 2.0</title>
     </Head>
   );
 };
 
 Meta.defaultProps = {
   title: "Innafjord 2.0",
-  keywords: "Innafjord",
-  description: "Innafjord",
+  keywords: "Innafjord, turbines, water, hydropower",
+  description: "Innafjord hydropower system",
 };
 
 export default Meta;
