@@ -12,7 +12,7 @@ type Props = {
   turbinesData: [TurbineData];
 };
 
-const Contact: React.FC<Props> = ({ turbinesData }) => {
+const Turbines: React.FC<Props> = ({ turbinesData }) => {
   let counter = 0;
   return (
     <>
@@ -105,4 +105,4 @@ export const getServerSideProps: GetServerSideProps = async () => {
   };
 };
 
-export default Contact;
+export default Turbines;

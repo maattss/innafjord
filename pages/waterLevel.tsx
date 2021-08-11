@@ -3,11 +3,8 @@ import {
   Heading,
   Select,
   Table,
-  TableCaption,
   Tbody,
   Td,
-  Text,
-  Tfoot,
   Th,
   Thead,
   Tr,
@@ -42,7 +39,7 @@ const options = {
   },
 };
 
-const Contact: React.FC = () => {
+const WaterLevel: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
   return (
     <>
@@ -90,4 +87,4 @@ const Contact: React.FC = () => {
   );
 };
 
-export default Contact;
+export default WaterLevel;

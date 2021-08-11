@@ -4,7 +4,7 @@
     "waterlevel": 29,
     "environmentCost": 76,
     "timestamp": "2021-08-11T14:58:04.492Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9590768735578714,
@@ -82,7 +82,7 @@
     "waterlevel": 21,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.492Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5626432773946111,
@@ -160,7 +160,7 @@
     "waterlevel": 45,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.492Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9769087524333977,
@@ -238,7 +238,7 @@
     "waterlevel": 27,
     "environmentCost": 95,
     "timestamp": "2021-08-11T14:58:04.492Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9963338689969241,
@@ -316,7 +316,7 @@
     "waterlevel": 39,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5638110241996273,
@@ -394,7 +394,7 @@
     "waterlevel": 25,
     "environmentCost": 30,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1721769195787759,
@@ -472,7 +472,7 @@
     "waterlevel": 39,
     "environmentCost": 17,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4896303959352253,
@@ -550,7 +550,7 @@
     "waterlevel": 28,
     "environmentCost": 80,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.808520801952286,
@@ -628,7 +628,7 @@
     "waterlevel": 41,
     "environmentCost": 84,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4405232875549605,
@@ -706,7 +706,7 @@
     "waterlevel": 44,
     "environmentCost": 19,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8923274285106864,
@@ -784,7 +784,7 @@
     "waterlevel": 45,
     "environmentCost": 1,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5698104401197406,
@@ -862,7 +862,7 @@
     "waterlevel": 21,
     "environmentCost": 93,
     "timestamp": "2021-08-11T14:58:04.493Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4400907365374782,
@@ -940,7 +940,7 @@
     "waterlevel": 27,
     "environmentCost": 50,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.46404835522893984,
@@ -1018,7 +1018,7 @@
     "waterlevel": 39,
     "environmentCost": 63,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.004830433219729979,
@@ -1096,7 +1096,7 @@
     "waterlevel": 22,
     "environmentCost": 61,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9762604913241093,
@@ -1174,7 +1174,7 @@
     "waterlevel": 22,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39109561477963206,
@@ -1252,7 +1252,7 @@
     "waterlevel": 24,
     "environmentCost": 95,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.45759994918525493,
@@ -1330,7 +1330,7 @@
     "waterlevel": 32,
     "environmentCost": 19,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5341128335348644,
@@ -1408,7 +1408,7 @@
     "waterlevel": 33,
     "environmentCost": 86,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7760309419569349,
@@ -1486,7 +1486,7 @@
     "waterlevel": 20,
     "environmentCost": 47,
     "timestamp": "2021-08-11T14:58:04.494Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6111892391334823,
@@ -1564,7 +1564,7 @@
     "waterlevel": 31,
     "environmentCost": 15,
     "timestamp": "2021-08-11T14:58:04.495Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7368976692745501,
@@ -1642,7 +1642,7 @@
     "waterlevel": 44,
     "environmentCost": 99,
     "timestamp": "2021-08-11T14:58:04.495Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.17784737188845257,
@@ -1720,7 +1720,7 @@
     "waterlevel": 25,
     "environmentCost": 26,
     "timestamp": "2021-08-11T14:58:04.495Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8159050617359398,
@@ -1798,7 +1798,7 @@
     "waterlevel": 32,
     "environmentCost": 27,
     "timestamp": "2021-08-11T14:58:04.495Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6489827180198737,
@@ -1876,7 +1876,7 @@
     "waterlevel": 27,
     "environmentCost": 63,
     "timestamp": "2021-08-11T14:58:04.495Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5801619541113259,
@@ -1954,7 +1954,7 @@
     "waterlevel": 23,
     "environmentCost": 13,
     "timestamp": "2021-08-11T14:58:04.495Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7748248533609237,
@@ -2032,7 +2032,7 @@
     "waterlevel": 36,
     "environmentCost": 83,
     "timestamp": "2021-08-11T14:58:04.496Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9307940507125774,
@@ -2110,7 +2110,7 @@
     "waterlevel": 29,
     "environmentCost": 28,
     "timestamp": "2021-08-11T14:58:04.496Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.14264545344523327,
@@ -2188,7 +2188,7 @@
     "waterlevel": 41,
     "environmentCost": 12,
     "timestamp": "2021-08-11T14:58:04.496Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9097317364659012,
@@ -2266,7 +2266,7 @@
     "waterlevel": 45,
     "environmentCost": 80,
     "timestamp": "2021-08-11T14:58:04.496Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3036667157733759,
@@ -2344,7 +2344,7 @@
     "waterlevel": 43,
     "environmentCost": 30,
     "timestamp": "2021-08-11T14:58:04.496Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9480601982997343,
@@ -2422,7 +2422,7 @@
     "waterlevel": 34,
     "environmentCost": 94,
     "timestamp": "2021-08-11T14:58:04.496Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9021095821654617,
@@ -2500,7 +2500,7 @@
     "waterlevel": 44,
     "environmentCost": 21,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5122059188960406,
@@ -2578,7 +2578,7 @@
     "waterlevel": 27,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.02461282951153887,
@@ -2656,7 +2656,7 @@
     "waterlevel": 38,
     "environmentCost": 97,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.643567062689085,
@@ -2734,7 +2734,7 @@
     "waterlevel": 36,
     "environmentCost": 85,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11727113650158283,
@@ -2812,7 +2812,7 @@
     "waterlevel": 24,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.42962769483516894,
@@ -2890,7 +2890,7 @@
     "waterlevel": 23,
     "environmentCost": 5,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4025214391392731,
@@ -2968,7 +2968,7 @@
     "waterlevel": 42,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4929286921119882,
@@ -3046,7 +3046,7 @@
     "waterlevel": 28,
     "environmentCost": 35,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8278114232876672,
@@ -3124,7 +3124,7 @@
     "waterlevel": 40,
     "environmentCost": 3,
     "timestamp": "2021-08-11T14:58:04.497Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8276236487538855,
@@ -3202,7 +3202,7 @@
     "waterlevel": 31,
     "environmentCost": 52,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4944008016353252,
@@ -3280,7 +3280,7 @@
     "waterlevel": 29,
     "environmentCost": 28,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6926118215539507,
@@ -3358,7 +3358,7 @@
     "waterlevel": 30,
     "environmentCost": 38,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8183585884242239,
@@ -3436,7 +3436,7 @@
     "waterlevel": 35,
     "environmentCost": 40,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.13481713657620698,
@@ -3514,7 +3514,7 @@
     "waterlevel": 45,
     "environmentCost": 98,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7841551577485446,
@@ -3592,7 +3592,7 @@
     "waterlevel": 24,
     "environmentCost": 35,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21391865264401755,
@@ -3670,7 +3670,7 @@
     "waterlevel": 38,
     "environmentCost": 21,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6332214537131502,
@@ -3748,7 +3748,7 @@
     "waterlevel": 44,
     "environmentCost": 62,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7187346738670741,
@@ -3826,7 +3826,7 @@
     "waterlevel": 34,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4854450705420341,
@@ -3904,7 +3904,7 @@
     "waterlevel": 25,
     "environmentCost": 69,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23680901582220248,
@@ -3982,7 +3982,7 @@
     "waterlevel": 32,
     "environmentCost": 36,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.24754728792902125,
@@ -4060,7 +4060,7 @@
     "waterlevel": 40,
     "environmentCost": 58,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6178618650519858,
@@ -4138,7 +4138,7 @@
     "waterlevel": 37,
     "environmentCost": 72,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2711021138442058,
@@ -4216,7 +4216,7 @@
     "waterlevel": 36,
     "environmentCost": 47,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5312289735063787,
@@ -4294,7 +4294,7 @@
     "waterlevel": 45,
     "environmentCost": 73,
     "timestamp": "2021-08-11T14:58:04.498Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6223260343745034,
@@ -4372,7 +4372,7 @@
     "waterlevel": 37,
     "environmentCost": 99,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6150632726743495,
@@ -4450,7 +4450,7 @@
     "waterlevel": 29,
     "environmentCost": 35,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.19519363370104448,
@@ -4528,7 +4528,7 @@
     "waterlevel": 23,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5447422942480107,
@@ -4606,7 +4606,7 @@
     "waterlevel": 23,
     "environmentCost": 99,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7631708530489663,
@@ -4684,7 +4684,7 @@
     "waterlevel": 39,
     "environmentCost": 71,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5232038480055312,
@@ -4762,7 +4762,7 @@
     "waterlevel": 37,
     "environmentCost": 21,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5631349780143267,
@@ -4840,7 +4840,7 @@
     "waterlevel": 34,
     "environmentCost": 8,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6568162099416093,
@@ -4918,7 +4918,7 @@
     "waterlevel": 37,
     "environmentCost": 19,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27042438438720784,
@@ -4996,7 +4996,7 @@
     "waterlevel": 20,
     "environmentCost": 71,
     "timestamp": "2021-08-11T14:58:04.499Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16279411162821655,
@@ -5074,7 +5074,7 @@
     "waterlevel": 39,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.601137467329464,
@@ -5152,7 +5152,7 @@
     "waterlevel": 37,
     "environmentCost": 31,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9682864434926697,
@@ -5230,7 +5230,7 @@
     "waterlevel": 41,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3568109977427423,
@@ -5308,7 +5308,7 @@
     "waterlevel": 20,
     "environmentCost": 52,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6997399043818713,
@@ -5386,7 +5386,7 @@
     "waterlevel": 40,
     "environmentCost": 51,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.31018047140354454,
@@ -5464,7 +5464,7 @@
     "waterlevel": 35,
     "environmentCost": 42,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8406393694446515,
@@ -5542,7 +5542,7 @@
     "waterlevel": 21,
     "environmentCost": 2,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.850600171688439,
@@ -5620,7 +5620,7 @@
     "waterlevel": 35,
     "environmentCost": 60,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08593180675137213,
@@ -5698,7 +5698,7 @@
     "waterlevel": 23,
     "environmentCost": 75,
     "timestamp": "2021-08-11T14:58:04.500Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5714843936629914,
@@ -5776,7 +5776,7 @@
     "waterlevel": 28,
     "environmentCost": 55,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6016796241606892,
@@ -5854,7 +5854,7 @@
     "waterlevel": 41,
     "environmentCost": 79,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7498064768288146,
@@ -5932,7 +5932,7 @@
     "waterlevel": 45,
     "environmentCost": 80,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6727263238218419,
@@ -6010,7 +6010,7 @@
     "waterlevel": 40,
     "environmentCost": 42,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7519884068456486,
@@ -6088,7 +6088,7 @@
     "waterlevel": 34,
     "environmentCost": 29,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6081810576888529,
@@ -6166,7 +6166,7 @@
     "waterlevel": 36,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5209048422654752,
@@ -6244,7 +6244,7 @@
     "waterlevel": 42,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.22914291282510413,
@@ -6322,7 +6322,7 @@
     "waterlevel": 23,
     "environmentCost": 62,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6663015553800469,
@@ -6400,7 +6400,7 @@
     "waterlevel": 22,
     "environmentCost": 52,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.28336513757387993,
@@ -6478,7 +6478,7 @@
     "waterlevel": 26,
     "environmentCost": 38,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9744370131938838,
@@ -6556,7 +6556,7 @@
     "waterlevel": 22,
     "environmentCost": 14,
     "timestamp": "2021-08-11T14:58:04.501Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.33791095671753735,
@@ -6634,7 +6634,7 @@
     "waterlevel": 22,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.502Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6838125173840612,
@@ -6712,7 +6712,7 @@
     "waterlevel": 24,
     "environmentCost": 97,
     "timestamp": "2021-08-11T14:58:04.502Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9978056873068879,
@@ -6790,7 +6790,7 @@
     "waterlevel": 39,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.502Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3689717625298856,
@@ -6868,7 +6868,7 @@
     "waterlevel": 27,
     "environmentCost": 29,
     "timestamp": "2021-08-11T14:58:04.502Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6467733954564081,
@@ -6946,7 +6946,7 @@
     "waterlevel": 23,
     "environmentCost": 89,
     "timestamp": "2021-08-11T14:58:04.502Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9128580035609981,
@@ -7024,7 +7024,7 @@
     "waterlevel": 31,
     "environmentCost": 88,
     "timestamp": "2021-08-11T14:58:04.502Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2631608934241647,
@@ -7102,7 +7102,7 @@
     "waterlevel": 24,
     "environmentCost": 68,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6676843797580678,
@@ -7180,7 +7180,7 @@
     "waterlevel": 22,
     "environmentCost": 85,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9253038903785151,
@@ -7258,7 +7258,7 @@
     "waterlevel": 38,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5560725493897789,
@@ -7336,7 +7336,7 @@
     "waterlevel": 36,
     "environmentCost": 30,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.13607979664465564,
@@ -7414,7 +7414,7 @@
     "waterlevel": 24,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0050266474551579066,
@@ -7492,7 +7492,7 @@
     "waterlevel": 29,
     "environmentCost": 60,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23436292251061452,
@@ -7570,7 +7570,7 @@
     "waterlevel": 43,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.503Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.03435917497924912,
@@ -7648,7 +7648,7 @@
     "waterlevel": 21,
     "environmentCost": 97,
     "timestamp": "2021-08-11T14:58:04.504Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7533753265925325,
@@ -7726,7 +7726,7 @@
     "waterlevel": 37,
     "environmentCost": 41,
     "timestamp": "2021-08-11T14:58:04.504Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5035273229399544,
@@ -7804,7 +7804,7 @@
     "waterlevel": 23,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.504Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4573490622623264,
@@ -7882,7 +7882,7 @@
     "waterlevel": 37,
     "environmentCost": 94,
     "timestamp": "2021-08-11T14:58:04.504Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8533144637133052,
@@ -7960,7 +7960,7 @@
     "waterlevel": 40,
     "environmentCost": 75,
     "timestamp": "2021-08-11T14:58:04.504Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11164663113583084,
@@ -8038,7 +8038,7 @@
     "waterlevel": 39,
     "environmentCost": 84,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9718765642067717,
@@ -8116,7 +8116,7 @@
     "waterlevel": 23,
     "environmentCost": 28,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5267994507834484,
@@ -8194,7 +8194,7 @@
     "waterlevel": 29,
     "environmentCost": 6,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6735751694258238,
@@ -8272,7 +8272,7 @@
     "waterlevel": 41,
     "environmentCost": 41,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.205547032146413,
@@ -8350,7 +8350,7 @@
     "waterlevel": 27,
     "environmentCost": 76,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3916322658914331,
@@ -8428,7 +8428,7 @@
     "waterlevel": 23,
     "environmentCost": 80,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6509102119315935,
@@ -8506,7 +8506,7 @@
     "waterlevel": 38,
     "environmentCost": 99,
     "timestamp": "2021-08-11T14:58:04.505Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4051283379991226,
@@ -8584,7 +8584,7 @@
     "waterlevel": 36,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.506Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2715538716469059,
@@ -8662,7 +8662,7 @@
     "waterlevel": 39,
     "environmentCost": 47,
     "timestamp": "2021-08-11T14:58:04.506Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0029233348049118035,
@@ -8740,7 +8740,7 @@
     "waterlevel": 20,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.506Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0895824089111541,
@@ -8818,7 +8818,7 @@
     "waterlevel": 40,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.506Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8248805858473063,
@@ -8896,7 +8896,7 @@
     "waterlevel": 28,
     "environmentCost": 40,
     "timestamp": "2021-08-11T14:58:04.507Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8158169624827329,
@@ -8974,7 +8974,7 @@
     "waterlevel": 33,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.507Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6133908148452532,
@@ -9052,7 +9052,7 @@
     "waterlevel": 42,
     "environmentCost": 1,
     "timestamp": "2021-08-11T14:58:04.507Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5558844309974313,
@@ -9130,7 +9130,7 @@
     "waterlevel": 27,
     "environmentCost": 60,
     "timestamp": "2021-08-11T14:58:04.507Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.38904553207856885,
@@ -9208,7 +9208,7 @@
     "waterlevel": 33,
     "environmentCost": 88,
     "timestamp": "2021-08-11T14:58:04.507Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.25388393725445746,
@@ -9286,7 +9286,7 @@
     "waterlevel": 44,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.507Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.685744564246269,
@@ -9364,7 +9364,7 @@
     "waterlevel": 24,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.508Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5265502979862147,
@@ -9442,7 +9442,7 @@
     "waterlevel": 29,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.510Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9271221456547003,
@@ -9520,7 +9520,7 @@
     "waterlevel": 38,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.510Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6463087607746583,
@@ -9598,7 +9598,7 @@
     "waterlevel": 43,
     "environmentCost": 45,
     "timestamp": "2021-08-11T14:58:04.510Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8458534124460775,
@@ -9676,7 +9676,7 @@
     "waterlevel": 25,
     "environmentCost": 9,
     "timestamp": "2021-08-11T14:58:04.510Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08108727778651059,
@@ -9754,7 +9754,7 @@
     "waterlevel": 31,
     "environmentCost": 44,
     "timestamp": "2021-08-11T14:58:04.510Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8015482638791014,
@@ -9832,7 +9832,7 @@
     "waterlevel": 39,
     "environmentCost": 68,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.486337771710843,
@@ -9910,7 +9910,7 @@
     "waterlevel": 39,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3555640352943341,
@@ -9988,7 +9988,7 @@
     "waterlevel": 22,
     "environmentCost": 9,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3865976423494777,
@@ -10066,7 +10066,7 @@
     "waterlevel": 23,
     "environmentCost": 18,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9112131924110312,
@@ -10144,7 +10144,7 @@
     "waterlevel": 31,
     "environmentCost": 63,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6010460378118452,
@@ -10222,7 +10222,7 @@
     "waterlevel": 34,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9916161618415527,
@@ -10300,7 +10300,7 @@
     "waterlevel": 35,
     "environmentCost": 79,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18232984121581497,
@@ -10378,7 +10378,7 @@
     "waterlevel": 33,
     "environmentCost": 92,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2402181850134233,
@@ -10456,7 +10456,7 @@
     "waterlevel": 31,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4381886454886659,
@@ -10534,7 +10534,7 @@
     "waterlevel": 36,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1025238332871119,
@@ -10612,7 +10612,7 @@
     "waterlevel": 29,
     "environmentCost": 24,
     "timestamp": "2021-08-11T14:58:04.511Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2113393172345832,
@@ -10690,7 +10690,7 @@
     "waterlevel": 29,
     "environmentCost": 78,
     "timestamp": "2021-08-11T14:58:04.512Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4861973953088412,
@@ -10768,7 +10768,7 @@
     "waterlevel": 35,
     "environmentCost": 28,
     "timestamp": "2021-08-11T14:58:04.512Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8799509156451437,
@@ -10846,7 +10846,7 @@
     "waterlevel": 26,
     "environmentCost": 28,
     "timestamp": "2021-08-11T14:58:04.512Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.37611998880209874,
@@ -10924,7 +10924,7 @@
     "waterlevel": 37,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.512Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.29430187990274037,
@@ -11002,7 +11002,7 @@
     "waterlevel": 24,
     "environmentCost": 13,
     "timestamp": "2021-08-11T14:58:04.512Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8299927888907572,
@@ -11080,7 +11080,7 @@
     "waterlevel": 26,
     "environmentCost": 53,
     "timestamp": "2021-08-11T14:58:04.513Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.20730173566243937,
@@ -11158,7 +11158,7 @@
     "waterlevel": 35,
     "environmentCost": 79,
     "timestamp": "2021-08-11T14:58:04.513Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07375401624190481,
@@ -11236,7 +11236,7 @@
     "waterlevel": 40,
     "environmentCost": 66,
     "timestamp": "2021-08-11T14:58:04.513Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7909848990561785,
@@ -11314,7 +11314,7 @@
     "waterlevel": 44,
     "environmentCost": 74,
     "timestamp": "2021-08-11T14:58:04.513Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.10665085363160842,
@@ -11392,7 +11392,7 @@
     "waterlevel": 28,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.513Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8060306426110966,
@@ -11470,7 +11470,7 @@
     "waterlevel": 35,
     "environmentCost": 80,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3968289591886185,
@@ -11548,7 +11548,7 @@
     "waterlevel": 24,
     "environmentCost": 52,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2781255248016181,
@@ -11626,7 +11626,7 @@
     "waterlevel": 28,
     "environmentCost": 44,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4971496733339089,
@@ -11704,7 +11704,7 @@
     "waterlevel": 30,
     "environmentCost": 55,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.057741402966437816,
@@ -11782,7 +11782,7 @@
     "waterlevel": 25,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15008685588242532,
@@ -11860,7 +11860,7 @@
     "waterlevel": 35,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5784754921964723,
@@ -11938,7 +11938,7 @@
     "waterlevel": 33,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.514Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39670076972021073,
@@ -12016,7 +12016,7 @@
     "waterlevel": 34,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.515Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5989932394446382,
@@ -12094,7 +12094,7 @@
     "waterlevel": 29,
     "environmentCost": 82,
     "timestamp": "2021-08-11T14:58:04.515Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.34900338496774364,
@@ -12172,7 +12172,7 @@
     "waterlevel": 27,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.515Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.874584377083041,
@@ -12250,7 +12250,7 @@
     "waterlevel": 44,
     "environmentCost": 70,
     "timestamp": "2021-08-11T14:58:04.515Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12204662212744122,
@@ -12328,7 +12328,7 @@
     "waterlevel": 45,
     "environmentCost": 36,
     "timestamp": "2021-08-11T14:58:04.515Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.41230246558284467,
@@ -12406,7 +12406,7 @@
     "waterlevel": 28,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.515Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5575627950971733,
@@ -12484,7 +12484,7 @@
     "waterlevel": 45,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.41130860972763017,
@@ -12562,7 +12562,7 @@
     "waterlevel": 32,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5660133368917657,
@@ -12640,7 +12640,7 @@
     "waterlevel": 25,
     "environmentCost": 17,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5163484857144769,
@@ -12718,7 +12718,7 @@
     "waterlevel": 36,
     "environmentCost": 75,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9204371183637965,
@@ -12796,7 +12796,7 @@
     "waterlevel": 30,
     "environmentCost": 82,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6257409038156205,
@@ -12874,7 +12874,7 @@
     "waterlevel": 32,
     "environmentCost": 84,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5046575911936788,
@@ -12952,7 +12952,7 @@
     "waterlevel": 32,
     "environmentCost": 60,
     "timestamp": "2021-08-11T14:58:04.516Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7047157778166029,
@@ -13030,7 +13030,7 @@
     "waterlevel": 34,
     "environmentCost": 5,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.24608875393882435,
@@ -13108,7 +13108,7 @@
     "waterlevel": 23,
     "environmentCost": 83,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11560571823583254,
@@ -13186,7 +13186,7 @@
     "waterlevel": 21,
     "environmentCost": 63,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9605770789430057,
@@ -13264,7 +13264,7 @@
     "waterlevel": 23,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7366035927954244,
@@ -13342,7 +13342,7 @@
     "waterlevel": 31,
     "environmentCost": 27,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8999965159048171,
@@ -13420,7 +13420,7 @@
     "waterlevel": 28,
     "environmentCost": 50,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4471830994464996,
@@ -13498,7 +13498,7 @@
     "waterlevel": 39,
     "environmentCost": 78,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9205610117618905,
@@ -13576,7 +13576,7 @@
     "waterlevel": 26,
     "environmentCost": 62,
     "timestamp": "2021-08-11T14:58:04.517Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5875045680376885,
@@ -13654,7 +13654,7 @@
     "waterlevel": 44,
     "environmentCost": 94,
     "timestamp": "2021-08-11T14:58:04.518Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6201490756459245,
@@ -13732,7 +13732,7 @@
     "waterlevel": 22,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.518Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.40643024208034606,
@@ -13810,7 +13810,7 @@
     "waterlevel": 26,
     "environmentCost": 2,
     "timestamp": "2021-08-11T14:58:04.518Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.05797214237250925,
@@ -13888,7 +13888,7 @@
     "waterlevel": 27,
     "environmentCost": 31,
     "timestamp": "2021-08-11T14:58:04.518Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.33292623592115733,
@@ -13966,7 +13966,7 @@
     "waterlevel": 43,
     "environmentCost": 65,
     "timestamp": "2021-08-11T14:58:04.523Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8739878462738218,
@@ -14044,7 +14044,7 @@
     "waterlevel": 45,
     "environmentCost": 78,
     "timestamp": "2021-08-11T14:58:04.523Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16303135006068814,
@@ -14122,7 +14122,7 @@
     "waterlevel": 40,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.524Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4771314232298669,
@@ -14200,7 +14200,7 @@
     "waterlevel": 31,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.526Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12873303259858937,
@@ -14278,7 +14278,7 @@
     "waterlevel": 24,
     "environmentCost": 17,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39163473271921645,
@@ -14356,7 +14356,7 @@
     "waterlevel": 28,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.89495867963967,
@@ -14434,7 +14434,7 @@
     "waterlevel": 45,
     "environmentCost": 65,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0989652594267334,
@@ -14512,7 +14512,7 @@
     "waterlevel": 34,
     "environmentCost": 54,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7287465091306324,
@@ -14590,7 +14590,7 @@
     "waterlevel": 28,
     "environmentCost": 19,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7046544152434668,
@@ -14668,7 +14668,7 @@
     "waterlevel": 32,
     "environmentCost": 83,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.06632356350046331,
@@ -14746,7 +14746,7 @@
     "waterlevel": 24,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3245755798584151,
@@ -14824,7 +14824,7 @@
     "waterlevel": 31,
     "environmentCost": 4,
     "timestamp": "2021-08-11T14:58:04.527Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7336040965409041,
@@ -14902,7 +14902,7 @@
     "waterlevel": 29,
     "environmentCost": 16,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.31609081620672774,
@@ -14980,7 +14980,7 @@
     "waterlevel": 24,
     "environmentCost": 12,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6745895180969801,
@@ -15058,7 +15058,7 @@
     "waterlevel": 28,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5451653346864835,
@@ -15136,7 +15136,7 @@
     "waterlevel": 39,
     "environmentCost": 81,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9785342786086819,
@@ -15214,7 +15214,7 @@
     "waterlevel": 41,
     "environmentCost": 24,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3507563533855531,
@@ -15292,7 +15292,7 @@
     "waterlevel": 35,
     "environmentCost": 9,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8822022154503957,
@@ -15370,7 +15370,7 @@
     "waterlevel": 37,
     "environmentCost": 29,
     "timestamp": "2021-08-11T14:58:04.528Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6153708185310403,
@@ -15448,7 +15448,7 @@
     "waterlevel": 29,
     "environmentCost": 51,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7249002839885146,
@@ -15526,7 +15526,7 @@
     "waterlevel": 37,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08657671173586134,
@@ -15604,7 +15604,7 @@
     "waterlevel": 21,
     "environmentCost": 50,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9980201044376136,
@@ -15682,7 +15682,7 @@
     "waterlevel": 20,
     "environmentCost": 35,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.13789945555923833,
@@ -15760,7 +15760,7 @@
     "waterlevel": 29,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.254088980955284,
@@ -15838,7 +15838,7 @@
     "waterlevel": 29,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08148908163871993,
@@ -15916,7 +15916,7 @@
     "waterlevel": 34,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.529Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4631732002675957,
@@ -15994,7 +15994,7 @@
     "waterlevel": 33,
     "environmentCost": 71,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.25466233634079694,
@@ -16072,7 +16072,7 @@
     "waterlevel": 26,
     "environmentCost": 70,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.24434461672865293,
@@ -16150,7 +16150,7 @@
     "waterlevel": 20,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9020720852006521,
@@ -16228,7 +16228,7 @@
     "waterlevel": 39,
     "environmentCost": 90,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5142687328868298,
@@ -16306,7 +16306,7 @@
     "waterlevel": 29,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2148520773861453,
@@ -16384,7 +16384,7 @@
     "waterlevel": 32,
     "environmentCost": 76,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4177062327201895,
@@ -16462,7 +16462,7 @@
     "waterlevel": 29,
     "environmentCost": 71,
     "timestamp": "2021-08-11T14:58:04.530Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8660236652054125,
@@ -16540,7 +16540,7 @@
     "waterlevel": 29,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7479204626681168,
@@ -16618,7 +16618,7 @@
     "waterlevel": 32,
     "environmentCost": 21,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2578654218795424,
@@ -16696,7 +16696,7 @@
     "waterlevel": 23,
     "environmentCost": 81,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6724520487918926,
@@ -16774,7 +16774,7 @@
     "waterlevel": 21,
     "environmentCost": 89,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.28393122565216,
@@ -16852,7 +16852,7 @@
     "waterlevel": 40,
     "environmentCost": 1,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.10258270206857101,
@@ -16930,7 +16930,7 @@
     "waterlevel": 25,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6513295025631114,
@@ -17008,7 +17008,7 @@
     "waterlevel": 38,
     "environmentCost": 36,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6575477423900322,
@@ -17086,7 +17086,7 @@
     "waterlevel": 26,
     "environmentCost": 6,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39109545449246785,
@@ -17164,7 +17164,7 @@
     "waterlevel": 40,
     "environmentCost": 50,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.692423705307107,
@@ -17242,7 +17242,7 @@
     "waterlevel": 38,
     "environmentCost": 49,
     "timestamp": "2021-08-11T14:58:04.531Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7324354693238717,
@@ -17320,7 +17320,7 @@
     "waterlevel": 40,
     "environmentCost": 64,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.31386735842808067,
@@ -17398,7 +17398,7 @@
     "waterlevel": 20,
     "environmentCost": 6,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5543014552132091,
@@ -17476,7 +17476,7 @@
     "waterlevel": 45,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.17524550639429481,
@@ -17554,7 +17554,7 @@
     "waterlevel": 35,
     "environmentCost": 79,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5537948550246359,
@@ -17632,7 +17632,7 @@
     "waterlevel": 33,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07896488261219003,
@@ -17710,7 +17710,7 @@
     "waterlevel": 20,
     "environmentCost": 97,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6041501020875093,
@@ -17788,7 +17788,7 @@
     "waterlevel": 43,
     "environmentCost": 65,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23554550782270334,
@@ -17866,7 +17866,7 @@
     "waterlevel": 33,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2860463324254041,
@@ -17944,7 +17944,7 @@
     "waterlevel": 42,
     "environmentCost": 85,
     "timestamp": "2021-08-11T14:58:04.532Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5575955127120333,
@@ -18022,7 +18022,7 @@
     "waterlevel": 23,
     "environmentCost": 8,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.36955798293716,
@@ -18100,7 +18100,7 @@
     "waterlevel": 26,
     "environmentCost": 64,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6515396187038409,
@@ -18178,7 +18178,7 @@
     "waterlevel": 21,
     "environmentCost": 36,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6749972031519782,
@@ -18256,7 +18256,7 @@
     "waterlevel": 39,
     "environmentCost": 94,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.772168334643428,
@@ -18334,7 +18334,7 @@
     "waterlevel": 24,
     "environmentCost": 6,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0706189644939077,
@@ -18412,7 +18412,7 @@
     "waterlevel": 20,
     "environmentCost": 68,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8167932656515613,
@@ -18490,7 +18490,7 @@
     "waterlevel": 32,
     "environmentCost": 15,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6365561832467117,
@@ -18568,7 +18568,7 @@
     "waterlevel": 25,
     "environmentCost": 47,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5072486161120495,
@@ -18646,7 +18646,7 @@
     "waterlevel": 30,
     "environmentCost": 12,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.01968923991531568,
@@ -18724,7 +18724,7 @@
     "waterlevel": 24,
     "environmentCost": 29,
     "timestamp": "2021-08-11T14:58:04.533Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.19261164581416423,
@@ -18802,7 +18802,7 @@
     "waterlevel": 35,
     "environmentCost": 21,
     "timestamp": "2021-08-11T14:58:04.534Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7357800600456872,
@@ -18880,7 +18880,7 @@
     "waterlevel": 33,
     "environmentCost": 40,
     "timestamp": "2021-08-11T14:58:04.534Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9875264127941084,
@@ -18958,7 +18958,7 @@
     "waterlevel": 44,
     "environmentCost": 42,
     "timestamp": "2021-08-11T14:58:04.534Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2934632808886457,
@@ -19036,7 +19036,7 @@
     "waterlevel": 35,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.534Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.17600653352853657,
@@ -19114,7 +19114,7 @@
     "waterlevel": 25,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.534Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.09120232074119783,
@@ -19192,7 +19192,7 @@
     "waterlevel": 39,
     "environmentCost": 6,
     "timestamp": "2021-08-11T14:58:04.534Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8823559506371195,
@@ -19270,7 +19270,7 @@
     "waterlevel": 35,
     "environmentCost": 36,
     "timestamp": "2021-08-11T14:58:04.535Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1329360099978012,
@@ -19348,7 +19348,7 @@
     "waterlevel": 38,
     "environmentCost": 58,
     "timestamp": "2021-08-11T14:58:04.535Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8572325296133978,
@@ -19426,7 +19426,7 @@
     "waterlevel": 34,
     "environmentCost": 18,
     "timestamp": "2021-08-11T14:58:04.535Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6669592132066469,
@@ -19504,7 +19504,7 @@
     "waterlevel": 30,
     "environmentCost": 84,
     "timestamp": "2021-08-11T14:58:04.535Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3239472852216023,
@@ -19582,7 +19582,7 @@
     "waterlevel": 41,
     "environmentCost": 41,
     "timestamp": "2021-08-11T14:58:04.535Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.683390960643822,
@@ -19660,7 +19660,7 @@
     "waterlevel": 36,
     "environmentCost": 19,
     "timestamp": "2021-08-11T14:58:04.541Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8428394289601193,
@@ -19738,7 +19738,7 @@
     "waterlevel": 33,
     "environmentCost": 83,
     "timestamp": "2021-08-11T14:58:04.541Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.13824564144215046,
@@ -19816,7 +19816,7 @@
     "waterlevel": 20,
     "environmentCost": 31,
     "timestamp": "2021-08-11T14:58:04.541Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3703037822337396,
@@ -19894,7 +19894,7 @@
     "waterlevel": 20,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.541Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6031262107207722,
@@ -19972,7 +19972,7 @@
     "waterlevel": 39,
     "environmentCost": 35,
     "timestamp": "2021-08-11T14:58:04.541Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8857426599700016,
@@ -20050,7 +20050,7 @@
     "waterlevel": 23,
     "environmentCost": 75,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23480664446964505,
@@ -20128,7 +20128,7 @@
     "waterlevel": 24,
     "environmentCost": 20,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5328158877127567,
@@ -20206,7 +20206,7 @@
     "waterlevel": 26,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8846117985878921,
@@ -20284,7 +20284,7 @@
     "waterlevel": 37,
     "environmentCost": 57,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.20328633948284258,
@@ -20362,7 +20362,7 @@
     "waterlevel": 30,
     "environmentCost": 14,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6028711957961042,
@@ -20440,7 +20440,7 @@
     "waterlevel": 28,
     "environmentCost": 62,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8562954895857957,
@@ -20518,7 +20518,7 @@
     "waterlevel": 20,
     "environmentCost": 77,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.31076616997846496,
@@ -20596,7 +20596,7 @@
     "waterlevel": 39,
     "environmentCost": 74,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8604666098000058,
@@ -20674,7 +20674,7 @@
     "waterlevel": 29,
     "environmentCost": 76,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8088563216738995,
@@ -20752,7 +20752,7 @@
     "waterlevel": 23,
     "environmentCost": 80,
     "timestamp": "2021-08-11T14:58:04.542Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3198350376447512,
@@ -20830,7 +20830,7 @@
     "waterlevel": 26,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6701230508348666,
@@ -20908,7 +20908,7 @@
     "waterlevel": 28,
     "environmentCost": 73,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.017113799790842377,
@@ -20986,7 +20986,7 @@
     "waterlevel": 25,
     "environmentCost": 51,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7937365036268642,
@@ -21064,7 +21064,7 @@
     "waterlevel": 43,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12852852806716508,
@@ -21142,7 +21142,7 @@
     "waterlevel": 44,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3970697357782955,
@@ -21220,7 +21220,7 @@
     "waterlevel": 38,
     "environmentCost": 27,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7736680833318346,
@@ -21298,7 +21298,7 @@
     "waterlevel": 29,
     "environmentCost": 59,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.25748860602705714,
@@ -21376,7 +21376,7 @@
     "waterlevel": 35,
     "environmentCost": 37,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2441391115190814,
@@ -21454,7 +21454,7 @@
     "waterlevel": 34,
     "environmentCost": 83,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8057661239087046,
@@ -21532,7 +21532,7 @@
     "waterlevel": 20,
     "environmentCost": 65,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8659512459889107,
@@ -21610,7 +21610,7 @@
     "waterlevel": 39,
     "environmentCost": 82,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08554603337713584,
@@ -21688,7 +21688,7 @@
     "waterlevel": 33,
     "environmentCost": 79,
     "timestamp": "2021-08-11T14:58:04.543Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5023128632999088,
@@ -21766,7 +21766,7 @@
     "waterlevel": 41,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16357985930944707,
@@ -21844,7 +21844,7 @@
     "waterlevel": 39,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08771905958414994,
@@ -21922,7 +21922,7 @@
     "waterlevel": 22,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18553610154444633,
@@ -22000,7 +22000,7 @@
     "waterlevel": 21,
     "environmentCost": 87,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4379565019591589,
@@ -22078,7 +22078,7 @@
     "waterlevel": 41,
     "environmentCost": 66,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.536593217636955,
@@ -22156,7 +22156,7 @@
     "waterlevel": 22,
     "environmentCost": 74,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6221137676530855,
@@ -22234,7 +22234,7 @@
     "waterlevel": 29,
     "environmentCost": 87,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.04337015323247506,
@@ -22312,7 +22312,7 @@
     "waterlevel": 31,
     "environmentCost": 24,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9918105385383404,
@@ -22390,7 +22390,7 @@
     "waterlevel": 24,
     "environmentCost": 20,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9316250306278884,
@@ -22468,7 +22468,7 @@
     "waterlevel": 35,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.544Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.40065289600296294,
@@ -22546,7 +22546,7 @@
     "waterlevel": 22,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11763730248593252,
@@ -22624,7 +22624,7 @@
     "waterlevel": 36,
     "environmentCost": 2,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.10781231338364483,
@@ -22702,7 +22702,7 @@
     "waterlevel": 38,
     "environmentCost": 54,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07707698024442511,
@@ -22780,7 +22780,7 @@
     "waterlevel": 28,
     "environmentCost": 27,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.507753954431923,
@@ -22858,7 +22858,7 @@
     "waterlevel": 20,
     "environmentCost": 14,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.63547287259702,
@@ -22936,7 +22936,7 @@
     "waterlevel": 37,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0018143699745405417,
@@ -23014,7 +23014,7 @@
     "waterlevel": 45,
     "environmentCost": 93,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9072372717561286,
@@ -23092,7 +23092,7 @@
     "waterlevel": 31,
     "environmentCost": 38,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5626709951378552,
@@ -23170,7 +23170,7 @@
     "waterlevel": 40,
     "environmentCost": 48,
     "timestamp": "2021-08-11T14:58:04.545Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.48139432076727906,
@@ -23248,7 +23248,7 @@
     "waterlevel": 34,
     "environmentCost": 51,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6263046602331688,
@@ -23326,7 +23326,7 @@
     "waterlevel": 42,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.709045416682085,
@@ -23404,7 +23404,7 @@
     "waterlevel": 29,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9574787156261066,
@@ -23482,7 +23482,7 @@
     "waterlevel": 22,
     "environmentCost": 97,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5864638584239665,
@@ -23560,7 +23560,7 @@
     "waterlevel": 34,
     "environmentCost": 56,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.44955101880098725,
@@ -23638,7 +23638,7 @@
     "waterlevel": 32,
     "environmentCost": 73,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7462461013661841,
@@ -23716,7 +23716,7 @@
     "waterlevel": 24,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.441309682925338,
@@ -23794,7 +23794,7 @@
     "waterlevel": 40,
     "environmentCost": 62,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2322810316189894,
@@ -23872,7 +23872,7 @@
     "waterlevel": 43,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7134408629449658,
@@ -23950,7 +23950,7 @@
     "waterlevel": 44,
     "environmentCost": 89,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8036195766057672,
@@ -24028,7 +24028,7 @@
     "waterlevel": 20,
     "environmentCost": 91,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.28601184390853773,
@@ -24106,7 +24106,7 @@
     "waterlevel": 28,
     "environmentCost": 76,
     "timestamp": "2021-08-11T14:58:04.546Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7523374378979781,
@@ -24184,7 +24184,7 @@
     "waterlevel": 44,
     "environmentCost": 70,
     "timestamp": "2021-08-11T14:58:04.563Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.267429599714875,
@@ -24262,7 +24262,7 @@
     "waterlevel": 34,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.563Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1734254111557192,
@@ -24340,7 +24340,7 @@
     "waterlevel": 24,
     "environmentCost": 29,
     "timestamp": "2021-08-11T14:58:04.563Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18572191861712284,
@@ -24418,7 +24418,7 @@
     "waterlevel": 38,
     "environmentCost": 65,
     "timestamp": "2021-08-11T14:58:04.563Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6231962462529903,
@@ -24496,7 +24496,7 @@
     "waterlevel": 33,
     "environmentCost": 14,
     "timestamp": "2021-08-11T14:58:04.563Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.22098003402138922,
@@ -24574,7 +24574,7 @@
     "waterlevel": 28,
     "environmentCost": 40,
     "timestamp": "2021-08-11T14:58:04.563Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9816130082240788,
@@ -24652,7 +24652,7 @@
     "waterlevel": 28,
     "environmentCost": 84,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5623943420518756,
@@ -24730,7 +24730,7 @@
     "waterlevel": 40,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6010245985583849,
@@ -24808,7 +24808,7 @@
     "waterlevel": 43,
     "environmentCost": 93,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7781719713407671,
@@ -24886,7 +24886,7 @@
     "waterlevel": 23,
     "environmentCost": 15,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4548874143328756,
@@ -24964,7 +24964,7 @@
     "waterlevel": 41,
     "environmentCost": 25,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4212334753182634,
@@ -25042,7 +25042,7 @@
     "waterlevel": 44,
     "environmentCost": 68,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5872898954431118,
@@ -25120,7 +25120,7 @@
     "waterlevel": 34,
     "environmentCost": 48,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9459180948609469,
@@ -25198,7 +25198,7 @@
     "waterlevel": 20,
     "environmentCost": 24,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.35279266616838156,
@@ -25276,7 +25276,7 @@
     "waterlevel": 39,
     "environmentCost": 37,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4574384030383183,
@@ -25354,7 +25354,7 @@
     "waterlevel": 26,
     "environmentCost": 94,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5889863060828422,
@@ -25432,7 +25432,7 @@
     "waterlevel": 40,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.183205703541792,
@@ -25510,7 +25510,7 @@
     "waterlevel": 27,
     "environmentCost": 72,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8001919747750554,
@@ -25588,7 +25588,7 @@
     "waterlevel": 26,
     "environmentCost": 3,
     "timestamp": "2021-08-11T14:58:04.564Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.19261546149184028,
@@ -25666,7 +25666,7 @@
     "waterlevel": 25,
     "environmentCost": 47,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16383077185468098,
@@ -25744,7 +25744,7 @@
     "waterlevel": 31,
     "environmentCost": 18,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.14698217400407687,
@@ -25822,7 +25822,7 @@
     "waterlevel": 29,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39525446607721837,
@@ -25900,7 +25900,7 @@
     "waterlevel": 41,
     "environmentCost": 12,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21591235248613794,
@@ -25978,7 +25978,7 @@
     "waterlevel": 31,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6152909268136295,
@@ -26056,7 +26056,7 @@
     "waterlevel": 39,
     "environmentCost": 31,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6626418126966822,
@@ -26134,7 +26134,7 @@
     "waterlevel": 36,
     "environmentCost": 22,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5126764313479244,
@@ -26212,7 +26212,7 @@
     "waterlevel": 25,
     "environmentCost": 69,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9868760083952541,
@@ -26290,7 +26290,7 @@
     "waterlevel": 37,
     "environmentCost": 61,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1603494327548245,
@@ -26368,7 +26368,7 @@
     "waterlevel": 39,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.36877328019865274,
@@ -26446,7 +26446,7 @@
     "waterlevel": 25,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.17236896341798436,
@@ -26524,7 +26524,7 @@
     "waterlevel": 21,
     "environmentCost": 42,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9047710174240635,
@@ -26602,7 +26602,7 @@
     "waterlevel": 26,
     "environmentCost": 60,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6121472694932439,
@@ -26680,7 +26680,7 @@
     "waterlevel": 30,
     "environmentCost": 54,
     "timestamp": "2021-08-11T14:58:04.565Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.33228130779091036,
@@ -26758,7 +26758,7 @@
     "waterlevel": 23,
     "environmentCost": 34,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.35953244150893493,
@@ -26836,7 +26836,7 @@
     "waterlevel": 40,
     "environmentCost": 62,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6314115751130485,
@@ -26914,7 +26914,7 @@
     "waterlevel": 23,
     "environmentCost": 61,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.020502359484772636,
@@ -26992,7 +26992,7 @@
     "waterlevel": 33,
     "environmentCost": 77,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.026318926614323335,
@@ -27070,7 +27070,7 @@
     "waterlevel": 23,
     "environmentCost": 78,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7825722375728783,
@@ -27148,7 +27148,7 @@
     "waterlevel": 36,
     "environmentCost": 84,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9664731702717588,
@@ -27226,7 +27226,7 @@
     "waterlevel": 39,
     "environmentCost": 9,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7323418303440696,
@@ -27304,7 +27304,7 @@
     "waterlevel": 41,
     "environmentCost": 46,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3014396968579047,
@@ -27382,7 +27382,7 @@
     "waterlevel": 22,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9644517937098638,
@@ -27460,7 +27460,7 @@
     "waterlevel": 28,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5315891806710957,
@@ -27538,7 +27538,7 @@
     "waterlevel": 22,
     "environmentCost": 35,
     "timestamp": "2021-08-11T14:58:04.566Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.36763176614835724,
@@ -27616,7 +27616,7 @@
     "waterlevel": 32,
     "environmentCost": 13,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.29783408494596064,
@@ -27694,7 +27694,7 @@
     "waterlevel": 40,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7942269084666971,
@@ -27772,7 +27772,7 @@
     "waterlevel": 42,
     "environmentCost": 66,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.789636079879465,
@@ -27850,7 +27850,7 @@
     "waterlevel": 33,
     "environmentCost": 48,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4564593396449308,
@@ -27928,7 +27928,7 @@
     "waterlevel": 29,
     "environmentCost": 57,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5486179010717125,
@@ -28006,7 +28006,7 @@
     "waterlevel": 21,
     "environmentCost": 28,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9416729517680682,
@@ -28084,7 +28084,7 @@
     "waterlevel": 34,
     "environmentCost": 33,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8824760618063783,
@@ -28162,7 +28162,7 @@
     "waterlevel": 33,
     "environmentCost": 39,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.048267959565775787,
@@ -28240,7 +28240,7 @@
     "waterlevel": 29,
     "environmentCost": 10,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4598121582490198,
@@ -28318,7 +28318,7 @@
     "waterlevel": 39,
     "environmentCost": 42,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4767272675843386,
@@ -28396,7 +28396,7 @@
     "waterlevel": 21,
     "environmentCost": 47,
     "timestamp": "2021-08-11T14:58:04.567Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15883757800498444,
@@ -28474,7 +28474,7 @@
     "waterlevel": 20,
     "environmentCost": 41,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5073409051223099,
@@ -28552,7 +28552,7 @@
     "waterlevel": 37,
     "environmentCost": 44,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6749368123224577,
@@ -28630,7 +28630,7 @@
     "waterlevel": 44,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5333911435871523,
@@ -28708,7 +28708,7 @@
     "waterlevel": 31,
     "environmentCost": 83,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7635457561128465,
@@ -28786,7 +28786,7 @@
     "waterlevel": 35,
     "environmentCost": 92,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.038014483751481754,
@@ -28864,7 +28864,7 @@
     "waterlevel": 43,
     "environmentCost": 17,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.49074108025544927,
@@ -28942,7 +28942,7 @@
     "waterlevel": 32,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5424484325514345,
@@ -29020,7 +29020,7 @@
     "waterlevel": 40,
     "environmentCost": 52,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7876699995711809,
@@ -29098,7 +29098,7 @@
     "waterlevel": 44,
     "environmentCost": 54,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.43282165022158603,
@@ -29176,7 +29176,7 @@
     "waterlevel": 21,
     "environmentCost": 97,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5170845336849828,
@@ -29254,7 +29254,7 @@
     "waterlevel": 32,
     "environmentCost": 59,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7991607025916887,
@@ -29332,7 +29332,7 @@
     "waterlevel": 39,
     "environmentCost": 38,
     "timestamp": "2021-08-11T14:58:04.568Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6647593640715044,
@@ -29410,7 +29410,7 @@
     "waterlevel": 33,
     "environmentCost": 3,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.005418844028411973,
@@ -29488,7 +29488,7 @@
     "waterlevel": 33,
     "environmentCost": 63,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8879103610372319,
@@ -29566,7 +29566,7 @@
     "waterlevel": 24,
     "environmentCost": 86,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.001405947168183319,
@@ -29644,7 +29644,7 @@
     "waterlevel": 39,
     "environmentCost": 6,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12130476999412454,
@@ -29722,7 +29722,7 @@
     "waterlevel": 25,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.19663089928440436,
@@ -29800,7 +29800,7 @@
     "waterlevel": 33,
     "environmentCost": 96,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.22561244001744973,
@@ -29878,7 +29878,7 @@
     "waterlevel": 25,
     "environmentCost": 94,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.32616347281707414,
@@ -29956,7 +29956,7 @@
     "waterlevel": 29,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.34753608991476037,
@@ -30034,7 +30034,7 @@
     "waterlevel": 22,
     "environmentCost": 26,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9309207479056401,
@@ -30112,7 +30112,7 @@
     "waterlevel": 32,
     "environmentCost": 60,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.001940970895119687,
@@ -30190,7 +30190,7 @@
     "waterlevel": 32,
     "environmentCost": 5,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.730463478130994,
@@ -30268,7 +30268,7 @@
     "waterlevel": 27,
     "environmentCost": 90,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9461811331350323,
@@ -30346,7 +30346,7 @@
     "waterlevel": 39,
     "environmentCost": 92,
     "timestamp": "2021-08-11T14:58:04.569Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.29942631928783703,
@@ -30424,7 +30424,7 @@
     "waterlevel": 37,
     "environmentCost": 93,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0864893407781393,
@@ -30502,7 +30502,7 @@
     "waterlevel": 35,
     "environmentCost": 23,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5274734075134939,
@@ -30580,7 +30580,7 @@
     "waterlevel": 32,
     "environmentCost": 87,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.01761202714484522,
@@ -30658,7 +30658,7 @@
     "waterlevel": 32,
     "environmentCost": 7,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2987106013523959,
@@ -30736,7 +30736,7 @@
     "waterlevel": 23,
     "environmentCost": 92,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16110834803524354,
@@ -30814,7 +30814,7 @@
     "waterlevel": 43,
     "environmentCost": 73,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1675327671752933,
@@ -30892,7 +30892,7 @@
     "waterlevel": 32,
     "environmentCost": 32,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4453783349231595,
@@ -30970,7 +30970,7 @@
     "waterlevel": 31,
     "environmentCost": 87,
     "timestamp": "2021-08-11T14:58:04.574Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9104329069731423,
@@ -31048,7 +31048,7 @@
     "waterlevel": 28,
     "environmentCost": 43,
     "timestamp": "2021-08-11T14:58:04.575Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3847946957599482,
@@ -31126,7 +31126,7 @@
     "waterlevel": 43,
     "environmentCost": 86,
     "timestamp": "2021-08-11T14:58:04.575Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8480302953652676,
