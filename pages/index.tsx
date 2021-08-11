@@ -58,8 +58,8 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
   // eslint-disable-next-line no-undef
   const groupHeaders: HeadersInit = new Headers();
-  groupHeaders.append("GroupId", "Gruppe 14");
-  groupHeaders.append("GroupKey", "yKQZ82O53UWVKtRNl85/Ng==");
+  groupHeaders.append("GroupId", process.env.GROUP_ID);
+  groupHeaders.append("GroupKey", process.env.GROUP_API_KEY);
 
   const groupStateRes = await fetch(apiUrl + "GroupState", {
     method: "GET",
