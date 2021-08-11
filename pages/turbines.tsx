@@ -32,6 +32,11 @@ const Contact: React.FC<Props> = ({ turbinesData }) => {
           );
         })}
       </Flex>
+      <Box w="100%" mt="2">
+        <Text fontStyle="italic" textAlign="right" pr={2}>
+          Updated at {new Date().toLocaleTimeString()}
+        </Text>
+      </Box>
     </>
   );
 };
