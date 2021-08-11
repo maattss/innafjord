@@ -8,34 +8,14 @@ type StatusBoxProps = {
 };
 
 export const StatusBox: React.FC<StatusBoxProps> = ({ status }) => {
-  console.log(status);
-  if (status === "error")
-    return (
-      <Box bg="red.500" borderRadius="lg" w="100%" p={4} color="white" mb="4">
-        <Text fontWeight="medium" textAlign="center">
-          Warning
-        </Text>
-      </Box>
-    );
-  if (status === "warning")
-    return (
-      <Box
-        bg="yellow.500"
-        borderRadius="lg"
-        w="100%"
-        p={4}
-        color="white"
-        mb="4"
-      >
-        <Text fontWeight="medium" textAlign="center">
-          Warning
-        </Text>
-      </Box>
-    );
+  let bg = "green.500";
+  if (status === "error") bg = "red.500";
+  if (status === "warning") bg = "yellow.500";
+
   return (
-    <Box bg="green.500" borderRadius="lg" w="100%" p={4} color="white" mb="4">
-      <Text fontWeight="medium" textAlign="center">
-        Everything ok!
+    <Box bg={bg} borderRadius="lg" w="100%" p={8} color="white" mb="4">
+      <Text fontWeight="medium" textAlign="center" fontSize="xl">
+        Everything ok
       </Text>
     </Box>
   );
