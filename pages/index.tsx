@@ -1,12 +1,7 @@
 import React from "react";
-import { Heading, Box, Flex, VStack, Image, Text } from "@chakra-ui/react";
-import { GetStaticProps } from "next";
+import { Heading, Box, Flex, VStack, Image } from "@chakra-ui/react";
 
-type Props = {
-  data: string;
-};
-
-const Home: React.FC<Props> = ({ data }) => {
+const Home: React.FC = () => {
   return (
     <>
       <Flex flexDirection="column" justifyContent="space-between" height="100%">
@@ -17,14 +12,6 @@ const Home: React.FC<Props> = ({ data }) => {
           justifyContent="center"
         >
           Innafjord 2.0
-          <Image
-            src="/emojis/waving_hand.svg"
-            alt=""
-            width="1.2em"
-            display="inline"
-            ml="6"
-            mb="2"
-          />
         </Heading>
 
         <VStack>
