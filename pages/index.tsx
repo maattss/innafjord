@@ -3,10 +3,18 @@ import { Heading, Box, Flex, VStack, Image, Text } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 
 type Props = {
-  data: string;
+  powerPriceData: string;
+  groupStateData: GroupStateData;
 };
 
-const Home: React.FC = ({ data }) => {
+type GroupStateData = {
+  groupName: string;
+  money: number;
+  waterLevel: number;
+  environmentCost: number;
+};
+
+const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   return (
     <>
       <Flex flexDirection="column" justifyContent="space-between" height="100%">
@@ -23,7 +31,11 @@ const Home: React.FC = ({ data }) => {
           <Box p={5}>
             <Image src={"/images/placeholder.svg"} alt={"Placeholder image"} />
           </Box>
-          <Text>PowerPrice: {data}</Text>
+          <Text>PowerPrice: {powerPriceData}</Text>
+          <Text>Money: {groupStateData.money}</Text>
+          <Text>Water level: {groupStateData.waterLevel}</Text>
+          <Text>Environment cost: {groupStateData.environmentCost}</Text>
+          <Text>Group name: {groupStateData.groupName}</Text>
         </VStack>
       </Flex>
     </>
@@ -40,11 +52,23 @@ export const getStaticProps: GetServerSideProps = async () => {
       props: { data: "Missing API URL and key" },
     };
 
-  const url = process.env.API_URL + "PowerPrice";
-  const res = await fetch(url);
-  const data = await res.json();
+  const apiUrl = process.env.API_URL;
+  const powerPriceRes = await fetch(apiUrl + "PowerPrice");
+  const powerPriceData = await powerPriceRes.json();
 
-  if (!data) {
+  // eslint-disable-next-line no-undef
+  const groupHeaders: HeadersInit = new Headers();
+  groupHeaders.append("GroupId", "Gruppe 14");
+  groupHeaders.append("GroupKey", "yKQZ82O53UWVKtRNl85/Ng==");
+
+  const groupStateRes = await fetch(apiUrl + "GroupState", {
+    method: "GET",
+    headers: groupHeaders,
+    redirect: "follow",
+  });
+  const groupStateData = await groupStateRes.json();
+
+  if (!powerPriceData) {
     return {
       notFound: true,
     };
@@ -52,7 +76,8 @@ export const getStaticProps: GetServerSideProps = async () => {
 
   return {
     props: {
-      data,
+      powerPriceData,
+      groupStateData,
     },
   };
 };
