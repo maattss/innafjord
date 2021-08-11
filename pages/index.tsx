@@ -1,6 +1,15 @@
 import React from "react";
-import { Heading, Box, Flex, VStack, Image, Text } from "@chakra-ui/react";
+import {
+  Heading,
+  Box,
+  Flex,
+  VStack,
+  Text,
+  Spacer,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
+import StatusBox from "../components/StatusBox";
 
 type Props = {
   powerPriceData: string;
@@ -15,28 +24,76 @@ type GroupStateData = {
 };
 
 const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
+  const bg = useColorModeValue("gray.100", "gray.700");
   return (
     <>
-      <Flex flexDirection="column" justifyContent="space-between" height="100%">
-        <Heading
-          fontSize="5xl"
-          w="100%"
-          textAlign="center"
-          justifyContent="center"
-        >
-          Innafjord A/S
-        </Heading>
-
-        <VStack>
-          <Box p={5}>
-            <Image src={"/images/placeholder.svg"} alt={"Placeholder image"} />
+      <Heading
+        fontSize="5xl"
+        w="100%"
+        textAlign="center"
+        justifyContent="center"
+        mb="5"
+      >
+        Status
+      </Heading>
+      <StatusBox status="success" />
+      <Heading
+        fontSize="5xl"
+        w="100%"
+        textAlign="center"
+        justifyContent="center"
+        mb="5"
+      >
+        Realtime data
+      </Heading>
+      <Flex flexWrap="wrap">
+        <VStack w={["100%", null, 350]} mb="4">
+          <Text fontWeight="medium" fontSize="xl">
+            Power price
+          </Text>
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {powerPriceData} NOK/MWh
+            </Text>
           </Box>
-          <Text>PowerPrice: {powerPriceData}</Text>
-          <Text>Money: {groupStateData.money}</Text>
-          <Text>Water level: {groupStateData.waterLevel}</Text>
-          <Text>Environment cost: {groupStateData.environmentCost}</Text>
-          <Text>Group name: {groupStateData.groupName}</Text>
         </VStack>
+        <Spacer />
+        <VStack w={["100%", null, 350]} mb="4">
+          <Text fontWeight="medium" fontSize="xl">
+            Earnings
+          </Text>
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {groupStateData.money} NOK
+            </Text>
+          </Box>
+        </VStack>
+        <VStack w={["100%", null, 350]} mb="4">
+          <Text fontWeight="medium" fontSize="xl">
+            Water level
+          </Text>
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {groupStateData.waterLevel} m
+            </Text>
+          </Box>
+        </VStack>
+        <Spacer />
+        <VStack w={["100%", null, 350]} mb="4">
+          <Text fontWeight="medium" fontSize="xl">
+            Environment cost
+          </Text>
+          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
+            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+              {groupStateData.environmentCost} NOK
+            </Text>
+          </Box>
+        </VStack>
+        <Box w="100%" mt="2">
+          <Text fontStyle="italic" textAlign="right" pr={2}>
+            Updated at {new Date().toLocaleTimeString()}
+          </Text>
+        </Box>
       </Flex>
     </>
   );

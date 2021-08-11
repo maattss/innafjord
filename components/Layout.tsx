@@ -8,7 +8,9 @@ const Layout = ({ children }: { children: ReactNode }) => {
     <>
       <Meta />
       <Nav />
-      <Container my={5}>{children}</Container>
+      <Container my={5} maxWidth="4xl">
+        {children}
+      </Container>
     </>
   );
 };
