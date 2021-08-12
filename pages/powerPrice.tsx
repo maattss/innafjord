@@ -16,6 +16,7 @@ import {
   Th,
   Thead,
   Tr,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Meta from "../components/Meta";
@@ -25,12 +26,22 @@ import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
 
+let mockData = dummyToday;
+
+let time = [];
+let data = [];
+
+for (let i = 0; i < mockData.length; i++) {
+  time.push(mockData[i].timestamp);
+  data.push(mockData[i].powerPrice);
+}
+
 const graphExampleData = {
-  labels: ["1", "2", "3", "4", "5", "6", "7"],
+  labels: time,
   datasets: [
     {
       label: "Power price",
-      data: [25, 26, 27, 26, 28, 29, 30],
+      data: data,
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgba(255, 99, 132, 0.2)",
@@ -56,6 +67,8 @@ const WaterLevel: React.FC = () => {
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef(null);
   let mockData = dummyToday;
+  const bg = useColorModeValue("gray.100", "gray.700");
+
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
 
@@ -87,7 +100,14 @@ const WaterLevel: React.FC = () => {
 
       <Line data={graphExampleData} options={options} />
 
-      <Box maxH="500px" mt="4" w="100%" overflow="auto">
+      <Box
+        maxH="500px"
+        mt="4"
+        w="100%"
+        overflow="auto"
+        borderRadius="lg"
+        bg={bg}
+      >
         <Table maxH="500px">
           <Thead>
             <Tr>
