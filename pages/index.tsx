@@ -59,7 +59,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
       <Flex flexWrap="wrap">
         <VStack w={["100%", null, 370]} mb="4">
           <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
-            Current water level
+            Water level
           </Text>
           <Link
             w="100%"
@@ -99,7 +99,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         <Spacer />
         <VStack w={["100%", null, 370]} mb="4">
           <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
-            Current power price
+            Power price
           </Text>
           <Link
             w="100%"
@@ -149,62 +149,70 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             }}
             href="./earnings"
           >
-          <Flex
-            bg={bg}
-            borderRadius="lg"
-            w="100%"
-            p={6}
-            justifyContent="center"
-            alignItems="center"
-          >
-            <Image
-              src="./images/earnings.svg"
-              alt="Money Bag Emoji"
-              height="50px"
-              mr={4}
-              ml={4}
-            />
-            <Text
-              fontWeight="medium"
-              textAlign="left"
-              fontSize="2xl"
-              width="200px"
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
             >
-              {Math.round(groupStateData.money / 1_000_000)} MNOK
-            </Text>
-          </Flex>
+              <Image
+                src="./images/earnings.svg"
+                alt="Money Bag Emoji"
+                height="50px"
+                mr={4}
+                ml={4}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="left"
+                fontSize="2xl"
+                width="200px"
+              >
+                {Math.round(groupStateData.money / 1_000_000)} MNOK
+              </Text>
+            </Flex>
           </Link>
         </VStack>
-        
+
         <Spacer />
         <VStack w={["100%", null, 370]} mb="4">
           <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
-            Environment cost (this year)
+            Environmental cost (this year)
           </Text>
-          <Flex
-            bg={bg}
-            borderRadius="lg"
+          <Link
             w="100%"
-            p={6}
-            justifyContent="center"
-            alignItems="center"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./earnings"
           >
-            <Image
-              src="./images/environment.svg"
-              alt="Recycle Emoji"
-              height="50px"
-              mr={4}
-              ml={4}
-            />
-            <Text
-              fontWeight="medium"
-              textAlign="center"
-              fontSize="2xl"
-              width="200px"
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
             >
-              {Math.round(groupStateData.environmentCost / 1_000_000)} MNOK
-            </Text>
-          </Flex>
+              <Image
+                src="./images/environment.svg"
+                alt="Recycle Emoji"
+                height="50px"
+                mr={4}
+                ml={4}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="center"
+                fontSize="2xl"
+                width="200px"
+              >
+                {Math.round(groupStateData.environmentCost / 1_000_000)} MNOK
+              </Text>
+            </Flex>
+          </Link>
         </VStack>
         <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
           Weather

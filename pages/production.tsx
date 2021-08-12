@@ -111,9 +111,10 @@ const Production: React.FC = () => {
         w="100%"
         overflow="auto"
         borderRadius="lg"
-        bg={bg}
+        border="lg"
+        borderColor={bg}
       >
-        <Table maxH="500px">
+        <Table maxH="500px" line>
           <Thead>
             <Tr>
               <Th textAlign="center">Date</Th>
