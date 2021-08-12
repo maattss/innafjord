@@ -50,13 +50,16 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         justifyContent="center"
         mb="5"
       >
-        Status
+        Dashboard
       </Heading>
+      <Text fontWeight="medium" fontSize="xl" mb={2}>
+        Status
+      </Text>
       <StatusBox status={status} message={statusText} />
       <Flex flexWrap="wrap">
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Water level
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Current water level
           </Text>
           <Link
             w="100%"
@@ -94,9 +97,9 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         </VStack>
 
         <Spacer />
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Power price
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Current power price
           </Text>
           <Link
             w="100%"
@@ -133,9 +136,9 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           </Link>
         </VStack>
 
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Earnings
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Earnings (this year)
           </Text>
           <Flex
             bg={bg}
@@ -163,9 +166,9 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           </Flex>
         </VStack>
         <Spacer />
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Environment cost
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Environment cost (this year)
           </Text>
           <Flex
             bg={bg}
@@ -173,7 +176,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             w="100%"
             p={6}
             justifyContent="center"
-            alignItems="left"
+            alignItems="center"
           >
             <Image
               src="./images/environment.svg"
@@ -192,6 +195,34 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             </Text>
           </Flex>
         </VStack>
+        <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+          Weather
+        </Text>
+        <Box bg={bg} borderRadius="lg" w="100%" p={8} mb="4">
+          <Flex
+            bg={bg}
+            borderRadius="lg"
+            w="100%"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Image
+              src="./images/sunny.svg"
+              alt="Recycle Emoji"
+              height="50px"
+              mr={4}
+              ml={4}
+            />
+            <Text
+              fontWeight="medium"
+              textAlign="center"
+              fontSize="2xl"
+              width="400px"
+            >
+              Currently 18 °C and clear skyes.
+            </Text>
+          </Flex>
+        </Box>
         <Box w="100%" mt="2">
           <Text fontStyle="italic" textAlign="right" pr={2}>
             Updated at {new Date().toLocaleTimeString()}
