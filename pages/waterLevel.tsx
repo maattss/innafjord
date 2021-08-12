@@ -13,11 +13,14 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Meta from "../components/Meta";
-import mockData from "../data/dummy.json";
 import { Line } from "react-chartjs-2";
 import { EmailIcon } from "@chakra-ui/icons";
+import dummyToday from "../data/dummyToday.json";
+import dummyWeek from "../data/dummyWeek.json";
+import dummyMonth from "../data/dummyMonth.json";
+import dummyYear from "../data/dummyYear.json";
 
-const data = {
+const graphExampleData = {
   labels: ["1", "2", "3", "4", "5", "6", "7"],
   datasets: [
     {
@@ -43,8 +46,11 @@ const options = {
 };
 
 const WaterLevel: React.FC = () => {
-  // eslint-disable-next-line no-unused-vars
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  let mockData = dummyToday;
+  if (filterGraph === "week") mockData = dummyWeek;
+  if (filterGraph === "month") mockData = dummyMonth;
+  if (filterGraph === "year") mockData = dummyYear;
   return (
     <>
       <Meta title="Water Level History" />
@@ -65,7 +71,7 @@ const WaterLevel: React.FC = () => {
         </Select>
       </Flex>
 
-      <Line data={data} options={options} />
+      <Line data={graphExampleData} options={options} />
 
       <Box maxH="500px" mt="4" w="100%" overflow="auto">
         <Table maxH="500px">
