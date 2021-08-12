@@ -10,6 +10,7 @@ import {
   Th,
   Thead,
   Tr,
+  useColorModeValue
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Meta from "../components/Meta";
@@ -68,6 +69,7 @@ const options = {
 
 const Production: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  const bg = useColorModeValue("gray.100", "gray.700");
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
@@ -89,7 +91,7 @@ const Production: React.FC = () => {
       </Flex>
 
       <Line data={graphExampleData} options={options} />
-      <Box maxH="500px" mt="4" w="100%" overflow="auto">
+      <Box maxH="500px" mt="4" w="100%" overflow="auto"  borderRadius="lg" bg={bg}>
         <Table maxH="500px">
           <Thead>
             <Tr>
