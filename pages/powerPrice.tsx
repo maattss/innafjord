@@ -75,7 +75,7 @@ const WaterLevel: React.FC = () => {
             <Tr>
               <Th textAlign="center">Date</Th>
               <Th textAlign="center">Time</Th>
-              <Th textAlign="center">Water level</Th>
+              <Th textAlign="center">Power Pricel</Th>
             </Tr>
           </Thead>
           <Tbody>
@@ -84,7 +84,7 @@ const WaterLevel: React.FC = () => {
                 <Tr key={key}>
                   <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
                   <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
-                  <Td textAlign="center">0</Td>
+                  <Td textAlign="center">{item.powerPrice || 0}</Td>
                 </Tr>
               );
             })}
@@ -97,7 +97,6 @@ const WaterLevel: React.FC = () => {
           colorScheme="teal"
           variant="solid"
           size="lg"
-          disabled
         >
           Generate report
         </Button>

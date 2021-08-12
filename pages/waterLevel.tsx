@@ -97,7 +97,6 @@ const WaterLevel: React.FC = () => {
           colorScheme="teal"
           variant="solid"
           size="lg"
-          disabled
         >
           Generate report
         </Button>
