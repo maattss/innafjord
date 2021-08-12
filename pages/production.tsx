@@ -72,7 +72,7 @@ const Production: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef(null);
-  const bg = useColorModeValue("gray.100", "gray.700");
+  const bprder = useColorModeValue("gray.100", "gray.700");
 
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
@@ -112,7 +112,7 @@ const Production: React.FC = () => {
         overflow="auto"
         p={4}
         border="1px"
-        borderColor="gray.700"
+        borderColor={border}
         borderRadius="lg"
       >
         <Table maxH="330px" variant="simple">
