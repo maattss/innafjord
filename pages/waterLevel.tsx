@@ -20,7 +20,7 @@ import {
 import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
-import { CloseIcon, DownloadIcon, EmailIcon } from "@chakra-ui/icons";
+import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
