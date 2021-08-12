@@ -18,7 +18,6 @@ import { EmailIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
-import dummyYear from "../data/dummyYear.json";
 
 const graphExampleData = {
   labels: ["1", "2", "3", "4", "5", "6", "7"],
