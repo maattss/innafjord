@@ -61,7 +61,7 @@ const Earnings: React.FC = () => {
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
-  if (filterGraph === "year") mockData = dummyYear;
+
   return (
     <>
       <Meta title="Earnings History" />
