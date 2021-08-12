@@ -9,10 +9,12 @@ import {
   useColorModeValue,
   Link,
   Image,
+  Button,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 type Props = {
   powerPriceData: string;
@@ -32,15 +34,15 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   let status: Status = "success";
   let statusText = "Water level normal.";
 
-  if (groupStateData.waterLevel < 25) {
+  if (groupStateData.waterLevel <= 25) {
     status = "error";
     statusText = "Warning! Water level too low.";
   }
-  if (groupStateData.waterLevel < 30) {
+  if (groupStateData.waterLevel > 25 && groupStateData.waterLevel <= 30) {
     status = "warning";
     statusText = "Please check the water level.";
   }
-  if (groupStateData.waterLevel > 35) {
+  if (groupStateData.waterLevel > 30 && groupStateData.waterLevel <= 35) {
     status = "warning";
     statusText = "Please check the water level.";
   }
@@ -196,7 +198,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             _hover={{
               background: bgHover,
             }}
-            href="./environmentCost"
+            href="./environmentalCost"
           >
             <Flex
               borderRadius="lg"
@@ -251,11 +253,24 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             </Text>
           </Flex>
         </Box>
-        <Box w="100%" mt="2">
+        <Flex
+          w="100%"
+          mt="2"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <Link
+            href="https://github.com/maattss/innafjord/issues"
+            style={{ textDecoration: "none" }}
+          >
+            <Button leftIcon={<ExternalLinkIcon />} variant={"outline"}>
+              Report issue
+            </Button>
+          </Link>
           <Text fontStyle="italic" textAlign="right" pr={2}>
             Updated at {new Date().toLocaleTimeString()}
           </Text>
-        </Box>
+        </Flex>
       </Flex>
     </>
   );
