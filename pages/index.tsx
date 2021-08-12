@@ -137,6 +137,15 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           <Text fontWeight="medium" fontSize="xl">
             Earnings
           </Text>
+          <Link
+            w="100%"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./earnings"
+          >
           <Flex
             bg={bg}
             borderRadius="lg"
@@ -161,7 +170,9 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               {groupStateData.money} NOK
             </Text>
           </Flex>
+          </Link>
         </VStack>
+        
         <Spacer />
         <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">

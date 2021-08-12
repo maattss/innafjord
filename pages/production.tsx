@@ -10,6 +10,7 @@ import {
   Th,
   Thead,
   Tr,
+  useColorModeValue
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Meta from "../components/Meta";
@@ -20,12 +21,33 @@ import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
 import dummyYear from "../data/dummyYear.json";
 
+let dummydata = dummyToday;
+
+let time = []
+let productiondata = []
+
+
+for (let i = 0; i< dummydata.length; i++){
+  time.push(dummydata[i].timestamp)
+  let totalproduction = 0
+
+  //Pluss sammen produksjon i hver turbin. i er en dag. Hver dag har mange turbiner
+  for(let j = 0; j < dummydata[i].turbines.length; j++){
+    totalproduction+= dummydata[i].turbines[j].production
+  }
+  productiondata.push(totalproduction)
+}
+
+console.log(productiondata)
+
+
+
 const graphExampleData = {
-  labels: ["1", "2", "3", "4", "5", "6", "7"],
+  labels: time,
   datasets: [
     {
       label: "Production",
-      data: [25, 26, 27, 26, 28, 29, 30],
+      data: productiondata,
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgba(255, 99, 132, 0.2)",
@@ -47,6 +69,7 @@ const options = {
 
 const Production: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  const bg = useColorModeValue("gray.100", "gray.700");
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
@@ -68,7 +91,7 @@ const Production: React.FC = () => {
       </Flex>
 
       <Line data={graphExampleData} options={options} />
-      <Box maxH="500px" mt="4" w="100%" overflow="auto">
+      <Box maxH="500px" mt="4" w="100%" overflow="auto"  borderRadius="lg" bg={bg}>
         <Table maxH="500px">
           <Thead>
             <Tr>
