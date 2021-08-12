@@ -1,4 +1,9 @@
 import {
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogOverlay,
   Box,
   Button,
   Flex,
@@ -7,6 +12,7 @@ import {
   Table,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -14,7 +20,7 @@ import {
 import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
-import { EmailIcon } from "@chakra-ui/icons";
+import { CloseIcon, DownloadIcon, EmailIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
@@ -46,6 +52,9 @@ const options = {
 
 const WaterLevel: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const onClose = () => setIsOpen(false);
+  const cancelRef = React.useRef(null);
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
@@ -55,15 +64,25 @@ const WaterLevel: React.FC = () => {
       <Meta title="Power Price History" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Power Price</Heading>
-        <Select
-          width="200px"
-          onChange={(event) => setFilterGraph(event.target.value)}
-        >
-          <option value="today">Today</option>
-          <option value="week">Last week</option>
-          <option value="month">Last month</option>
-          <option value="year">Last year</option>
-        </Select>
+        <Flex>
+          <Button
+            leftIcon={<DownloadIcon />}
+            variant="outline"
+            size="md"
+            mr={2}
+            onClick={() => setIsOpen(true)}
+          >
+            Generate report
+          </Button>
+          <Select
+            width="200px"
+            onChange={(event) => setFilterGraph(event.target.value)}
+          >
+            <option value="today">Last 24 hours</option>
+            <option value="week">Last week</option>
+            <option value="month">Last month</option>
+          </Select>
+        </Flex>
       </Flex>
 
       <Line data={graphExampleData} options={options} />
@@ -90,16 +109,38 @@ const WaterLevel: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
-      <Flex justifyContent="center" w="100%" mt="4">
-        <Button
-          leftIcon={<EmailIcon />}
-          colorScheme="teal"
-          variant="solid"
-          size="lg"
-        >
-          Generate report
-        </Button>
-      </Flex>
+      <AlertDialog
+        isOpen={isOpen}
+        leastDestructiveRef={cancelRef}
+        onClose={onClose}
+      >
+        <AlertDialogOverlay>
+          <AlertDialogContent>
+            <AlertDialogHeader fontSize="lg" fontWeight="bold">
+              <Flex justifyContent="space-between" alignItems="center">
+                <Text>Report is generated successfully!</Text>
+                <Button onClick={onClose}>
+                  <CloseIcon />
+                </Button>
+              </Flex>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <Text fontSize="lg" mr={4} fontWeight="medium">
+                Download{" "}
+              </Text>
+              <Button ref={cancelRef} onClick={onClose} mr={2}>
+                . CSV
+              </Button>
+              <Button ref={cancelRef} onClick={onClose} mr={2}>
+                . PDF
+              </Button>
+              <Button ref={cancelRef} onClick={onClose}>
+                . JSON
+              </Button>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialogOverlay>
+      </AlertDialog>
     </>
   );
 };

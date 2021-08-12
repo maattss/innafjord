@@ -128,7 +128,7 @@ const Production: React.FC = () => {
               </Flex>
             </AlertDialogHeader>
             <AlertDialogFooter>
-              <Text fontSize="lg" mr={4}>
+              <Text fontSize="lg" mr={4} fontWeight="medium">
                 Download{" "}
               </Text>
               <Button ref={cancelRef} onClick={onClose} mr={2}>
