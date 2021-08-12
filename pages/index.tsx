@@ -13,7 +13,6 @@ import {
 import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
-import { ArrowUpIcon } from "@chakra-ui/icons";
 
 type Props = {
   powerPriceData: string;
