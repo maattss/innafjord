@@ -67,7 +67,7 @@ const WaterLevel: React.FC = () => {
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef(null);
   let mockData = dummyToday;
-  const bg = useColorModeValue("gray.100", "gray.700");
+  const border = useColorModeValue("gray.100", "gray.700");
 
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
@@ -101,14 +101,16 @@ const WaterLevel: React.FC = () => {
       <Line data={graphExampleData} options={options} />
 
       <Box
-        maxH="500px"
+        maxH="330px"
         mt="4"
         w="100%"
         overflow="auto"
+        p={4}
+        border="1px"
+        borderColor={border}
         borderRadius="lg"
-        bg={bg}
       >
-        <Table maxH="500px">
+        <Table maxH="330px">
           <Thead>
             <Tr>
               <Th textAlign="center">Date</Th>

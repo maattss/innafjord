@@ -106,15 +106,16 @@ const Production: React.FC = () => {
 
       <Line data={graphExampleData} options={options} />
       <Box
-        maxH="500px"
+        maxH="330px"
         mt="4"
         w="100%"
         overflow="auto"
+        p={4}
+        border="1px"
+        borderColor="gray.700"
         borderRadius="lg"
-        border="lg"
-        borderColor={bg}
       >
-        <Table maxH="500px" line>
+        <Table maxH="330px" variant="simple">
           <Thead>
             <Tr>
               <Th textAlign="center">Date</Th>
