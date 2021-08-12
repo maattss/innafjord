@@ -130,7 +130,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 fontSize="2xl"
                 width="200px"
               >
-                {powerPriceData} NOK/MWh
+                {Math.round(+powerPriceData)} NOK/MWh
               </Text>
             </Flex>
           </Link>
@@ -161,7 +161,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               fontSize="2xl"
               width="200px"
             >
-              {groupStateData.money} NOK
+              {Math.round(groupStateData.money / 1_000_000)} MNOK
             </Text>
           </Flex>
         </VStack>
@@ -191,7 +191,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               fontSize="2xl"
               width="200px"
             >
-              {groupStateData.environmentCost} NOK
+              {Math.round(groupStateData.environmentCost / 1_000_000)} MNOK
             </Text>
           </Flex>
         </VStack>

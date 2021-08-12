@@ -50,21 +50,25 @@ const Production: React.FC = () => {
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
-  if (filterGraph === "year") mockData = dummyYear;
+
   return (
     <>
       <Meta title="Production History" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Production</Heading>
-        <Select
-          width="200px"
-          onChange={(event) => setFilterGraph(event.target.value)}
-        >
-          <option value="today">Today</option>
-          <option value="week">Last week</option>
-          <option value="month">Last month</option>
-          <option value="year">Last year</option>
-        </Select>
+        <Flex>
+          <Button leftIcon={<EmailIcon />} variant="outline" size="md" mr={2}>
+            Generate report
+          </Button>
+          <Select
+            width="200px"
+            onChange={(event) => setFilterGraph(event.target.value)}
+          >
+            <option value="today">Last 24 hours</option>
+            <option value="week">Last week</option>
+            <option value="month">Last month</option>
+          </Select>
+        </Flex>
       </Flex>
 
       <Line data={graphExampleData} options={options} />
@@ -93,16 +97,6 @@ const Production: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
-      <Flex justifyContent="center" w="100%" mt="4">
-        <Button
-          leftIcon={<EmailIcon />}
-          colorScheme="teal"
-          variant="solid"
-          size="lg"
-        >
-          Generate report
-        </Button>
-      </Flex>
     </>
   );
 };

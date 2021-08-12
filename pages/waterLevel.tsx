@@ -50,7 +50,7 @@ const WaterLevel: React.FC = () => {
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
-  if (filterGraph === "year") mockData = dummyYear;
+
   return (
     <>
       <Meta title="Water Level History" />
@@ -63,7 +63,6 @@ const WaterLevel: React.FC = () => {
           <option value="today">Today</option>
           <option value="week">Last week</option>
           <option value="month">Last month</option>
-          <option value="year">Last year</option>
         </Select>
       </Flex>
 

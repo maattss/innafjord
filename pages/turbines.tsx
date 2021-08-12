@@ -56,7 +56,7 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
             {capacityUsage * 100 + "%"} <br />
             {capacityUsage * 19.25} kWh/s
             <br />
-            {capacityUsage * ((17.5 * 19.25) / 1.1)} M<sup>3</sup>/s
+            {capacityUsage * ((17.5 * 19.25) / 1.1)} m<sup>3</sup>/s
           </Text>
         </Box>
       </Flex>
