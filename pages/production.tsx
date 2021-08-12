@@ -80,7 +80,7 @@ const Production: React.FC = () => {
 
   return (
     <>
-      <Meta title="Production History" />
+      <Meta title="Production" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Production</Heading>
         <Flex>

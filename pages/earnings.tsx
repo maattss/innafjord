@@ -73,7 +73,7 @@ const Earnings: React.FC = () => {
 
   return (
     <>
-      <Meta title="Earnings History" />
+      <Meta title="Earnings" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Earnings</Heading>
         <Flex>

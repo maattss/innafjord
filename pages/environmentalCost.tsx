@@ -73,7 +73,7 @@ const EnvironmentCost: React.FC = () => {
 
   return (
     <>
-      <Meta title="Environment Cost History" />
+      <Meta title="Environmental Cost" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Environment Cost</Heading>
         <Flex>

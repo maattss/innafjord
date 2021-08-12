@@ -74,7 +74,7 @@ const WaterLevel: React.FC = () => {
 
   return (
     <>
-      <Meta title="Power Price History" />
+      <Meta title="Power Price" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Power Price</Heading>
         <Flex>
