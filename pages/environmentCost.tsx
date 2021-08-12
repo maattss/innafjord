@@ -74,7 +74,6 @@ const EnvironmentCost: React.FC = () => {
           <option value="today">Today</option>
           <option value="week">Last week</option>
           <option value="month">Last month</option>
-          <option value="year">Last year</option>
         </Select>
       </Flex>
 
@@ -109,16 +108,6 @@ const EnvironmentCost: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
-      <Flex justifyContent="center" w="100%" mt="4">
-        <Button
-          leftIcon={<EmailIcon />}
-          colorScheme="teal"
-          variant="solid"
-          size="lg"
-        >
-          Generate report
-        </Button>
-      </Flex>
     </>
   );
 };

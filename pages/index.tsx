@@ -30,14 +30,23 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
   let status: Status = "success";
-  let statusText = "";
-  if (groupStateData.waterLevel < 30 || groupStateData.waterLevel > 35) {
+  let statusText = "Water level normal.";
+
+  if (groupStateData.waterLevel < 25) {
+    status = "error";
+    statusText = "Warning! Water level too low.";
+  }
+  if (groupStateData.waterLevel < 30) {
     status = "warning";
     statusText = "Please check the water level.";
   }
-  if (groupStateData.waterLevel < 25 || groupStateData.waterLevel > 40) {
+  if (groupStateData.waterLevel > 35) {
+    status = "warning";
+    statusText = "Please check the water level.";
+  }
+  if (groupStateData.waterLevel > 40) {
     status = "error";
-    statusText = "Please check the water level immediately!";
+    statusText = "Warning! Water level too high.";
   }
 
   return (
@@ -187,7 +196,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             _hover={{
               background: bgHover,
             }}
-            href="./earnings"
+            href="./environmentCost"
           >
             <Flex
               borderRadius="lg"
