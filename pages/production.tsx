@@ -74,9 +74,7 @@ const Production: React.FC = () => {
             <Tr>
               <Th textAlign="center">Date</Th>
               <Th textAlign="center">Time</Th>
-              <Th textAlign="center">
-                Production (m<sup>3</sup>)
-              </Th>
+              <Th textAlign="center">Production (MW)</Th>
             </Tr>
           </Thead>
           <Tbody>
@@ -101,6 +99,7 @@ const Production: React.FC = () => {
           colorScheme="teal"
           variant="solid"
           size="lg"
+          disabled
         >
           Generate report
         </Button>

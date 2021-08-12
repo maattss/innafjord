@@ -62,12 +62,8 @@ const WaterLevel: React.FC = () => {
         >
           <option value="today">Today</option>
           <option value="week">Last week</option>
-          <option value="month" disabled>
-            Last month (option coming soon...)
-          </option>
-          <option value="year" disabled>
-            Last year (option coming soon...)
-          </option>
+          <option value="month">Last month</option>
+          <option value="year">Last year</option>
         </Select>
       </Flex>
 
@@ -101,6 +97,7 @@ const WaterLevel: React.FC = () => {
           colorScheme="teal"
           variant="solid"
           size="lg"
+          disabled
         >
           Generate report
         </Button>
