@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
+import Meta from "../components/Meta";
 
 type Props = {
   powerPriceData: string;
@@ -40,6 +41,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
 
   return (
     <>
+      <Meta title="Dashboard" />
       <Heading
         fontSize="5xl"
         w="100%"
@@ -50,16 +52,6 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         Status
       </Heading>
       <StatusBox status={status} message={statusText} />
-      <Heading
-        fontSize="5xl"
-        w="100%"
-        textAlign="center"
-        justifyContent="center"
-        mb="5"
-        mt="5"
-      >
-        Realtime data
-      </Heading>
       <Flex flexWrap="wrap">
         <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
@@ -97,7 +89,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
           >
             <Box borderRadius="lg" w="100%" p={6}>
               <Text fontWeight="medium" textAlign="center" fontSize="lg">
-                {groupStateData.waterLevel} m
+                {Math.round(groupStateData.waterLevel * 100) / 100} m
               </Text>
             </Box>
           </Link>

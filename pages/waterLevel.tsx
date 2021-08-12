@@ -1,4 +1,6 @@
 import {
+  Box,
+  Button,
   Flex,
   Heading,
   Select,
@@ -11,10 +13,14 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Meta from "../components/Meta";
-import mockData from "../data/dummy.json";
 import { Line } from "react-chartjs-2";
+import { EmailIcon } from "@chakra-ui/icons";
+import dummyToday from "../data/dummyToday.json";
+import dummyWeek from "../data/dummyWeek.json";
+import dummyMonth from "../data/dummyMonth.json";
+import dummyYear from "../data/dummyYear.json";
 
-const data = {
+const graphExampleData = {
   labels: ["1", "2", "3", "4", "5", "6", "7"],
   datasets: [
     {
@@ -40,8 +46,11 @@ const options = {
 };
 
 const WaterLevel: React.FC = () => {
-  // eslint-disable-next-line no-unused-vars
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  let mockData = dummyToday;
+  if (filterGraph === "week") mockData = dummyWeek;
+  if (filterGraph === "month") mockData = dummyMonth;
+  if (filterGraph === "year") mockData = dummyYear;
   return (
     <>
       <Meta title="Water Level History" />
@@ -53,37 +62,46 @@ const WaterLevel: React.FC = () => {
         >
           <option value="today">Today</option>
           <option value="week">Last week</option>
-          <option value="month" disabled>
-            Last month (option coming soon...)
-          </option>
-          <option value="year" disabled>
-            Last year (option coming soon...)
-          </option>
+          <option value="month">Last month</option>
+          <option value="year">Last year</option>
         </Select>
       </Flex>
 
-      <Line data={data} options={options} />
+      <Line data={graphExampleData} options={options} />
 
-      <Table variant="simple" mt="4" maxHeight="70%">
-        <Thead>
-          <Tr>
-            <Th textAlign="center">Date</Th>
-            <Th textAlign="center">Time</Th>
-            <Th textAlign="center">Water level</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
-          {mockData.map((item, key) => {
-            return (
-              <Tr key={key}>
-                <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
-                <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
-                <Td textAlign="center">{item.waterlevel}</Td>
-              </Tr>
-            );
-          })}
-        </Tbody>
-      </Table>
+      <Box maxH="500px" mt="4" w="100%" overflow="auto">
+        <Table maxH="500px">
+          <Thead>
+            <Tr>
+              <Th textAlign="center">Date</Th>
+              <Th textAlign="center">Time</Th>
+              <Th textAlign="center">Water level</Th>
+            </Tr>
+          </Thead>
+          <Tbody>
+            {mockData.map((item, key) => {
+              return (
+                <Tr key={key}>
+                  <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
+                  <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
+                  <Td textAlign="center">{item.waterlevel}</Td>
+                </Tr>
+              );
+            })}
+          </Tbody>
+        </Table>
+      </Box>
+      <Flex justifyContent="center" w="100%" mt="4">
+        <Button
+          leftIcon={<EmailIcon />}
+          colorScheme="teal"
+          variant="solid"
+          size="lg"
+          disabled
+        >
+          Generate report
+        </Button>
+      </Flex>
     </>
   );
 };
