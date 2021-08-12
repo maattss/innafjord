@@ -1,4 +1,9 @@
 import {
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogOverlay,
   Box,
   Button,
   Flex,
@@ -7,6 +12,7 @@ import {
   Table,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -15,7 +21,7 @@ import {
 import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
-import { EmailIcon } from "@chakra-ui/icons";
+import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
@@ -57,6 +63,9 @@ const options = {
 
 const EnvironmentCost: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const onClose = () => setIsOpen(false);
+  const cancelRef = React.useRef(null);
   const bg = useColorModeValue("gray.100", "gray.700");
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
@@ -67,15 +76,25 @@ const EnvironmentCost: React.FC = () => {
       <Meta title="Environment Cost History" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Environment Cost</Heading>
-        <Select
-          width="200px"
-          onChange={(event) => setFilterGraph(event.target.value)}
-        >
-          <option value="today">Today</option>
-          <option value="week">Last week</option>
-          <option value="month">Last month</option>
-        </Select>
-      </Flex>
+        <Flex>
+          <Button
+            leftIcon={<DownloadIcon />}
+            variant="outline"
+            size="md"
+            mr={2}
+            onClick={() => setIsOpen(true)}
+          >
+            Generate report
+          </Button>
+          <Select
+            width="200px"
+            onChange={(event) => setFilterGraph(event.target.value)}
+          >
+            <option value="today">Last 24 hours</option>
+            <option value="week">Last week</option>
+            <option value="month">Last month</option>
+          </Select>
+        </Flex>
 
       <Line data={graphExampleData} options={options} />
 
@@ -108,6 +127,38 @@ const EnvironmentCost: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
+      <AlertDialog
+        isOpen={isOpen}
+        leastDestructiveRef={cancelRef}
+        onClose={onClose}
+      >
+        <AlertDialogOverlay>
+          <AlertDialogContent>
+            <AlertDialogHeader fontSize="lg" fontWeight="medium">
+              <Flex justifyContent="space-between" alignItems="center">
+                <Text>Report is generated successfully!</Text>
+                <Button onClick={onClose}>
+                  <CloseIcon />
+                </Button>
+              </Flex>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <Text fontSize="lg" mr={4} fontWeight="medium">
+                Download{" "}
+              </Text>
+              <Button ref={cancelRef} onClick={onClose} mr={2}>
+                . CSV
+              </Button>
+              <Button ref={cancelRef} onClick={onClose} mr={2}>
+                . PDF
+              </Button>
+              <Button ref={cancelRef} onClick={onClose}>
+                . JSON
+              </Button>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialogOverlay>
+      </AlertDialog>
     </>
   );
 };

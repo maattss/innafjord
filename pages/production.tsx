@@ -145,7 +145,7 @@ const Production: React.FC = () => {
       >
         <AlertDialogOverlay>
           <AlertDialogContent>
-            <AlertDialogHeader fontSize="lg" fontWeight="bold">
+            <AlertDialogHeader fontSize="lg" fontWeight="medium">
               <Flex justifyContent="space-between" alignItems="center">
                 <Text>Report is generated successfully!</Text>
                 <Button onClick={onClose}>
