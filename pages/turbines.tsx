@@ -40,12 +40,7 @@ const Turbines: React.FC<Props> = ({ turbinesData }) => {
 };
 
 const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
-  const bgColor =
-    capacityUsage > 0.8
-      ? capacityUsage > 0.9
-        ? "red.500"
-        : "yellow.500"
-      : "green.500";
+  const bgColor = capacityUsage === 0 ? "red.500" : "green.500";
   return (
     <Box p={3} borderRadius="lg">
       <Flex alignItems="center" flexDirection="column">
@@ -56,10 +51,12 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
           maxWidth="60px"
           mb="2"
         />
-        <Box bg={bgColor} px={4} py={2} borderRadius="lg" width="120px">
+        <Box bg={bgColor} px={4} py={2} borderRadius="lg" width="140px">
           <Text fontWeight="medium" fontSize="lg" textAlign="center">
             {capacityUsage * 100 + "%"} <br />
-            {capacityUsage * 19.5 + " MW"}
+            {capacityUsage * 19.25} kWh/s
+            <br />
+            {capacityUsage * ((17.5 * 19.25) / 1.1)} m<sup>3</sup>/s
           </Text>
         </Box>
       </Flex>
