@@ -5,7 +5,7 @@
     "environmentCost": 47,
     "powerPrice": 554,
     "timestamp": "2021-08-12T10:46:11.831Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3033102179566418,
@@ -84,7 +84,7 @@
     "environmentCost": 83,
     "powerPrice": 425,
     "timestamp": "2021-08-12T10:46:11.834Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5706192091264537,
@@ -163,7 +163,7 @@
     "environmentCost": 95,
     "powerPrice": 468,
     "timestamp": "2021-08-12T10:46:11.834Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.37813255402762325,
@@ -242,7 +242,7 @@
     "environmentCost": 91,
     "powerPrice": 638,
     "timestamp": "2021-08-12T10:46:11.834Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4578441999354135,
@@ -321,7 +321,7 @@
     "environmentCost": 94,
     "powerPrice": 413,
     "timestamp": "2021-08-12T10:46:11.834Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6896155324295798,
@@ -400,7 +400,7 @@
     "environmentCost": 47,
     "powerPrice": 522,
     "timestamp": "2021-08-12T10:46:11.834Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4508889201656059,
@@ -479,7 +479,7 @@
     "environmentCost": 59,
     "powerPrice": 457,
     "timestamp": "2021-08-12T10:46:11.835Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39046638460640426,
@@ -558,7 +558,7 @@
     "environmentCost": 89,
     "powerPrice": 446,
     "timestamp": "2021-08-12T10:46:11.835Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5242495116193842,
@@ -637,7 +637,7 @@
     "environmentCost": 39,
     "powerPrice": 617,
     "timestamp": "2021-08-12T10:46:11.835Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5935961139596566,
@@ -716,7 +716,7 @@
     "environmentCost": 56,
     "powerPrice": 423,
     "timestamp": "2021-08-12T10:46:11.835Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.018984874124399864,
@@ -795,7 +795,7 @@
     "environmentCost": 45,
     "powerPrice": 421,
     "timestamp": "2021-08-12T10:46:11.836Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2552468829317678,
@@ -874,7 +874,7 @@
     "environmentCost": 52,
     "powerPrice": 401,
     "timestamp": "2021-08-12T10:46:11.836Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2851354264444217,
@@ -953,7 +953,7 @@
     "environmentCost": 30,
     "powerPrice": 493,
     "timestamp": "2021-08-12T10:46:11.836Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6872803309898701,
@@ -1032,7 +1032,7 @@
     "environmentCost": 79,
     "powerPrice": 576,
     "timestamp": "2021-08-12T10:46:11.836Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12969278423742647,
@@ -1111,7 +1111,7 @@
     "environmentCost": 72,
     "powerPrice": 460,
     "timestamp": "2021-08-12T10:46:11.836Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5266171810574116,
@@ -1190,7 +1190,7 @@
     "environmentCost": 42,
     "powerPrice": 460,
     "timestamp": "2021-08-12T10:46:11.837Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.26520912503914595,
@@ -1269,7 +1269,7 @@
     "environmentCost": 59,
     "powerPrice": 605,
     "timestamp": "2021-08-12T10:46:11.837Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9879339029063698,
@@ -1348,7 +1348,7 @@
     "environmentCost": 10,
     "powerPrice": 494,
     "timestamp": "2021-08-12T10:46:11.837Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18605536506707288,
@@ -1427,7 +1427,7 @@
     "environmentCost": 79,
     "powerPrice": 391,
     "timestamp": "2021-08-12T10:46:11.837Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6265338806513108,
@@ -1506,7 +1506,7 @@
     "environmentCost": 37,
     "powerPrice": 417,
     "timestamp": "2021-08-12T10:46:11.837Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.478581400587168,
@@ -1585,7 +1585,7 @@
     "environmentCost": 21,
     "powerPrice": 584,
     "timestamp": "2021-08-12T10:46:11.838Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.33372725861067876,
@@ -1664,7 +1664,7 @@
     "environmentCost": 18,
     "powerPrice": 610,
     "timestamp": "2021-08-12T10:46:11.838Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7345383557269822,
@@ -1743,7 +1743,7 @@
     "environmentCost": 5,
     "powerPrice": 437,
     "timestamp": "2021-08-12T10:46:11.838Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8741593329260369,
@@ -1822,7 +1822,7 @@
     "environmentCost": 76,
     "powerPrice": 502,
     "timestamp": "2021-08-12T10:46:11.838Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12282679554537435,
@@ -1901,7 +1901,7 @@
     "environmentCost": 22,
     "powerPrice": 625,
     "timestamp": "2021-08-12T10:46:11.838Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.042583566004852136,
@@ -1980,7 +1980,7 @@
     "environmentCost": 64,
     "powerPrice": 545,
     "timestamp": "2021-08-12T10:46:11.838Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2043491124261847,
@@ -2059,7 +2059,7 @@
     "environmentCost": 22,
     "powerPrice": 550,
     "timestamp": "2021-08-12T10:46:11.839Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.14966051907016253,
@@ -2138,7 +2138,7 @@
     "environmentCost": 73,
     "powerPrice": 515,
     "timestamp": "2021-08-12T10:46:11.839Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5362179985018523,
@@ -2217,7 +2217,7 @@
     "environmentCost": 22,
     "powerPrice": 437,
     "timestamp": "2021-08-12T10:46:11.839Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5636389956342827,
@@ -2296,7 +2296,7 @@
     "environmentCost": 68,
     "powerPrice": 396,
     "timestamp": "2021-08-12T10:46:11.839Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15109235153001022,
@@ -2375,7 +2375,7 @@
     "environmentCost": 81,
     "powerPrice": 468,
     "timestamp": "2021-08-12T10:46:11.839Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.09228151157318032,
@@ -2454,7 +2454,7 @@
     "environmentCost": 51,
     "powerPrice": 389,
     "timestamp": "2021-08-12T10:46:11.840Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15119079789249046,
@@ -2533,7 +2533,7 @@
     "environmentCost": 92,
     "powerPrice": 588,
     "timestamp": "2021-08-12T10:46:11.840Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.01221062313889787,
@@ -2612,7 +2612,7 @@
     "environmentCost": 7,
     "powerPrice": 417,
     "timestamp": "2021-08-12T10:46:11.840Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.05508042955878012,
@@ -2691,7 +2691,7 @@
     "environmentCost": 64,
     "powerPrice": 394,
     "timestamp": "2021-08-12T10:46:11.840Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5309598534211251,
@@ -2770,7 +2770,7 @@
     "environmentCost": 73,
     "powerPrice": 436,
     "timestamp": "2021-08-12T10:46:11.840Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9210635243294913,
@@ -2849,7 +2849,7 @@
     "environmentCost": 25,
     "powerPrice": 492,
     "timestamp": "2021-08-12T10:46:11.840Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4638061670398308,
@@ -2928,7 +2928,7 @@
     "environmentCost": 72,
     "powerPrice": 584,
     "timestamp": "2021-08-12T10:46:11.841Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.26982633175473825,
@@ -3007,7 +3007,7 @@
     "environmentCost": 47,
     "powerPrice": 564,
     "timestamp": "2021-08-12T10:46:11.841Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3477178573931696,
@@ -3086,7 +3086,7 @@
     "environmentCost": 76,
     "powerPrice": 594,
     "timestamp": "2021-08-12T10:46:11.841Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3331510591901483,
@@ -3165,7 +3165,7 @@
     "environmentCost": 85,
     "powerPrice": 562,
     "timestamp": "2021-08-12T10:46:11.841Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5749455909207764,
@@ -3244,7 +3244,7 @@
     "environmentCost": 25,
     "powerPrice": 598,
     "timestamp": "2021-08-12T10:46:11.841Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9858924805595712,
@@ -3323,7 +3323,7 @@
     "environmentCost": 38,
     "powerPrice": 410,
     "timestamp": "2021-08-12T10:46:11.842Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4794356745482631,
@@ -3402,7 +3402,7 @@
     "environmentCost": 79,
     "powerPrice": 484,
     "timestamp": "2021-08-12T10:46:11.842Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9344996793167546,
@@ -3481,7 +3481,7 @@
     "environmentCost": 88,
     "powerPrice": 429,
     "timestamp": "2021-08-12T10:46:11.842Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3233178380732342,
@@ -3560,7 +3560,7 @@
     "environmentCost": 3,
     "powerPrice": 571,
     "timestamp": "2021-08-12T10:46:11.842Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6548599280730574,
@@ -3639,7 +3639,7 @@
     "environmentCost": 28,
     "powerPrice": 389,
     "timestamp": "2021-08-12T10:46:11.842Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23820555485324157,
@@ -3718,7 +3718,7 @@
     "environmentCost": 81,
     "powerPrice": 472,
     "timestamp": "2021-08-12T10:46:11.842Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1858330618369466,
@@ -3797,7 +3797,7 @@
     "environmentCost": 74,
     "powerPrice": 524,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5674093816801986,
@@ -3876,7 +3876,7 @@
     "environmentCost": 62,
     "powerPrice": 573,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.09966781520498902,
@@ -3955,7 +3955,7 @@
     "environmentCost": 35,
     "powerPrice": 526,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3056445741772631,
@@ -4034,7 +4034,7 @@
     "environmentCost": 13,
     "powerPrice": 408,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8043232062247099,
@@ -4113,7 +4113,7 @@
     "environmentCost": 35,
     "powerPrice": 388,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5428272216000596,
@@ -4192,7 +4192,7 @@
     "environmentCost": 84,
     "powerPrice": 459,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.03273886205327514,
@@ -4271,7 +4271,7 @@
     "environmentCost": 42,
     "powerPrice": 533,
     "timestamp": "2021-08-12T10:46:11.843Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2344797119961719,
@@ -4350,7 +4350,7 @@
     "environmentCost": 64,
     "powerPrice": 520,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1170593481610327,
@@ -4429,7 +4429,7 @@
     "environmentCost": 68,
     "powerPrice": 480,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8770499859249845,
@@ -4508,7 +4508,7 @@
     "environmentCost": 40,
     "powerPrice": 433,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2607345670239587,
@@ -4587,7 +4587,7 @@
     "environmentCost": 97,
     "powerPrice": 556,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07873789988084301,
@@ -4666,7 +4666,7 @@
     "environmentCost": 43,
     "powerPrice": 510,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7919311735014756,
@@ -4745,7 +4745,7 @@
     "environmentCost": 29,
     "powerPrice": 549,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.077708879390741,
@@ -4824,7 +4824,7 @@
     "environmentCost": 67,
     "powerPrice": 631,
     "timestamp": "2021-08-12T10:46:11.844Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5368482237739387,
@@ -4903,7 +4903,7 @@
     "environmentCost": 9,
     "powerPrice": 409,
     "timestamp": "2021-08-12T10:46:11.845Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4358176519698458,
@@ -4982,7 +4982,7 @@
     "environmentCost": 33,
     "powerPrice": 640,
     "timestamp": "2021-08-12T10:46:11.845Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6287730517529371,
@@ -5061,7 +5061,7 @@
     "environmentCost": 68,
     "powerPrice": 538,
     "timestamp": "2021-08-12T10:46:11.845Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27497718610162436,
@@ -5140,7 +5140,7 @@
     "environmentCost": 99,
     "powerPrice": 581,
     "timestamp": "2021-08-12T10:46:11.845Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08416642819809206,
@@ -5219,7 +5219,7 @@
     "environmentCost": 63,
     "powerPrice": 641,
     "timestamp": "2021-08-12T10:46:11.845Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.42101302233274085,
@@ -5298,7 +5298,7 @@
     "environmentCost": 75,
     "powerPrice": 568,
     "timestamp": "2021-08-12T10:46:11.846Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8130086274001098,
@@ -5377,7 +5377,7 @@
     "environmentCost": 47,
     "powerPrice": 517,
     "timestamp": "2021-08-12T10:46:11.846Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8285309241153527,
@@ -5456,7 +5456,7 @@
     "environmentCost": 2,
     "powerPrice": 527,
     "timestamp": "2021-08-12T10:46:11.846Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.737052774206649,
@@ -5535,7 +5535,7 @@
     "environmentCost": 56,
     "powerPrice": 401,
     "timestamp": "2021-08-12T10:46:11.846Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3301161622619715,
@@ -5614,7 +5614,7 @@
     "environmentCost": 57,
     "powerPrice": 398,
     "timestamp": "2021-08-12T10:46:11.846Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9235456495071861,
@@ -5693,7 +5693,7 @@
     "environmentCost": 57,
     "powerPrice": 563,
     "timestamp": "2021-08-12T10:46:11.847Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6354594511924465,
@@ -5772,7 +5772,7 @@
     "environmentCost": 94,
     "powerPrice": 390,
     "timestamp": "2021-08-12T10:46:11.847Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2101441299818858,
@@ -5851,7 +5851,7 @@
     "environmentCost": 47,
     "powerPrice": 569,
     "timestamp": "2021-08-12T10:46:11.847Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.926420082353121,
@@ -5930,7 +5930,7 @@
     "environmentCost": 10,
     "powerPrice": 513,
     "timestamp": "2021-08-12T10:46:11.847Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8439294932768562,
@@ -6009,7 +6009,7 @@
     "environmentCost": 40,
     "powerPrice": 509,
     "timestamp": "2021-08-12T10:46:11.847Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7817264923126688,
@@ -6088,7 +6088,7 @@
     "environmentCost": 63,
     "powerPrice": 481,
     "timestamp": "2021-08-12T10:46:11.847Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.45585011898653716,
@@ -6167,7 +6167,7 @@
     "environmentCost": 5,
     "powerPrice": 532,
     "timestamp": "2021-08-12T10:46:11.848Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.78754276794808,
@@ -6246,7 +6246,7 @@
     "environmentCost": 20,
     "powerPrice": 594,
     "timestamp": "2021-08-12T10:46:11.848Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9894574446612947,
@@ -6325,7 +6325,7 @@
     "environmentCost": 41,
     "powerPrice": 520,
     "timestamp": "2021-08-12T10:46:11.848Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11999663708089048,
@@ -6404,7 +6404,7 @@
     "environmentCost": 52,
     "powerPrice": 574,
     "timestamp": "2021-08-12T10:46:11.848Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.36526660174259784,
@@ -6483,7 +6483,7 @@
     "environmentCost": 95,
     "powerPrice": 529,
     "timestamp": "2021-08-12T10:46:11.848Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3146453002657572,
@@ -6562,7 +6562,7 @@
     "environmentCost": 42,
     "powerPrice": 472,
     "timestamp": "2021-08-12T10:46:11.849Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6165486021896993,
@@ -6641,7 +6641,7 @@
     "environmentCost": 34,
     "powerPrice": 394,
     "timestamp": "2021-08-12T10:46:11.849Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.20693243944666673,
@@ -6720,7 +6720,7 @@
     "environmentCost": 51,
     "powerPrice": 391,
     "timestamp": "2021-08-12T10:46:11.849Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2933353519645663,
@@ -6799,7 +6799,7 @@
     "environmentCost": 40,
     "powerPrice": 567,
     "timestamp": "2021-08-12T10:46:11.849Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9484296143104198,
@@ -6878,7 +6878,7 @@
     "environmentCost": 45,
     "powerPrice": 395,
     "timestamp": "2021-08-12T10:46:11.849Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.289212152269092,
@@ -6957,7 +6957,7 @@
     "environmentCost": 9,
     "powerPrice": 388,
     "timestamp": "2021-08-12T10:46:11.850Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5660386686565082,
@@ -7036,7 +7036,7 @@
     "environmentCost": 41,
     "powerPrice": 525,
     "timestamp": "2021-08-12T10:46:11.850Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7186273664736667,
@@ -7115,7 +7115,7 @@
     "environmentCost": 85,
     "powerPrice": 526,
     "timestamp": "2021-08-12T10:46:11.850Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3116357299590462,
@@ -7194,7 +7194,7 @@
     "environmentCost": 62,
     "powerPrice": 565,
     "timestamp": "2021-08-12T10:46:11.850Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9933858908993998,
@@ -7273,7 +7273,7 @@
     "environmentCost": 1,
     "powerPrice": 514,
     "timestamp": "2021-08-12T10:46:11.851Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3157214189401114,
@@ -7352,7 +7352,7 @@
     "environmentCost": 96,
     "powerPrice": 599,
     "timestamp": "2021-08-12T10:46:11.851Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4035180541498993,
@@ -7431,7 +7431,7 @@
     "environmentCost": 9,
     "powerPrice": 547,
     "timestamp": "2021-08-12T10:46:11.851Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23361464903482498,
@@ -7510,7 +7510,7 @@
     "environmentCost": 65,
     "powerPrice": 581,
     "timestamp": "2021-08-12T10:46:11.851Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7790989999990079,
@@ -7589,7 +7589,7 @@
     "environmentCost": 85,
     "powerPrice": 536,
     "timestamp": "2021-08-12T10:46:11.851Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6907642567986334,
@@ -7668,7 +7668,7 @@
     "environmentCost": 85,
     "powerPrice": 513,
     "timestamp": "2021-08-12T10:46:11.852Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0629475476071002,
@@ -7747,7 +7747,7 @@
     "environmentCost": 39,
     "powerPrice": 537,
     "timestamp": "2021-08-12T10:46:11.852Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1019342901988145,
@@ -7826,7 +7826,7 @@
     "environmentCost": 31,
     "powerPrice": 558,
     "timestamp": "2021-08-12T10:46:11.852Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.20536630626680674,
@@ -7905,7 +7905,7 @@
     "environmentCost": 15,
     "powerPrice": 409,
     "timestamp": "2021-08-12T10:46:11.852Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.938898670060563,
@@ -7984,7 +7984,7 @@
     "environmentCost": 85,
     "powerPrice": 420,
     "timestamp": "2021-08-12T10:46:11.853Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.06967561116920318,
@@ -8063,7 +8063,7 @@
     "environmentCost": 94,
     "powerPrice": 601,
     "timestamp": "2021-08-12T10:46:11.853Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8615050597162033,
@@ -8142,7 +8142,7 @@
     "environmentCost": 52,
     "powerPrice": 433,
     "timestamp": "2021-08-12T10:46:11.853Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1398769993511899,
@@ -8221,7 +8221,7 @@
     "environmentCost": 69,
     "powerPrice": 489,
     "timestamp": "2021-08-12T10:46:11.853Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.036669999708905276,
@@ -8300,7 +8300,7 @@
     "environmentCost": 99,
     "powerPrice": 492,
     "timestamp": "2021-08-12T10:46:11.853Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5414380992791277,
@@ -8379,7 +8379,7 @@
     "environmentCost": 52,
     "powerPrice": 583,
     "timestamp": "2021-08-12T10:46:11.854Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3587547373614812,
@@ -8458,7 +8458,7 @@
     "environmentCost": 96,
     "powerPrice": 551,
     "timestamp": "2021-08-12T10:46:11.854Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5691669297020707,
@@ -8537,7 +8537,7 @@
     "environmentCost": 46,
     "powerPrice": 536,
     "timestamp": "2021-08-12T10:46:11.854Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3477893266015901,
@@ -8616,7 +8616,7 @@
     "environmentCost": 87,
     "powerPrice": 440,
     "timestamp": "2021-08-12T10:46:11.854Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9312809424327924,
@@ -8695,7 +8695,7 @@
     "environmentCost": 85,
     "powerPrice": 414,
     "timestamp": "2021-08-12T10:46:11.854Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8026977411436358,
@@ -8774,7 +8774,7 @@
     "environmentCost": 56,
     "powerPrice": 605,
     "timestamp": "2021-08-12T10:46:11.855Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5090333408389383,
@@ -8853,7 +8853,7 @@
     "environmentCost": 37,
     "powerPrice": 495,
     "timestamp": "2021-08-12T10:46:11.855Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7136035260482041,
@@ -8932,7 +8932,7 @@
     "environmentCost": 56,
     "powerPrice": 638,
     "timestamp": "2021-08-12T10:46:11.855Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.01724474839082002,
@@ -9011,7 +9011,7 @@
     "environmentCost": 34,
     "powerPrice": 565,
     "timestamp": "2021-08-12T10:46:11.855Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5330086836257624,
@@ -9090,7 +9090,7 @@
     "environmentCost": 27,
     "powerPrice": 443,
     "timestamp": "2021-08-12T10:46:11.855Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4698529134678444,
@@ -9169,7 +9169,7 @@
     "environmentCost": 10,
     "powerPrice": 516,
     "timestamp": "2021-08-12T10:46:11.855Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5197022007584999,
@@ -9248,7 +9248,7 @@
     "environmentCost": 69,
     "powerPrice": 588,
     "timestamp": "2021-08-12T10:46:11.856Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9669552826790233,
@@ -9327,7 +9327,7 @@
     "environmentCost": 71,
     "powerPrice": 394,
     "timestamp": "2021-08-12T10:46:11.858Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6560613160242759,
@@ -9406,7 +9406,7 @@
     "environmentCost": 92,
     "powerPrice": 507,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5627586974728112,
@@ -9485,7 +9485,7 @@
     "environmentCost": 3,
     "powerPrice": 441,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7614058555321936,
@@ -9564,7 +9564,7 @@
     "environmentCost": 26,
     "powerPrice": 555,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2400816269954873,
@@ -9643,7 +9643,7 @@
     "environmentCost": 59,
     "powerPrice": 432,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4368821343157552,
@@ -9722,7 +9722,7 @@
     "environmentCost": 42,
     "powerPrice": 466,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7467957264450296,
@@ -9801,7 +9801,7 @@
     "environmentCost": 51,
     "powerPrice": 633,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1167735360323281,
@@ -9880,7 +9880,7 @@
     "environmentCost": 89,
     "powerPrice": 613,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9789985447561835,
@@ -9959,7 +9959,7 @@
     "environmentCost": 80,
     "powerPrice": 489,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9976064539889062,
@@ -10038,7 +10038,7 @@
     "environmentCost": 24,
     "powerPrice": 536,
     "timestamp": "2021-08-12T10:46:11.859Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6285572041739869,
@@ -10117,7 +10117,7 @@
     "environmentCost": 85,
     "powerPrice": 576,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.030078000212745648,
@@ -10196,7 +10196,7 @@
     "environmentCost": 60,
     "powerPrice": 503,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39745458973597425,
@@ -10275,7 +10275,7 @@
     "environmentCost": 76,
     "powerPrice": 558,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.38163060991291986,
@@ -10354,7 +10354,7 @@
     "environmentCost": 48,
     "powerPrice": 590,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8833903008983437,
@@ -10433,7 +10433,7 @@
     "environmentCost": 14,
     "powerPrice": 484,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21490032138568171,
@@ -10512,7 +10512,7 @@
     "environmentCost": 3,
     "powerPrice": 516,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9229713190715672,
@@ -10591,7 +10591,7 @@
     "environmentCost": 53,
     "powerPrice": 566,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5510782797680034,
@@ -10670,7 +10670,7 @@
     "environmentCost": 44,
     "powerPrice": 566,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.033110881626008615,
@@ -10749,7 +10749,7 @@
     "environmentCost": 62,
     "powerPrice": 628,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27324421766236995,
@@ -10828,7 +10828,7 @@
     "environmentCost": 28,
     "powerPrice": 407,
     "timestamp": "2021-08-12T10:46:11.860Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.01404670574440292,
@@ -10907,7 +10907,7 @@
     "environmentCost": 54,
     "powerPrice": 487,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.19171524821058838,
@@ -10986,7 +10986,7 @@
     "environmentCost": 81,
     "powerPrice": 499,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6986254846960576,
@@ -11065,7 +11065,7 @@
     "environmentCost": 4,
     "powerPrice": 631,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5454161639008874,
@@ -11144,7 +11144,7 @@
     "environmentCost": 24,
     "powerPrice": 623,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7475969148266588,
@@ -11223,7 +11223,7 @@
     "environmentCost": 51,
     "powerPrice": 532,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5682625345216339,
@@ -11302,7 +11302,7 @@
     "environmentCost": 89,
     "powerPrice": 489,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9735445620833083,
@@ -11381,7 +11381,7 @@
     "environmentCost": 21,
     "powerPrice": 535,
     "timestamp": "2021-08-12T10:46:11.861Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21344331958023566,
@@ -11460,7 +11460,7 @@
     "environmentCost": 57,
     "powerPrice": 457,
     "timestamp": "2021-08-12T10:46:11.862Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16701881910002725,
@@ -11539,7 +11539,7 @@
     "environmentCost": 8,
     "powerPrice": 549,
     "timestamp": "2021-08-12T10:46:11.862Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6103683184525763,
@@ -11618,7 +11618,7 @@
     "environmentCost": 64,
     "powerPrice": 600,
     "timestamp": "2021-08-12T10:46:11.862Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5784733615004078,
@@ -11697,7 +11697,7 @@
     "environmentCost": 32,
     "powerPrice": 414,
     "timestamp": "2021-08-12T10:46:11.862Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5410540328537332,
@@ -11776,7 +11776,7 @@
     "environmentCost": 88,
     "powerPrice": 436,
     "timestamp": "2021-08-12T10:46:11.862Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5599563299183141,
@@ -11855,7 +11855,7 @@
     "environmentCost": 23,
     "powerPrice": 623,
     "timestamp": "2021-08-12T10:46:11.862Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6594007498034908,
@@ -11934,7 +11934,7 @@
     "environmentCost": 99,
     "powerPrice": 527,
     "timestamp": "2021-08-12T10:46:11.863Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15670062712747868,
@@ -12013,7 +12013,7 @@
     "environmentCost": 32,
     "powerPrice": 516,
     "timestamp": "2021-08-12T10:46:11.863Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.05419561222896707,
@@ -12092,7 +12092,7 @@
     "environmentCost": 28,
     "powerPrice": 417,
     "timestamp": "2021-08-12T10:46:11.863Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6148093364910825,
@@ -12171,7 +12171,7 @@
     "environmentCost": 95,
     "powerPrice": 395,
     "timestamp": "2021-08-12T10:46:11.863Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11472427001334884,
@@ -12250,7 +12250,7 @@
     "environmentCost": 56,
     "powerPrice": 471,
     "timestamp": "2021-08-12T10:46:11.863Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8115716682565555,
@@ -12329,7 +12329,7 @@
     "environmentCost": 79,
     "powerPrice": 639,
     "timestamp": "2021-08-12T10:46:11.863Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7390823438751697,
@@ -12408,7 +12408,7 @@
     "environmentCost": 50,
     "powerPrice": 567,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7945636487194236,
@@ -12487,7 +12487,7 @@
     "environmentCost": 59,
     "powerPrice": 617,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.34846732372866884,
@@ -12566,7 +12566,7 @@
     "environmentCost": 93,
     "powerPrice": 591,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.06418250978683848,
@@ -12645,7 +12645,7 @@
     "environmentCost": 80,
     "powerPrice": 544,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6554592278051348,
@@ -12724,7 +12724,7 @@
     "environmentCost": 35,
     "powerPrice": 494,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9841537245073091,
@@ -12803,7 +12803,7 @@
     "environmentCost": 62,
     "powerPrice": 398,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4609465756343476,
@@ -12882,7 +12882,7 @@
     "environmentCost": 66,
     "powerPrice": 579,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3364128528817121,
@@ -12961,7 +12961,7 @@
     "environmentCost": 96,
     "powerPrice": 557,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7753592158524047,
@@ -13040,7 +13040,7 @@
     "environmentCost": 58,
     "powerPrice": 536,
     "timestamp": "2021-08-12T10:46:11.864Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8767621503704071,
@@ -13119,7 +13119,7 @@
     "environmentCost": 40,
     "powerPrice": 536,
     "timestamp": "2021-08-12T10:46:11.865Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5026979683629855,
@@ -13198,7 +13198,7 @@
     "environmentCost": 71,
     "powerPrice": 457,
     "timestamp": "2021-08-12T10:46:11.865Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6218484272897855,
@@ -13277,7 +13277,7 @@
     "environmentCost": 75,
     "powerPrice": 410,
     "timestamp": "2021-08-12T10:46:11.865Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.41652765500903266,
@@ -13356,7 +13356,7 @@
     "environmentCost": 76,
     "powerPrice": 466,
     "timestamp": "2021-08-12T10:46:11.865Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9797442065772233,
@@ -13435,7 +13435,7 @@
     "environmentCost": 13,
     "powerPrice": 419,
     "timestamp": "2021-08-12T10:46:11.866Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9987469923046577,
@@ -13514,7 +13514,7 @@
     "environmentCost": 99,
     "powerPrice": 486,
     "timestamp": "2021-08-12T10:46:11.866Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0995245558480169,
@@ -13593,7 +13593,7 @@
     "environmentCost": 9,
     "powerPrice": 424,
     "timestamp": "2021-08-12T10:46:11.866Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8093010047246603,
@@ -13672,7 +13672,7 @@
     "environmentCost": 87,
     "powerPrice": 426,
     "timestamp": "2021-08-12T10:46:11.866Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9977100839400534,
@@ -13751,7 +13751,7 @@
     "environmentCost": 7,
     "powerPrice": 607,
     "timestamp": "2021-08-12T10:46:11.866Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3222217396704057,
@@ -13830,7 +13830,7 @@
     "environmentCost": 69,
     "powerPrice": 588,
     "timestamp": "2021-08-12T10:46:11.867Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.25126650530953487,
@@ -13909,7 +13909,7 @@
     "environmentCost": 19,
     "powerPrice": 390,
     "timestamp": "2021-08-12T10:46:11.867Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9648608228238023,
@@ -13988,7 +13988,7 @@
     "environmentCost": 5,
     "powerPrice": 541,
     "timestamp": "2021-08-12T10:46:11.867Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.710859086867222,
@@ -14067,7 +14067,7 @@
     "environmentCost": 56,
     "powerPrice": 550,
     "timestamp": "2021-08-12T10:46:11.867Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6908977940396976,
@@ -14146,7 +14146,7 @@
     "environmentCost": 7,
     "powerPrice": 420,
     "timestamp": "2021-08-12T10:46:11.873Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7537541009996971,
@@ -14225,7 +14225,7 @@
     "environmentCost": 31,
     "powerPrice": 464,
     "timestamp": "2021-08-12T10:46:11.873Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5098500868194256,
@@ -14304,7 +14304,7 @@
     "environmentCost": 99,
     "powerPrice": 552,
     "timestamp": "2021-08-12T10:46:11.873Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9697587018755844,
@@ -14383,7 +14383,7 @@
     "environmentCost": 40,
     "powerPrice": 509,
     "timestamp": "2021-08-12T10:46:11.876Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.10721294956103633,
@@ -14462,7 +14462,7 @@
     "environmentCost": 49,
     "powerPrice": 522,
     "timestamp": "2021-08-12T10:46:11.876Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7659092325938677,
@@ -14541,7 +14541,7 @@
     "environmentCost": 96,
     "powerPrice": 614,
     "timestamp": "2021-08-12T10:46:11.876Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7046815855132353,
@@ -14620,7 +14620,7 @@
     "environmentCost": 88,
     "powerPrice": 551,
     "timestamp": "2021-08-12T10:46:11.876Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.785382890628417,
@@ -14699,7 +14699,7 @@
     "environmentCost": 2,
     "powerPrice": 471,
     "timestamp": "2021-08-12T10:46:11.876Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3772901553449868,
@@ -14778,7 +14778,7 @@
     "environmentCost": 63,
     "powerPrice": 464,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4344088882829358,
@@ -14857,7 +14857,7 @@
     "environmentCost": 82,
     "powerPrice": 507,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9735009014157074,
@@ -14936,7 +14936,7 @@
     "environmentCost": 13,
     "powerPrice": 489,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07473604025270442,
@@ -15015,7 +15015,7 @@
     "environmentCost": 27,
     "powerPrice": 503,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0002708069710988248,
@@ -15094,7 +15094,7 @@
     "environmentCost": 16,
     "powerPrice": 442,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3295084413522378,
@@ -15173,7 +15173,7 @@
     "environmentCost": 27,
     "powerPrice": 514,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.42742054529164086,
@@ -15252,7 +15252,7 @@
     "environmentCost": 81,
     "powerPrice": 400,
     "timestamp": "2021-08-12T10:46:11.877Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27814108069934074,
@@ -15331,7 +15331,7 @@
     "environmentCost": 70,
     "powerPrice": 460,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21092851848714078,
@@ -15410,7 +15410,7 @@
     "environmentCost": 77,
     "powerPrice": 577,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.323700275867546,
@@ -15489,7 +15489,7 @@
     "environmentCost": 92,
     "powerPrice": 553,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4427542331849097,
@@ -15568,7 +15568,7 @@
     "environmentCost": 71,
     "powerPrice": 449,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8825541272571804,
@@ -15647,7 +15647,7 @@
     "environmentCost": 82,
     "powerPrice": 399,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2686179287421504,
@@ -15726,7 +15726,7 @@
     "environmentCost": 83,
     "powerPrice": 495,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7328659987310095,
@@ -15805,7 +15805,7 @@
     "environmentCost": 68,
     "powerPrice": 416,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.24462177538915109,
@@ -15884,7 +15884,7 @@
     "environmentCost": 75,
     "powerPrice": 602,
     "timestamp": "2021-08-12T10:46:11.878Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.561281637170681,
@@ -15963,7 +15963,7 @@
     "environmentCost": 7,
     "powerPrice": 624,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9206600472821449,
@@ -16042,7 +16042,7 @@
     "environmentCost": 10,
     "powerPrice": 604,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4321711264752639,
@@ -16121,7 +16121,7 @@
     "environmentCost": 54,
     "powerPrice": 558,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.24432633887448163,
@@ -16200,7 +16200,7 @@
     "environmentCost": 60,
     "powerPrice": 493,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2825839625836126,
@@ -16279,7 +16279,7 @@
     "environmentCost": 29,
     "powerPrice": 641,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7235300019928381,
@@ -16358,7 +16358,7 @@
     "environmentCost": 43,
     "powerPrice": 432,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4244957101121025,
@@ -16437,7 +16437,7 @@
     "environmentCost": 58,
     "powerPrice": 426,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4240022911688419,
@@ -16516,7 +16516,7 @@
     "environmentCost": 67,
     "powerPrice": 421,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2510798934782692,
@@ -16595,7 +16595,7 @@
     "environmentCost": 19,
     "powerPrice": 414,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7204806333174805,
@@ -16674,7 +16674,7 @@
     "environmentCost": 61,
     "powerPrice": 396,
     "timestamp": "2021-08-12T10:46:11.879Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1515390960789098,
@@ -16753,7 +16753,7 @@
     "environmentCost": 73,
     "powerPrice": 542,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0687489878980092,
@@ -16832,7 +16832,7 @@
     "environmentCost": 56,
     "powerPrice": 486,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9760737624376932,
@@ -16911,7 +16911,7 @@
     "environmentCost": 3,
     "powerPrice": 557,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7268606812780445,
@@ -16990,7 +16990,7 @@
     "environmentCost": 1,
     "powerPrice": 575,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27487075202852607,
@@ -17069,7 +17069,7 @@
     "environmentCost": 78,
     "powerPrice": 642,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7042062383192218,
@@ -17148,7 +17148,7 @@
     "environmentCost": 35,
     "powerPrice": 527,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3983633689545203,
@@ -17227,7 +17227,7 @@
     "environmentCost": 91,
     "powerPrice": 419,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.40264196613701553,
@@ -17306,7 +17306,7 @@
     "environmentCost": 79,
     "powerPrice": 569,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23954944711515824,
@@ -17385,7 +17385,7 @@
     "environmentCost": 28,
     "powerPrice": 584,
     "timestamp": "2021-08-12T10:46:11.880Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16224883594081074,
@@ -17464,7 +17464,7 @@
     "environmentCost": 1,
     "powerPrice": 610,
     "timestamp": "2021-08-12T10:46:11.881Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.13565588179732258,
@@ -17543,7 +17543,7 @@
     "environmentCost": 80,
     "powerPrice": 454,
     "timestamp": "2021-08-12T10:46:11.881Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3842442237352248,
@@ -17622,7 +17622,7 @@
     "environmentCost": 48,
     "powerPrice": 560,
     "timestamp": "2021-08-12T10:46:11.881Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7499009430063288,
@@ -17701,7 +17701,7 @@
     "environmentCost": 29,
     "powerPrice": 540,
     "timestamp": "2021-08-12T10:46:11.885Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5332168732612377,
@@ -17780,7 +17780,7 @@
     "environmentCost": 34,
     "powerPrice": 487,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.038924829360926116,
@@ -17859,7 +17859,7 @@
     "environmentCost": 73,
     "powerPrice": 518,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.39745352208486784,
@@ -17938,7 +17938,7 @@
     "environmentCost": 36,
     "powerPrice": 478,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5396536268914789,
@@ -18017,7 +18017,7 @@
     "environmentCost": 86,
     "powerPrice": 457,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.48110331354398217,
@@ -18096,7 +18096,7 @@
     "environmentCost": 33,
     "powerPrice": 514,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.45947961408283944,
@@ -18175,7 +18175,7 @@
     "environmentCost": 67,
     "powerPrice": 428,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.33943055174884407,
@@ -18254,7 +18254,7 @@
     "environmentCost": 44,
     "powerPrice": 423,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7302058537833811,
@@ -18333,7 +18333,7 @@
     "environmentCost": 17,
     "powerPrice": 433,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2415064248299874,
@@ -18412,7 +18412,7 @@
     "environmentCost": 38,
     "powerPrice": 511,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.030350075559916867,
@@ -18491,7 +18491,7 @@
     "environmentCost": 58,
     "powerPrice": 515,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9429185529945474,
@@ -18570,7 +18570,7 @@
     "environmentCost": 16,
     "powerPrice": 512,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9071468998646324,
@@ -18649,7 +18649,7 @@
     "environmentCost": 38,
     "powerPrice": 604,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23056895191623195,
@@ -18728,7 +18728,7 @@
     "environmentCost": 85,
     "powerPrice": 470,
     "timestamp": "2021-08-12T10:46:11.886Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11413151800956212,
@@ -18807,7 +18807,7 @@
     "environmentCost": 17,
     "powerPrice": 484,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18369834075006897,
@@ -18886,7 +18886,7 @@
     "environmentCost": 6,
     "powerPrice": 396,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3898640418253141,
@@ -18965,7 +18965,7 @@
     "environmentCost": 52,
     "powerPrice": 590,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12356003161764528,
@@ -19044,7 +19044,7 @@
     "environmentCost": 33,
     "powerPrice": 441,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7225587244616651,
@@ -19123,7 +19123,7 @@
     "environmentCost": 82,
     "powerPrice": 534,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.46196688958629717,
@@ -19202,7 +19202,7 @@
     "environmentCost": 59,
     "powerPrice": 641,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07939082478289827,
@@ -19281,7 +19281,7 @@
     "environmentCost": 73,
     "powerPrice": 573,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23388612897788663,
@@ -19360,7 +19360,7 @@
     "environmentCost": 89,
     "powerPrice": 591,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5196852901265441,
@@ -19439,7 +19439,7 @@
     "environmentCost": 19,
     "powerPrice": 389,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6118393650202971,
@@ -19518,7 +19518,7 @@
     "environmentCost": 13,
     "powerPrice": 391,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7560471716969748,
@@ -19597,7 +19597,7 @@
     "environmentCost": 92,
     "powerPrice": 542,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7552000794885891,
@@ -19676,7 +19676,7 @@
     "environmentCost": 17,
     "powerPrice": 445,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.49325237567383207,
@@ -19755,7 +19755,7 @@
     "environmentCost": 24,
     "powerPrice": 420,
     "timestamp": "2021-08-12T10:46:11.887Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.720566828305383,
@@ -19834,7 +19834,7 @@
     "environmentCost": 71,
     "powerPrice": 626,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7862083905692523,
@@ -19913,7 +19913,7 @@
     "environmentCost": 74,
     "powerPrice": 606,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.970509302375929,
@@ -19992,7 +19992,7 @@
     "environmentCost": 63,
     "powerPrice": 611,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.42718798766561994,
@@ -20071,7 +20071,7 @@
     "environmentCost": 50,
     "powerPrice": 582,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4155378143431201,
@@ -20150,7 +20150,7 @@
     "environmentCost": 35,
     "powerPrice": 411,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8352733358477589,
@@ -20229,7 +20229,7 @@
     "environmentCost": 96,
     "powerPrice": 504,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.13725633251863223,
@@ -20308,7 +20308,7 @@
     "environmentCost": 39,
     "powerPrice": 605,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.38987764032600336,
@@ -20387,7 +20387,7 @@
     "environmentCost": 66,
     "powerPrice": 388,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1892034383209027,
@@ -20466,7 +20466,7 @@
     "environmentCost": 80,
     "powerPrice": 642,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4019309764754777,
@@ -20545,7 +20545,7 @@
     "environmentCost": 94,
     "powerPrice": 586,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9251123352630106,
@@ -20624,7 +20624,7 @@
     "environmentCost": 70,
     "powerPrice": 530,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.784928646573958,
@@ -20703,7 +20703,7 @@
     "environmentCost": 84,
     "powerPrice": 515,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9761977642212283,
@@ -20782,7 +20782,7 @@
     "environmentCost": 93,
     "powerPrice": 622,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1615917888561027,
@@ -20861,7 +20861,7 @@
     "environmentCost": 26,
     "powerPrice": 596,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15286265939107202,
@@ -20940,7 +20940,7 @@
     "environmentCost": 44,
     "powerPrice": 447,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.022118069025221176,
@@ -21019,7 +21019,7 @@
     "environmentCost": 50,
     "powerPrice": 395,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3942473000439777,
@@ -21098,7 +21098,7 @@
     "environmentCost": 97,
     "powerPrice": 491,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1869309393213472,
@@ -21177,7 +21177,7 @@
     "environmentCost": 11,
     "powerPrice": 558,
     "timestamp": "2021-08-12T10:46:11.888Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.548069749695878,
@@ -21256,7 +21256,7 @@
     "environmentCost": 43,
     "powerPrice": 552,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21635155918558047,
@@ -21335,7 +21335,7 @@
     "environmentCost": 20,
     "powerPrice": 520,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.013189755222966282,
@@ -21414,7 +21414,7 @@
     "environmentCost": 46,
     "powerPrice": 587,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6444214239896893,
@@ -21493,7 +21493,7 @@
     "environmentCost": 82,
     "powerPrice": 569,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3632209600535905,
@@ -21572,7 +21572,7 @@
     "environmentCost": 15,
     "powerPrice": 502,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0369527118977766,
@@ -21651,7 +21651,7 @@
     "environmentCost": 16,
     "powerPrice": 406,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5130052219498002,
@@ -21730,7 +21730,7 @@
     "environmentCost": 92,
     "powerPrice": 591,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27768720546088765,
@@ -21809,7 +21809,7 @@
     "environmentCost": 47,
     "powerPrice": 535,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4354306094845015,
@@ -21888,7 +21888,7 @@
     "environmentCost": 24,
     "powerPrice": 508,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.05770936674565519,
@@ -21967,7 +21967,7 @@
     "environmentCost": 32,
     "powerPrice": 438,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9663332443054811,
@@ -22046,7 +22046,7 @@
     "environmentCost": 96,
     "powerPrice": 545,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7831237836107605,
@@ -22125,7 +22125,7 @@
     "environmentCost": 14,
     "powerPrice": 416,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.30525975336779854,
@@ -22204,7 +22204,7 @@
     "environmentCost": 53,
     "powerPrice": 524,
     "timestamp": "2021-08-12T10:46:11.889Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6926459279886894,
@@ -22283,7 +22283,7 @@
     "environmentCost": 46,
     "powerPrice": 489,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5540326227498238,
@@ -22362,7 +22362,7 @@
     "environmentCost": 25,
     "powerPrice": 567,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6635584077221586,
@@ -22441,7 +22441,7 @@
     "environmentCost": 4,
     "powerPrice": 578,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1454782689273535,
@@ -22520,7 +22520,7 @@
     "environmentCost": 53,
     "powerPrice": 483,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.25610210402927547,
@@ -22599,7 +22599,7 @@
     "environmentCost": 87,
     "powerPrice": 501,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.32283997861353386,
@@ -22678,7 +22678,7 @@
     "environmentCost": 32,
     "powerPrice": 390,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4475928399251756,
@@ -22757,7 +22757,7 @@
     "environmentCost": 3,
     "powerPrice": 481,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5277764653938473,
@@ -22836,7 +22836,7 @@
     "environmentCost": 53,
     "powerPrice": 506,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.22447463430643033,
@@ -22915,7 +22915,7 @@
     "environmentCost": 3,
     "powerPrice": 539,
     "timestamp": "2021-08-12T10:46:11.890Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6237150671077059,
@@ -22994,7 +22994,7 @@
     "environmentCost": 9,
     "powerPrice": 626,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8815722186587673,
@@ -23073,7 +23073,7 @@
     "environmentCost": 21,
     "powerPrice": 600,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2974209675449828,
@@ -23152,7 +23152,7 @@
     "environmentCost": 49,
     "powerPrice": 559,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7284674626700252,
@@ -23231,7 +23231,7 @@
     "environmentCost": 70,
     "powerPrice": 562,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7009942157359963,
@@ -23310,7 +23310,7 @@
     "environmentCost": 85,
     "powerPrice": 502,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.09330454986779957,
@@ -23389,7 +23389,7 @@
     "environmentCost": 21,
     "powerPrice": 604,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.29386913023345107,
@@ -23468,7 +23468,7 @@
     "environmentCost": 76,
     "powerPrice": 457,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18637690760484626,
@@ -23547,7 +23547,7 @@
     "environmentCost": 19,
     "powerPrice": 626,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.21859504433375787,
@@ -23626,7 +23626,7 @@
     "environmentCost": 64,
     "powerPrice": 431,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.05540738510940191,
@@ -23705,7 +23705,7 @@
     "environmentCost": 52,
     "powerPrice": 434,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.29972033552386557,
@@ -23784,7 +23784,7 @@
     "environmentCost": 45,
     "powerPrice": 447,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3125994613051579,
@@ -23863,7 +23863,7 @@
     "environmentCost": 12,
     "powerPrice": 639,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.36191627422279193,
@@ -23942,7 +23942,7 @@
     "environmentCost": 63,
     "powerPrice": 583,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2889552795053272,
@@ -24021,7 +24021,7 @@
     "environmentCost": 34,
     "powerPrice": 514,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8474462011722326,
@@ -24100,7 +24100,7 @@
     "environmentCost": 52,
     "powerPrice": 438,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5229771361436901,
@@ -24179,7 +24179,7 @@
     "environmentCost": 89,
     "powerPrice": 609,
     "timestamp": "2021-08-12T10:46:11.891Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3265953797695089,
@@ -24258,7 +24258,7 @@
     "environmentCost": 72,
     "powerPrice": 595,
     "timestamp": "2021-08-12T10:46:11.892Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6028041582882342,
@@ -24337,7 +24337,7 @@
     "environmentCost": 18,
     "powerPrice": 532,
     "timestamp": "2021-08-12T10:46:11.892Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2716763840466627,
@@ -24416,7 +24416,7 @@
     "environmentCost": 5,
     "powerPrice": 588,
     "timestamp": "2021-08-12T10:46:11.892Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.22968698947135313,
@@ -24495,7 +24495,7 @@
     "environmentCost": 88,
     "powerPrice": 444,
     "timestamp": "2021-08-12T10:46:11.904Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9803663857534677,
@@ -24574,7 +24574,7 @@
     "environmentCost": 33,
     "powerPrice": 535,
     "timestamp": "2021-08-12T10:46:11.904Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11832960126845338,
@@ -24653,7 +24653,7 @@
     "environmentCost": 93,
     "powerPrice": 558,
     "timestamp": "2021-08-12T10:46:11.904Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8599409934306281,
@@ -24732,7 +24732,7 @@
     "environmentCost": 59,
     "powerPrice": 399,
     "timestamp": "2021-08-12T10:46:11.904Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9305505058289572,
@@ -24811,7 +24811,7 @@
     "environmentCost": 60,
     "powerPrice": 410,
     "timestamp": "2021-08-12T10:46:11.904Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9223510545692055,
@@ -24890,7 +24890,7 @@
     "environmentCost": 63,
     "powerPrice": 597,
     "timestamp": "2021-08-12T10:46:11.904Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6843640957852708,
@@ -24969,7 +24969,7 @@
     "environmentCost": 23,
     "powerPrice": 407,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3627807249597208,
@@ -25048,7 +25048,7 @@
     "environmentCost": 20,
     "powerPrice": 393,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.07624210396574527,
@@ -25127,7 +25127,7 @@
     "environmentCost": 38,
     "powerPrice": 573,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.35839005606990804,
@@ -25206,7 +25206,7 @@
     "environmentCost": 15,
     "powerPrice": 462,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5048096597825484,
@@ -25285,7 +25285,7 @@
     "environmentCost": 24,
     "powerPrice": 445,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5467755135890806,
@@ -25364,7 +25364,7 @@
     "environmentCost": 87,
     "powerPrice": 503,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5250208562245777,
@@ -25443,7 +25443,7 @@
     "environmentCost": 78,
     "powerPrice": 515,
     "timestamp": "2021-08-12T10:46:11.905Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4156422434824416,
@@ -25522,7 +25522,7 @@
     "environmentCost": 36,
     "powerPrice": 513,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.012034754739587816,
@@ -25601,7 +25601,7 @@
     "environmentCost": 67,
     "powerPrice": 543,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6792255215607423,
@@ -25680,7 +25680,7 @@
     "environmentCost": 93,
     "powerPrice": 435,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.45755431289510007,
@@ -25759,7 +25759,7 @@
     "environmentCost": 57,
     "powerPrice": 398,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.06426624524779778,
@@ -25838,7 +25838,7 @@
     "environmentCost": 45,
     "powerPrice": 504,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1299996235620411,
@@ -25917,7 +25917,7 @@
     "environmentCost": 88,
     "powerPrice": 633,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8816188650264016,
@@ -25996,7 +25996,7 @@
     "environmentCost": 64,
     "powerPrice": 621,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08095733685905282,
@@ -26075,7 +26075,7 @@
     "environmentCost": 38,
     "powerPrice": 627,
     "timestamp": "2021-08-12T10:46:11.906Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6531846268113022,
@@ -26154,7 +26154,7 @@
     "environmentCost": 65,
     "powerPrice": 455,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6269135186143724,
@@ -26233,7 +26233,7 @@
     "environmentCost": 55,
     "powerPrice": 635,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8214585474642424,
@@ -26312,7 +26312,7 @@
     "environmentCost": 41,
     "powerPrice": 509,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.014001604364777265,
@@ -26391,7 +26391,7 @@
     "environmentCost": 6,
     "powerPrice": 457,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9282127497343289,
@@ -26470,7 +26470,7 @@
     "environmentCost": 42,
     "powerPrice": 550,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.19370998654757998,
@@ -26549,7 +26549,7 @@
     "environmentCost": 49,
     "powerPrice": 478,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.591869288668029,
@@ -26628,7 +26628,7 @@
     "environmentCost": 56,
     "powerPrice": 555,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4444396674730424,
@@ -26707,7 +26707,7 @@
     "environmentCost": 51,
     "powerPrice": 554,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1991268213868922,
@@ -26786,7 +26786,7 @@
     "environmentCost": 46,
     "powerPrice": 606,
     "timestamp": "2021-08-12T10:46:11.907Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23760612728412878,
@@ -26865,7 +26865,7 @@
     "environmentCost": 41,
     "powerPrice": 415,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.961077947269066,
@@ -26944,7 +26944,7 @@
     "environmentCost": 75,
     "powerPrice": 482,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.23298596336256305,
@@ -27023,7 +27023,7 @@
     "environmentCost": 49,
     "powerPrice": 551,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.18859381525339503,
@@ -27102,7 +27102,7 @@
     "environmentCost": 37,
     "powerPrice": 603,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2994554349461156,
@@ -27181,7 +27181,7 @@
     "environmentCost": 90,
     "powerPrice": 618,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.08425163358077259,
@@ -27260,7 +27260,7 @@
     "environmentCost": 24,
     "powerPrice": 488,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5305017615188512,
@@ -27339,7 +27339,7 @@
     "environmentCost": 91,
     "powerPrice": 391,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6445832528850339,
@@ -27418,7 +27418,7 @@
     "environmentCost": 29,
     "powerPrice": 501,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5325398966018704,
@@ -27497,7 +27497,7 @@
     "environmentCost": 79,
     "powerPrice": 550,
     "timestamp": "2021-08-12T10:46:11.908Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1749168910905179,
@@ -27576,7 +27576,7 @@
     "environmentCost": 55,
     "powerPrice": 533,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5956442963100559,
@@ -27655,7 +27655,7 @@
     "environmentCost": 91,
     "powerPrice": 473,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9789095710688769,
@@ -27734,7 +27734,7 @@
     "environmentCost": 91,
     "powerPrice": 626,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0734456976780784,
@@ -27813,7 +27813,7 @@
     "environmentCost": 33,
     "powerPrice": 548,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0830898756149201,
@@ -27892,7 +27892,7 @@
     "environmentCost": 17,
     "powerPrice": 466,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8670030836987397,
@@ -27971,7 +27971,7 @@
     "environmentCost": 88,
     "powerPrice": 458,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8153877671245462,
@@ -28050,7 +28050,7 @@
     "environmentCost": 35,
     "powerPrice": 400,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.8942000135576753,
@@ -28129,7 +28129,7 @@
     "environmentCost": 58,
     "powerPrice": 447,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2026209710962581,
@@ -28208,7 +28208,7 @@
     "environmentCost": 75,
     "powerPrice": 485,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12068161306904024,
@@ -28287,7 +28287,7 @@
     "environmentCost": 47,
     "powerPrice": 401,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5811897748117201,
@@ -28366,7 +28366,7 @@
     "environmentCost": 36,
     "powerPrice": 553,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6187560287943041,
@@ -28445,7 +28445,7 @@
     "environmentCost": 19,
     "powerPrice": 621,
     "timestamp": "2021-08-12T10:46:11.909Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.548540922460196,
@@ -28524,7 +28524,7 @@
     "environmentCost": 97,
     "powerPrice": 587,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.11644018318464067,
@@ -28603,7 +28603,7 @@
     "environmentCost": 24,
     "powerPrice": 512,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1029990413343782,
@@ -28682,7 +28682,7 @@
     "environmentCost": 93,
     "powerPrice": 430,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12599855452896058,
@@ -28761,7 +28761,7 @@
     "environmentCost": 22,
     "powerPrice": 586,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5117350863588999,
@@ -28840,7 +28840,7 @@
     "environmentCost": 31,
     "powerPrice": 581,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9327024922729232,
@@ -28919,7 +28919,7 @@
     "environmentCost": 30,
     "powerPrice": 438,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7625039481424647,
@@ -28998,7 +28998,7 @@
     "environmentCost": 16,
     "powerPrice": 519,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5486645834096031,
@@ -29077,7 +29077,7 @@
     "environmentCost": 77,
     "powerPrice": 433,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5007926818746615,
@@ -29156,7 +29156,7 @@
     "environmentCost": 65,
     "powerPrice": 442,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.343006809850424,
@@ -29235,7 +29235,7 @@
     "environmentCost": 40,
     "powerPrice": 625,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7214176910073058,
@@ -29314,7 +29314,7 @@
     "environmentCost": 8,
     "powerPrice": 464,
     "timestamp": "2021-08-12T10:46:11.914Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.43167565664870255,
@@ -29393,7 +29393,7 @@
     "environmentCost": 20,
     "powerPrice": 587,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15654995792338466,
@@ -29472,7 +29472,7 @@
     "environmentCost": 47,
     "powerPrice": 624,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.47876622660769974,
@@ -29551,7 +29551,7 @@
     "environmentCost": 13,
     "powerPrice": 608,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.252680063370192,
@@ -29630,7 +29630,7 @@
     "environmentCost": 23,
     "powerPrice": 395,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7005651613522377,
@@ -29709,7 +29709,7 @@
     "environmentCost": 41,
     "powerPrice": 484,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.2205907481482352,
@@ -29788,7 +29788,7 @@
     "environmentCost": 18,
     "powerPrice": 608,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.0652382079756213,
@@ -29867,7 +29867,7 @@
     "environmentCost": 58,
     "powerPrice": 444,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7398079477648905,
@@ -29946,7 +29946,7 @@
     "environmentCost": 24,
     "powerPrice": 585,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.9872165355519036,
@@ -30025,7 +30025,7 @@
     "environmentCost": 48,
     "powerPrice": 503,
     "timestamp": "2021-08-12T10:46:11.915Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.1235898540252911,
@@ -30104,7 +30104,7 @@
     "environmentCost": 49,
     "powerPrice": 578,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.12934942511068082,
@@ -30183,7 +30183,7 @@
     "environmentCost": 23,
     "powerPrice": 480,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.3211824264102501,
@@ -30262,7 +30262,7 @@
     "environmentCost": 67,
     "powerPrice": 577,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15882268353961004,
@@ -30341,7 +30341,7 @@
     "environmentCost": 82,
     "powerPrice": 442,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4858435424414471,
@@ -30420,7 +30420,7 @@
     "environmentCost": 54,
     "powerPrice": 606,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.16724997919548246,
@@ -30499,7 +30499,7 @@
     "environmentCost": 42,
     "powerPrice": 423,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.057424103130373716,
@@ -30578,7 +30578,7 @@
     "environmentCost": 4,
     "powerPrice": 407,
     "timestamp": "2021-08-12T10:46:11.916Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.847842830814284,
@@ -30657,7 +30657,7 @@
     "environmentCost": 12,
     "powerPrice": 638,
     "timestamp": "2021-08-12T10:46:11.917Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6818181826419496,
@@ -30736,7 +30736,7 @@
     "environmentCost": 49,
     "powerPrice": 637,
     "timestamp": "2021-08-12T10:46:11.917Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.15198211805140693,
@@ -30815,7 +30815,7 @@
     "environmentCost": 55,
     "powerPrice": 575,
     "timestamp": "2021-08-12T10:46:11.917Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.30645877239754005,
@@ -30894,7 +30894,7 @@
     "environmentCost": 24,
     "powerPrice": 517,
     "timestamp": "2021-08-12T10:46:11.917Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6267339115051622,
@@ -30973,7 +30973,7 @@
     "environmentCost": 83,
     "powerPrice": 469,
     "timestamp": "2021-08-12T10:46:11.917Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7381427482087597,
@@ -31052,7 +31052,7 @@
     "environmentCost": 26,
     "powerPrice": 614,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.7527052649132049,
@@ -31131,7 +31131,7 @@
     "environmentCost": 27,
     "powerPrice": 561,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.770745088572564,
@@ -31210,7 +31210,7 @@
     "environmentCost": 63,
     "powerPrice": 634,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.5775151127592617,
@@ -31289,7 +31289,7 @@
     "environmentCost": 71,
     "powerPrice": 572,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.4040146680326395,
@@ -31368,7 +31368,7 @@
     "environmentCost": 90,
     "powerPrice": 611,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.14971519722472326,
@@ -31447,7 +31447,7 @@
     "environmentCost": 49,
     "powerPrice": 553,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.27445298987889677,
@@ -31526,7 +31526,7 @@
     "environmentCost": 34,
     "powerPrice": 519,
     "timestamp": "2021-08-12T10:46:11.922Z",
-    "turbiner": [
+    "turbines": [
       {
         "id": 0,
         "capasityUsage": 0.6942958078735066,
