@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import {
   Box,
+  Button,
   Flex,
   HStack,
   IconButton,
@@ -24,6 +25,7 @@ const Nav: React.FC = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const linkColor = useColorModeValue("gray.200", "gray.700");
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const [language, setLanguage] = useState<"EN" | "NO">("EN");
 
   return (
     <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
@@ -60,6 +62,12 @@ const Nav: React.FC = () => {
             icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             size="md"
           />
+          <Button
+            ml={2}
+            onClick={() => setLanguage(language === "NO" ? "EN" : "NO")}
+          >
+            {language === "NO" ? "NO" : "EN"}
+          </Button>
         </Flex>
       </Flex>
       {isOpen ? (

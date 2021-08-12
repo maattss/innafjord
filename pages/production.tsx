@@ -1,4 +1,9 @@
 import {
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogOverlay,
   Box,
   Button,
   Flex,
@@ -7,6 +12,7 @@ import {
   Table,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -14,11 +20,10 @@ import {
 import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
-import { EmailIcon } from "@chakra-ui/icons";
+import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
-import dummyYear from "../data/dummyYear.json";
 
 const graphExampleData = {
   labels: ["1", "2", "3", "4", "5", "6", "7"],
@@ -47,6 +52,10 @@ const options = {
 
 const Production: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const onClose = () => setIsOpen(false);
+  const cancelRef = React.useRef();
+
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
@@ -57,7 +66,13 @@ const Production: React.FC = () => {
       <Flex justifyContent="space-between" alignItems="center" mb="2">
         <Heading>Production</Heading>
         <Flex>
-          <Button leftIcon={<EmailIcon />} variant="outline" size="md" mr={2}>
+          <Button
+            leftIcon={<DownloadIcon />}
+            variant="outline"
+            size="md"
+            mr={2}
+            onClick={() => setIsOpen(true)}
+          >
             Generate report
           </Button>
           <Select
@@ -97,6 +112,38 @@ const Production: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
+      <AlertDialog
+        isOpen={isOpen}
+        leastDestructiveRef={cancelRef}
+        onClose={onClose}
+      >
+        <AlertDialogOverlay>
+          <AlertDialogContent>
+            <AlertDialogHeader fontSize="lg" fontWeight="bold">
+              <Flex justifyContent="space-between" alignItems="center">
+                <Text>Report is generated successfully!</Text>
+                <Button onClick={onClose}>
+                  <CloseIcon />
+                </Button>
+              </Flex>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <Text fontSize="lg" mr={4}>
+                Download{" "}
+              </Text>
+              <Button ref={cancelRef} onClick={onClose} mr={2}>
+                . CSV
+              </Button>
+              <Button ref={cancelRef} onClick={onClose} mr={2}>
+                . PDF
+              </Button>
+              <Button ref={cancelRef} onClick={onClose}>
+                . JSON
+              </Button>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialogOverlay>
+      </AlertDialog>
     </>
   );
 };
