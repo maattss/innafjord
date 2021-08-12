@@ -95,6 +95,7 @@ const EnvironmentCost: React.FC = () => {
             <option value="month">Last month</option>
           </Select>
         </Flex>
+      </Flex>
 
       <Line data={graphExampleData} options={options} />
 
