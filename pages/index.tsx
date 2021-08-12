@@ -8,6 +8,7 @@ import {
   Spacer,
   useColorModeValue,
   Link,
+  Image,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
@@ -55,27 +56,6 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
       <Flex flexWrap="wrap">
         <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
-            Power price
-          </Text>
-          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
-            <Text fontWeight="medium" textAlign="center" fontSize="lg">
-              {powerPriceData} NOK/MWh
-            </Text>
-          </Box>
-        </VStack>
-        <Spacer />
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Earnings
-          </Text>
-          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
-            <Text fontWeight="medium" textAlign="center" fontSize="lg">
-              {groupStateData.money} NOK
-            </Text>
-          </Box>
-        </VStack>
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
             Water level
           </Text>
           <Link
@@ -87,23 +67,130 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             }}
             href="./waterLevel"
           >
-            <Box borderRadius="lg" w="100%" p={6}>
-              <Text fontWeight="medium" textAlign="center" fontSize="lg">
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src="./images/water.svg"
+                alt="Water Emoji"
+                height="50px"
+                mr={4}
+                ml={4}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="center"
+                fontSize="2xl"
+                width="200px"
+              >
                 {Math.round(groupStateData.waterLevel * 100) / 100} m
               </Text>
-            </Box>
+            </Flex>
           </Link>
+        </VStack>
+
+        <Spacer />
+        <VStack w={["100%", null, 360]} mb="4">
+          <Text fontWeight="medium" fontSize="xl">
+            Power price
+          </Text>
+          <Link
+            w="100%"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./powerPrice"
+          >
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src="./images/power.svg"
+                alt="High Voltage Emoji"
+                height="50px"
+                mr={4}
+                ml={4}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="center"
+                fontSize="2xl"
+                width="200px"
+              >
+                {powerPriceData} NOK/MWh
+              </Text>
+            </Flex>
+          </Link>
+        </VStack>
+
+        <VStack w={["100%", null, 360]} mb="4">
+          <Text fontWeight="medium" fontSize="xl">
+            Earnings
+          </Text>
+          <Flex
+            bg={bg}
+            borderRadius="lg"
+            w="100%"
+            p={6}
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Image
+              src="./images/earnings.svg"
+              alt="Money Bag Emoji"
+              height="50px"
+              mr={4}
+              ml={4}
+            />
+            <Text
+              fontWeight="medium"
+              textAlign="center"
+              fontSize="2xl"
+              width="200px"
+            >
+              {groupStateData.money} NOK
+            </Text>
+          </Flex>
         </VStack>
         <Spacer />
         <VStack w={["100%", null, 360]} mb="4">
           <Text fontWeight="medium" fontSize="xl">
             Environment cost
           </Text>
-          <Box bg={bg} borderRadius="lg" w="100%" p={6}>
-            <Text fontWeight="medium" textAlign="center" fontSize="lg">
+          <Flex
+            bg={bg}
+            borderRadius="lg"
+            w="100%"
+            p={6}
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Image
+              src="./images/environment.svg"
+              alt="Recycle Emoji"
+              height="50px"
+              mr={4}
+              ml={4}
+            />
+            <Text
+              fontWeight="medium"
+              textAlign="center"
+              fontSize="2xl"
+              width="200px"
+            >
               {groupStateData.environmentCost} NOK
             </Text>
-          </Box>
+          </Flex>
         </VStack>
         <Box w="100%" mt="2">
           <Text fontStyle="italic" textAlign="right" pr={2}>
