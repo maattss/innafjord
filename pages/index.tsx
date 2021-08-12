@@ -216,7 +216,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               />
               <Text
                 fontWeight="medium"
-                textAlign="center"
+                textAlign="left"
                 fontSize="2xl"
                 width="200px"
               >
