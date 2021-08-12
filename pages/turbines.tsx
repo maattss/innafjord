@@ -47,7 +47,7 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
         : "yellow.500"
       : "green.500";
   return (
-    <Box p={4}>
+    <Box p={4} m={1} borderRadius="lg">
       <Flex alignItems="center" flexDirection="column">
         <Text mb="2">Turbine {id}</Text>
         <Image
@@ -57,8 +57,9 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
           mb="2"
         />
         <Box bg={bgColor} p="1" borderRadius="lg">
-          <Text fontWeight="medium" fontSize="lg">
-            Capacity: {capacityUsage * 100 + "%"}
+          <Text fontWeight="medium" fontSize="lg" textAlign="center">
+            {capacityUsage * 100 + "%"} <br />
+            {capacityUsage * 19.5 + " MW"}
           </Text>
         </Box>
       </Flex>

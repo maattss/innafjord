@@ -17,6 +17,7 @@ const Links: { name: string; path: string }[] = [
   { name: "Turbines", path: "/turbines" },
   { name: "Production", path: "/production" },
   { name: "Water level", path: "/waterLevel" },
+  { name: "Power price", path: "/powerPrice" },
 ];
 
 const Nav: React.FC = () => {
