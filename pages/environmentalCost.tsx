@@ -29,25 +29,19 @@ import dummyMonth from "../data/dummyMonth.json";
 let dummydata = dummyToday;
 
 let time = [];
-let productiondata = [];
+let data = [];
 
 for (let i = 0; i < dummydata.length; i++) {
   time.push(dummydata[i].timestamp);
-  let totalproduction = 0;
-
-  //Pluss sammen produksjon i hver turbin. i er en dag. Hver dag har mange turbiner
-  for (let j = 0; j < dummydata[i].turbines.length; j++) {
-    totalproduction += dummydata[i].turbines[j].production;
-  }
-  productiondata.push(totalproduction);
+  data.push(dummydata[i].environmentCost);
 }
 
 const graphExampleData = {
   labels: time,
   datasets: [
     {
-      label: "Production",
-      data: productiondata,
+      label: "Power price",
+      data: data,
       fill: false,
       backgroundColor: "rgb(255, 99, 132)",
       borderColor: "rgba(255, 99, 132, 0.2)",
@@ -67,22 +61,21 @@ const options = {
   },
 };
 
-const Production: React.FC = () => {
+const EnvironmentCost: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef(null);
   const border = useColorModeValue("gray.100", "gray.700");
-
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
   if (filterGraph === "month") mockData = dummyMonth;
 
   return (
     <>
-      <Meta title="Production" />
+      <Meta title="Environmental Cost" />
       <Flex justifyContent="space-between" alignItems="center" mb="2">
-        <Heading>Production</Heading>
+        <Heading>Environment Cost</Heading>
         <Flex>
           <Button
             leftIcon={<DownloadIcon />}
@@ -105,6 +98,7 @@ const Production: React.FC = () => {
       </Flex>
 
       <Line data={graphExampleData} options={options} />
+
       <Box
         maxH="330px"
         mt="4"
@@ -115,24 +109,21 @@ const Production: React.FC = () => {
         borderColor={border}
         borderRadius="lg"
       >
-        <Table maxH="330px" variant="simple">
+        <Table maxH="330px">
           <Thead>
             <Tr>
               <Th textAlign="center">Date</Th>
               <Th textAlign="center">Time</Th>
-              <Th textAlign="center">Production (MW)</Th>
+              <Th textAlign="center">Power Price</Th>
             </Tr>
           </Thead>
           <Tbody>
             {mockData.map((item, key) => {
-              let total = 0;
-              item.turbines.forEach((t) => (total += t.production));
-
               return (
                 <Tr key={key}>
                   <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
                   <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
-                  <Td textAlign="center">{Math.round(total)}</Td>
+                  <Td textAlign="center">{item.powerPrice || 0}</Td>
                 </Tr>
               );
             })}
@@ -175,4 +166,4 @@ const Production: React.FC = () => {
   );
 };
 
-export default Production;
+export default EnvironmentCost;

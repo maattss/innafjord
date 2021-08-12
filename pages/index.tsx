@@ -9,10 +9,12 @@ import {
   useColorModeValue,
   Link,
   Image,
+  Button,
 } from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 type Props = {
   powerPriceData: string;
@@ -30,14 +32,23 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
   let status: Status = "success";
-  let statusText = "";
-  if (groupStateData.waterLevel < 30 || groupStateData.waterLevel > 35) {
+  let statusText = "Water level normal.";
+
+  if (groupStateData.waterLevel <= 25) {
+    status = "error";
+    statusText = "Warning! Water level too low.";
+  }
+  if (groupStateData.waterLevel > 25 && groupStateData.waterLevel <= 30) {
     status = "warning";
     statusText = "Please check the water level.";
   }
-  if (groupStateData.waterLevel < 25 || groupStateData.waterLevel > 40) {
+  if (groupStateData.waterLevel > 30 && groupStateData.waterLevel <= 35) {
+    status = "warning";
+    statusText = "Please check the water level.";
+  }
+  if (groupStateData.waterLevel > 40) {
     status = "error";
-    statusText = "Please check the water level immediately!";
+    statusText = "Warning! Water level too high.";
   }
 
   return (
@@ -50,12 +61,15 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         justifyContent="center"
         mb="5"
       >
-        Status
+        Dashboard
       </Heading>
+      <Text fontWeight="medium" fontSize="xl" mb={2}>
+        Status
+      </Text>
       <StatusBox status={status} message={statusText} />
       <Flex flexWrap="wrap">
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
             Water level
           </Text>
           <Link
@@ -94,8 +108,8 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         </VStack>
 
         <Spacer />
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
             Power price
           </Text>
           <Link
@@ -127,15 +141,15 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 fontSize="2xl"
                 width="200px"
               >
-                {powerPriceData} NOK/MWh
+                {Math.round(+powerPriceData)} NOK/MWh
               </Text>
             </Flex>
           </Link>
         </VStack>
 
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Earnings
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Earnings (this year)
           </Text>
           <Link
             w="100%"
@@ -146,48 +160,84 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             }}
             href="./earnings"
           >
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src="./images/earnings.svg"
+                alt="Money Bag Emoji"
+                height="50px"
+                mr={4}
+                ml={4}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="left"
+                fontSize="2xl"
+                width="200px"
+              >
+                {Math.round(groupStateData.money / 1_000_000)} MNOK
+              </Text>
+            </Flex>
+          </Link>
+        </VStack>
+
+        <Spacer />
+        <VStack w={["100%", null, 370]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Environmental cost (this year)
+          </Text>
+          <Link
+            w="100%"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./environmentalCost"
+          >
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src="./images/environment.svg"
+                alt="Recycle Emoji"
+                height="50px"
+                mr={4}
+                ml={4}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="center"
+                fontSize="2xl"
+                width="200px"
+              >
+                {Math.round(groupStateData.environmentCost / 1_000_000)} MNOK
+              </Text>
+            </Flex>
+          </Link>
+        </VStack>
+        <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+          Weather
+        </Text>
+        <Box bg={bg} borderRadius="lg" w="100%" p={8} mb="4">
           <Flex
             bg={bg}
             borderRadius="lg"
             w="100%"
-            p={6}
             justifyContent="center"
             alignItems="center"
           >
             <Image
-              src="./images/earnings.svg"
-              alt="Money Bag Emoji"
-              height="50px"
-              mr={4}
-              ml={4}
-            />
-            <Text
-              fontWeight="medium"
-              textAlign="left"
-              fontSize="2xl"
-              width="200px"
-            >
-              {groupStateData.money} NOK
-            </Text>
-          </Flex>
-          </Link>
-        </VStack>
-        
-        <Spacer />
-        <VStack w={["100%", null, 360]} mb="4">
-          <Text fontWeight="medium" fontSize="xl">
-            Environment cost
-          </Text>
-          <Flex
-            bg={bg}
-            borderRadius="lg"
-            w="100%"
-            p={6}
-            justifyContent="center"
-            alignItems="left"
-          >
-            <Image
-              src="./images/environment.svg"
+              src="./images/sunny.svg"
               alt="Recycle Emoji"
               height="50px"
               mr={4}
@@ -197,17 +247,30 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               fontWeight="medium"
               textAlign="center"
               fontSize="2xl"
-              width="200px"
+              width="400px"
             >
-              {groupStateData.environmentCost} NOK
+              Currently 18 °C and clear skyes.
             </Text>
           </Flex>
-        </VStack>
-        <Box w="100%" mt="2">
+        </Box>
+        <Flex
+          w="100%"
+          mt="2"
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <Link
+            href="https://github.com/maattss/innafjord/issues"
+            style={{ textDecoration: "none" }}
+          >
+            <Button leftIcon={<ExternalLinkIcon />} variant={"outline"}>
+              Report issue
+            </Button>
+          </Link>
           <Text fontStyle="italic" textAlign="right" pr={2}>
             Updated at {new Date().toLocaleTimeString()}
           </Text>
-        </Box>
+        </Flex>
       </Flex>
     </>
   );
