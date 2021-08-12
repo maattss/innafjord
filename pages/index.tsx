@@ -83,7 +83,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               />
               <Text
                 fontWeight="medium"
-                textAlign="center"
+                textAlign="left"
                 fontSize="2xl"
                 width="200px"
               >
@@ -123,7 +123,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
               />
               <Text
                 fontWeight="medium"
-                textAlign="center"
+                textAlign="left"
                 fontSize="2xl"
                 width="200px"
               >
@@ -154,7 +154,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             />
             <Text
               fontWeight="medium"
-              textAlign="center"
+              textAlign="left"
               fontSize="2xl"
               width="200px"
             >
@@ -173,7 +173,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             w="100%"
             p={6}
             justifyContent="center"
-            alignItems="center"
+            alignItems="left"
           >
             <Image
               src="./images/environment.svg"
