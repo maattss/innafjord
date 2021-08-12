@@ -54,7 +54,7 @@ const Production: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
-  const cancelRef = React.useRef();
+  const cancelRef = React.useRef(null);
 
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
