@@ -72,7 +72,7 @@ const Production: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef(null);
-  const bprder = useColorModeValue("gray.100", "gray.700");
+  const border = useColorModeValue("gray.100", "gray.700");
 
   let mockData = dummyToday;
   if (filterGraph === "week") mockData = dummyWeek;
