@@ -75,7 +75,7 @@ const WaterLevel: React.FC = () => {
             <Tr>
               <Th textAlign="center">Date</Th>
               <Th textAlign="center">Time</Th>
-              <Th textAlign="center">Power Pricel</Th>
+              <Th textAlign="center">Power Price</Th>
             </Tr>
           </Thead>
           <Tbody>
