@@ -1,4 +1,6 @@
 import {
+  Box,
+  Button,
   Flex,
   Heading,
   Select,
@@ -13,6 +15,7 @@ import React, { useState } from "react";
 import Meta from "../components/Meta";
 import mockData from "../data/dummy.json";
 import { Line } from "react-chartjs-2";
+import { EmailIcon } from "@chakra-ui/icons";
 
 const data = {
   labels: ["1", "2", "3", "4", "5", "6", "7"],
@@ -64,26 +67,38 @@ const WaterLevel: React.FC = () => {
 
       <Line data={data} options={options} />
 
-      <Table variant="simple" mt="4" maxHeight="70%">
-        <Thead>
-          <Tr>
-            <Th textAlign="center">Date</Th>
-            <Th textAlign="center">Time</Th>
-            <Th textAlign="center">Water level</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
-          {mockData.map((item, key) => {
-            return (
-              <Tr key={key}>
-                <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
-                <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
-                <Td textAlign="center">{item.waterlevel}</Td>
-              </Tr>
-            );
-          })}
-        </Tbody>
-      </Table>
+      <Box maxH="500px" mt="4" w="100%" overflow="auto">
+        <Table maxH="500px">
+          <Thead>
+            <Tr>
+              <Th textAlign="center">Date</Th>
+              <Th textAlign="center">Time</Th>
+              <Th textAlign="center">Water level</Th>
+            </Tr>
+          </Thead>
+          <Tbody>
+            {mockData.map((item, key) => {
+              return (
+                <Tr key={key}>
+                  <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
+                  <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
+                  <Td textAlign="center">{item.waterlevel}</Td>
+                </Tr>
+              );
+            })}
+          </Tbody>
+        </Table>
+      </Box>
+      <Flex justifyContent="center" w="100%" mt="4">
+        <Button
+          leftIcon={<EmailIcon />}
+          colorScheme="teal"
+          variant="solid"
+          size="lg"
+        >
+          Generate report
+        </Button>
+      </Flex>
     </>
   );
 };

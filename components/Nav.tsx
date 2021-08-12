@@ -65,18 +65,19 @@ const Nav: React.FC = () => {
         <Box pb={4} display={{ md: "none" }}>
           <Stack as={"nav"} spacing={4}>
             {Links.map((link) => (
-              <Box
-                key={link.path}
-                p={2}
-                fontWeight="semibold"
-                _hover={{
-                  bg: linkColor,
-                  borderRadius: "md",
-                }}
-                onClick={isOpen ? onClose : onOpen}
-              >
-                <Link href={link.path}>{link.name}</Link>
-              </Box>
+              <Link href={link.path} key={link.path} passHref={true}>
+                <Box
+                  p={2}
+                  fontWeight="semibold"
+                  _hover={{
+                    bg: linkColor,
+                    borderRadius: "md",
+                  }}
+                  onClick={isOpen ? onClose : onOpen}
+                >
+                  {link.name}
+                </Box>
+              </Link>
             ))}
           </Stack>
         </Box>

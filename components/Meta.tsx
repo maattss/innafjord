@@ -37,7 +37,7 @@ const Meta = ({ title, keywords, description }: metaProps) => {
 };
 
 Meta.defaultProps = {
-  title: "Innafjord 2.0",
+  title: "Home",
   keywords: "Innafjord, turbines, water, hydropower",
   description: "Innafjord hydropower system",
 };
