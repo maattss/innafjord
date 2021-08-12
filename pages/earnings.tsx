@@ -16,23 +16,52 @@ import {
   import Meta from "../components/Meta";
   import { Line } from "react-chartjs-2";
   import { EmailIcon } from "@chakra-ui/icons";
-  import dummyToday from "../data/dummyToday.json";
-  import dummyWeek from "../data/dummyWeek.json";
-  import dummyMonth from "../data/dummyMonth.json";
+  import dummyToday from "../data/dag.json";
+  import dummyWeek from "../data/uke.json";
+  import dummyMonth from "../data/month.json";
   import dummyYear from "../data/dummyYear.json";
   
-  let dummydata = dummyToday;
+  
+  
+  
+  
+  const Earnings: React.FC = () => {
+    const [filterGraph, setFilterGraph] = useState<string>("today");
+    const bg = useColorModeValue("gray.100", "gray.700");
+
+let mockData = dummyToday;
   
   let time = []
+  let timeweek = []
+  let timemonth = [ ]
+  
   let data = []
+  let dataweek = []
+  let datamonth = []  
   
-  for (let i = 0; i< dummydata.length; i++){
-    time.push(dummydata[i].timestamp)
-    data.push(dummydata[i].money)
-  
+  for (let i = 0; i< mockData.length; i++){
+    let times = new Date(mockData[i].timestamp).toUTCString().slice(17,26)
+    time.push(times)
+    timeweek.push(new Date(dummyWeek[i].timestamp).toUTCString().slice(0,11))
+    timemonth.push(new Date(dummyMonth[i].timestamp).toUTCString().slice(0,11))
+    
+    data.push(mockData[i].money)
+    dataweek.push(dummyWeek[i].money)
+    datamonth.push(dummyMonth[i].money)
+    
+    mockData.sort(function(a,b){
+        return + new Date(a.timestamp)-+new Date(b.timestamp);
+      })
+      dummyWeek.sort(function(a,b){
+        return + new Date(a.timestamp)-+new Date(b.timestamp);
+      })
+    
+      dummyMonth.sort(function(a,b){
+        return + new Date(a.timestamp)-+new Date(b.timestamp);
+      })
     
   }
-  
+
   const graphExampleData = {
     labels: time,
     datasets: [
@@ -57,13 +86,27 @@ import {
       ],
     },
   };
-  
-  const Earnings: React.FC = () => {
-    const [filterGraph, setFilterGraph] = useState<string>("today");
-    const bg = useColorModeValue("gray.100", "gray.700");
-    let mockData = dummyToday;
-    if (filterGraph === "week") mockData = dummyWeek;
-    if (filterGraph === "month") mockData = dummyMonth;
+
+
+    
+    if (filterGraph === "week") {
+        mockData = dummyWeek;
+        for (let i = 0; i < graphExampleData.datasets.length; i++){
+            
+            graphExampleData.datasets[i].data = dataweek
+            graphExampleData.labels = timeweek
+
+        }
+    }
+    if (filterGraph === "month"){ 
+        mockData = dummyMonth;
+        for (let i = 0; i < graphExampleData.datasets.length; i++){
+            
+            graphExampleData.datasets[i].data = datamonth
+            graphExampleData.labels = timemonth
+
+        }
+    }
     if (filterGraph === "year") mockData = dummyYear;
     return (
       <>
@@ -77,19 +120,19 @@ import {
             <option value="today">Today</option>
             <option value="week">Last week</option>
             <option value="month">Last month</option>
-            <option value="year">Last year</option>
+            
           </Select>
         </Flex>
   
         <Line data={graphExampleData} options={options} />
   
-        <Box maxH="500px" mt="4" w="100%" overflow="auto"  borderRadius="lg" bg={bg}>
+        <Box maxH="500px" mt="4" w="100%" overflow="auto" padding="35px" borderRadius="lg" bg={bg}>
           <Table maxH="500px">
             <Thead>
               <Tr>
                 <Th textAlign="center">Date</Th>
                 <Th textAlign="center">Time</Th>
-                <Th textAlign="center">Power Price</Th>
+                <Th textAlign="center">Earnings</Th>
               </Tr>
             </Thead>
             <Tbody>
@@ -98,7 +141,7 @@ import {
                   <Tr key={key}>
                     <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
                     <Td textAlign="center">{item.timestamp.slice(11, 19)}</Td>
-                    <Td textAlign="center">{item.powerPrice || 0}</Td>
+                    <Td textAlign="center">{item.money || 0}</Td>
                   </Tr>
                 );
               })}
