@@ -64,10 +64,11 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
         />
         <Box bg={bgColor} px={4} py={2} borderRadius="lg" width="140px">
           <Text fontWeight="medium" fontSize="lg" textAlign="center">
-            {capacityUsage * 100 + "%"} <br />
-            {capacityUsage * 19.25} kWh/s
+            {capacityUsage * 100 + "%"}
             <br />
-            {capacityUsage * 17.5} m<sup>3</sup>/s
+            {Math.round(capacityUsage * 1925) / 100} kWh/s
+            <br />
+            {Math.round(capacityUsage * 1750) / 100} m<sup>3</sup>/s
           </Text>
         </Box>
       </Flex>
@@ -96,7 +97,16 @@ export const getServerSideProps: GetServerSideProps = async () => {
     method: "GET",
     headers: groupHeaders,
     redirect: "follow",
+  }).catch((error) => {
+    console.error(error);
   });
+
+  if (!turbinesRes) {
+    return {
+      notFound: true,
+    };
+  }
+
   const turbinesData = await turbinesRes.json();
 
   if (!turbinesData) {
