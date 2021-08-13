@@ -66,7 +66,6 @@ const Home: React.FC<Props> = ({
       totalProduction += t.capacityUsage * 19.25;
     }
   });
-  console.log("Turbine data", turbinesData);
 
   return (
     <>

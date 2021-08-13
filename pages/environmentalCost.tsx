@@ -22,9 +22,9 @@ import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
 import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
-import dummyToday from "../data/dag.json";
-import dummyWeek from "../data/uke.json";
-import dummyMonth from "../data/month.json";
+import dummyToday from "../data/dummyToday.json";
+import dummyWeek from "../data/dummyWeek.json";
+import dummyMonth from "../data/dummyMonth.json";
 
 const EnvironmentCost: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
