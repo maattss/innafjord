@@ -373,8 +373,9 @@ export const getServerSideProps: GetServerSideProps = async () => {
     };
 
   const apiUrl = process.env.API_URL;
-  const powerPriceRes = await fetch(apiUrl + "PowerPrice");
-  const powerPriceData = await powerPriceRes.json();
+  const powerPriceRes = await fetch(apiUrl + "PowerPrice").catch((error) => {
+    console.error(error);
+  });
 
   // eslint-disable-next-line no-undef
   const groupHeaders: HeadersInit = new Headers();
@@ -385,15 +386,27 @@ export const getServerSideProps: GetServerSideProps = async () => {
     method: "GET",
     headers: groupHeaders,
     redirect: "follow",
+  }).catch((error) => {
+    console.error(error);
   });
-  const groupStateData = await groupStateRes.json();
 
   const turbinesRes = await fetch(apiUrl + "Turbines", {
     method: "GET",
     headers: groupHeaders,
     redirect: "follow",
+  }).catch((error) => {
+    console.error(error);
   });
+
+  if (!powerPriceRes || !groupStateRes || !turbinesRes) {
+    return {
+      notFound: true,
+    };
+  }
+
+  const groupStateData = await groupStateRes.json();
   const turbinesData = await turbinesRes.json();
+  const powerPriceData = await powerPriceRes.json();
 
   if (!powerPriceData || !groupStateData || !turbinesData) {
     return {
