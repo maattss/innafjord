@@ -15,10 +15,12 @@ import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { TurbineData } from "./turbines";
 
 type Props = {
   powerPriceData: string;
   groupStateData: GroupStateData;
+  turbinesData: [TurbineData];
 };
 
 type GroupStateData = {
@@ -28,7 +30,11 @@ type GroupStateData = {
   environmentCost: number;
 };
 
-const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
+const Home: React.FC<Props> = ({
+  powerPriceData,
+  groupStateData,
+  turbinesData,
+}) => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
   let status: Status = "success";
@@ -51,6 +57,17 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
     statusText = "Warning! Water level too high.";
   }
 
+  // Count number of active turbines and calculate current production
+  let turbineCount = 0;
+  let totalProduction = 0;
+  turbinesData.forEach((t) => {
+    if (t.capacityUsage > 0) {
+      turbineCount++;
+      totalProduction += t.capacityUsage * 19.25;
+    }
+  });
+  console.log("Turbine data", turbinesData);
+
   return (
     <>
       <Meta title="Dashboard" />
@@ -59,7 +76,6 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         w="100%"
         textAlign="center"
         justifyContent="center"
-        mb="5"
       >
         Dashboard
       </Heading>
@@ -92,8 +108,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 src="./images/water.svg"
                 alt="Water Emoji"
                 height="50px"
-                mr={4}
-                ml={4}
+                mr={6}
               />
               <Text
                 fontWeight="medium"
@@ -106,7 +121,6 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
             </Flex>
           </Link>
         </VStack>
-
         <Spacer />
         <VStack w={["100%", null, "48%"]} mb="4">
           <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
@@ -132,8 +146,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 src="./images/power.svg"
                 alt="High Voltage Emoji"
                 height="50px"
-                mr={4}
-                ml={4}
+                mr={6}
               />
               <Text
                 fontWeight="medium"
@@ -142,6 +155,82 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 width="200px"
               >
                 {Math.round(+powerPriceData)} NOK/MWh
+              </Text>
+            </Flex>
+          </Link>
+        </VStack>
+
+        <VStack w={["100%", null, "48%"]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Turbine status
+          </Text>
+          <Link
+            w="100%"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./turbines"
+          >
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src="./images/turbine.svg"
+                alt="Trubine Icon"
+                height="50px"
+                mr={6}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="left"
+                fontSize="2xl"
+                width="200px"
+              >
+                {turbineCount}/14 running
+              </Text>
+            </Flex>
+          </Link>
+        </VStack>
+        <Spacer />
+        <VStack w={["100%", null, "48%"]} mb="4">
+          <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
+            Production
+          </Text>
+          <Link
+            w="100%"
+            borderRadius="lg"
+            bg={bg}
+            _hover={{
+              background: bgHover,
+            }}
+            href="./production"
+          >
+            <Flex
+              borderRadius="lg"
+              w="100%"
+              p={6}
+              justifyContent="center"
+              alignItems="center"
+            >
+              <Image
+                src="./images/production.svg"
+                alt="Factory Emoji"
+                height="50px"
+                mr={6}
+              />
+              <Text
+                fontWeight="medium"
+                textAlign="left"
+                fontSize="2xl"
+                width="200px"
+              >
+                {totalProduction} kWh/s
               </Text>
             </Flex>
           </Link>
@@ -171,8 +260,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 src="./images/earnings.svg"
                 alt="Money Bag Emoji"
                 height="50px"
-                mr={4}
-                ml={4}
+                mr={6}
               />
               <Text
                 fontWeight="medium"
@@ -211,8 +299,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
                 src="./images/environment.svg"
                 alt="Recycle Emoji"
                 height="50px"
-                mr={4}
-                ml={4}
+                mr={6}
               />
               <Text
                 fontWeight="medium"
@@ -228,7 +315,7 @@ const Home: React.FC<Props> = ({ powerPriceData, groupStateData }) => {
         <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
           Weather
         </Text>
-        <Box bg={bg} borderRadius="lg" w="100%" p={8} mb="4">
+        <Box bg={bg} borderRadius="lg" w="100%" p={6} mb="2">
           <Flex
             bg={bg}
             borderRadius="lg"
@@ -302,7 +389,14 @@ export const getServerSideProps: GetServerSideProps = async () => {
   });
   const groupStateData = await groupStateRes.json();
 
-  if (!powerPriceData) {
+  const turbinesRes = await fetch(apiUrl + "Turbines", {
+    method: "GET",
+    headers: groupHeaders,
+    redirect: "follow",
+  });
+  const turbinesData = await turbinesRes.json();
+
+  if (!powerPriceData || !groupStateData || !turbinesData) {
     return {
       notFound: true,
     };
@@ -312,6 +406,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
     props: {
       powerPriceData,
       groupStateData,
+      turbinesData,
     },
   };
 };

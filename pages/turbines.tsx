@@ -10,7 +10,7 @@ import { GetServerSideProps } from "next";
 import React from "react";
 import Meta from "../components/Meta";
 
-type TurbineData = {
+export type TurbineData = {
   id: string;
   capacityUsage: number;
 };
