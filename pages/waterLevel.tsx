@@ -115,7 +115,12 @@ const WaterLevel: React.FC = () => {
   return (
     <>
       <Meta title="Water Level" />
-      <Flex justifyContent="space-between" alignItems="center" mb="2">
+      <Flex
+        justifyContent="space-between"
+        alignItems="center"
+        mb="2"
+        wrap="wrap"
+      >
         <Heading>Water level</Heading>
         <Flex>
           <Button
@@ -128,7 +133,7 @@ const WaterLevel: React.FC = () => {
             Generate report
           </Button>
           <Select
-            width="200px"
+            width="160px"
             onChange={(event) => setFilterGraph(event.target.value)}
           >
             <option value="today">Last 24 hours</option>

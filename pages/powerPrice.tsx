@@ -114,7 +114,12 @@ const PowerPrice: React.FC = () => {
   return (
     <>
       <Meta title="Power Price" />
-      <Flex justifyContent="space-between" alignItems="center" mb="2">
+      <Flex
+        justifyContent="space-between"
+        alignItems="center"
+        mb="2"
+        wrap="wrap"
+      >
         <Heading>Power Price</Heading>
         <Flex>
           <Button
@@ -127,7 +132,7 @@ const PowerPrice: React.FC = () => {
             Generate report
           </Button>
           <Select
-            width="200px"
+            width="160px"
             onChange={(event) => setFilterGraph(event.target.value)}
           >
             <option value="today">Last 24 hours</option>

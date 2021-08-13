@@ -1,9 +1,16 @@
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Heading,
+  Image,
+  Text,
+  useColorModeValue,
+} from "@chakra-ui/react";
 import { GetServerSideProps } from "next";
 import React from "react";
 import Meta from "../components/Meta";
 
-type TurbineData = {
+export type TurbineData = {
   id: string;
   capacityUsage: number;
 };
@@ -40,7 +47,9 @@ const Turbines: React.FC<Props> = ({ turbinesData }) => {
 };
 
 const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
-  const bgColor = capacityUsage === 0 ? "red.500" : "green.500";
+  let bgGreen = useColorModeValue("green.300", "green.500");
+  let bgRed = useColorModeValue("red.300", "red.500");
+  const bgColor = capacityUsage === 0 ? bgRed : bgGreen;
   return (
     <Box p={3} borderRadius="lg">
       <Flex alignItems="center" flexDirection="column">

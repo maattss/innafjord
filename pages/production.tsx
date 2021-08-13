@@ -127,7 +127,12 @@ const Production: React.FC = () => {
   return (
     <>
       <Meta title="Production" />
-      <Flex justifyContent="space-between" alignItems="center" mb="2">
+      <Flex
+        justifyContent="space-between"
+        alignItems="center"
+        mb="2"
+        wrap="wrap"
+      >
         <Heading>Production</Heading>
         <Flex>
           <Button
@@ -140,8 +145,9 @@ const Production: React.FC = () => {
             Generate report
           </Button>
           <Select
-            width="200px"
+            width="160px"
             onChange={(event) => setFilterGraph(event.target.value)}
+            mr={2}
           >
             <option value="today">Last 24 hours</option>
             <option value="week">Last week</option>
