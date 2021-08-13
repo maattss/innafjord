@@ -229,7 +229,7 @@ const Home: React.FC<Props> = ({
                 fontSize="2xl"
                 width="200px"
               >
-                {totalProduction} kWh/s
+                {Math.round(+totalProduction)} kWh/s
               </Text>
             </Flex>
           </Link>
