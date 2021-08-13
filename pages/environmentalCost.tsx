@@ -20,7 +20,7 @@ import {
 } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Meta from "../components/Meta";
-import { Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
@@ -143,7 +143,7 @@ const EnvironmentCost: React.FC = () => {
         </Flex>
       </Flex>
 
-      <Line data={graphExampleData} options={options} />
+      <Bar data={graphExampleData} options={options} />
 
       <Box
         maxH="330px"
