@@ -22,9 +22,9 @@ import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
 import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
-import dummyToday from "../data/dag.json";
-import dummyWeek from "../data/uke.json";
-import dummyMonth from "../data/month.json";
+import dummyToday from "../data/dummyToday.json";
+import dummyWeek from "../data/dummyWeek.json";
+import dummyMonth from "../data/dummyMonth.json";
 
 const EnvironmentCost: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
@@ -34,8 +34,6 @@ const EnvironmentCost: React.FC = () => {
   const border = useColorModeValue("gray.100", "gray.700");
 
   let mockData = dummyToday;
-  if (filterGraph === "week") mockData = dummyWeek;
-  if (filterGraph === "month") mockData = dummyMonth;
 
   let time = [];
   let timeweek = [];
@@ -123,7 +121,7 @@ const EnvironmentCost: React.FC = () => {
         mb="2"
         wrap="wrap"
       >
-        <Heading>Environment Cost</Heading>
+        <Heading>Environmental Cost</Heading>
         <Flex>
           <Button
             leftIcon={<DownloadIcon />}

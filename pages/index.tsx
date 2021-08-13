@@ -46,11 +46,11 @@ const Home: React.FC<Props> = ({
   }
   if (groupStateData.waterLevel > 25 && groupStateData.waterLevel <= 30) {
     status = "warning";
-    statusText = "Please check the water level.";
+    statusText = "Water level low.";
   }
   if (groupStateData.waterLevel > 30 && groupStateData.waterLevel <= 35) {
     status = "warning";
-    statusText = "Please check the water level.";
+    statusText = "Water level high.";
   }
   if (groupStateData.waterLevel > 40) {
     status = "error";
@@ -66,7 +66,6 @@ const Home: React.FC<Props> = ({
       totalProduction += t.capacityUsage * 19.25;
     }
   });
-  console.log("Turbine data", turbinesData);
 
   return (
     <>
