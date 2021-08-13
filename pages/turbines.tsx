@@ -51,14 +51,16 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
   let bgRed = useColorModeValue("red.300", "red.500");
   const bgColor = capacityUsage === 0 ? bgRed : bgGreen;
   return (
-    <Box p={3} borderRadius="lg">
+    <Box p={2} borderRadius="lg">
       <Flex alignItems="center" flexDirection="column">
-        <Text mb="2">Turbine {id}</Text>
+        <Text mb="2" fontWeight="medium">
+          Turbine {id}
+        </Text>
         <Image
           src={"/images/turbine.svg"}
           alt={"Turbine icon"}
-          maxWidth="60px"
-          mb="2"
+          maxWidth="80px"
+          mb={3}
         />
         <Box bg={bgColor} px={4} py={2} borderRadius="lg" width="140px">
           <Text fontWeight="medium" fontSize="lg" textAlign="center">

@@ -34,8 +34,6 @@ const EnvironmentCost: React.FC = () => {
   const border = useColorModeValue("gray.100", "gray.700");
 
   let mockData = dummyToday;
-  if (filterGraph === "week") mockData = dummyWeek;
-  if (filterGraph === "month") mockData = dummyMonth;
 
   let time = [];
   let timeweek = [];
