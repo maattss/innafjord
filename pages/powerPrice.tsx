@@ -187,7 +187,7 @@ const PowerPrice: React.FC = () => {
             </AlertDialogHeader>
             <AlertDialogFooter>
               <Text fontSize="lg" mr={4} fontWeight="medium">
-                Download{" "}
+                Download as{" "}
               </Text>
               <Button ref={cancelRef} onClick={onClose} mr={2}>
                 . CSV

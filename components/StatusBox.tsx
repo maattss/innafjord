@@ -10,16 +10,12 @@ type StatusBoxProps = {
 
 export const StatusBox: React.FC<StatusBoxProps> = ({ status, message }) => {
   let bg = useColorModeValue("green.300", "green.500");
-  let text = "Relax, everything is fine";
-  if (status === "error") {
-    bg = "red.500";
+  let bgRed = useColorModeValue("red.300", "red.500");
+  let bgYellow = useColorModeValue("yellow.300", "yellow.500");
 
-    text = "Uh no, something is wrong!";
-  }
-  if (status === "warning") {
-    bg = "yellow.500";
-    text = "One of the turbines need some looking after";
-  }
+  let text = "";
+  if (status === "error") bg = bgRed;
+  if (status === "warning") bg = bgYellow;
   if (message && message !== "") text = message;
 
   return (
