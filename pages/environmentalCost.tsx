@@ -121,7 +121,7 @@ const EnvironmentCost: React.FC = () => {
         mb="2"
         wrap="wrap"
       >
-        <Heading>Environment Cost</Heading>
+        <Heading>Environmental Cost</Heading>
         <Flex>
           <Button
             leftIcon={<DownloadIcon />}
