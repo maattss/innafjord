@@ -26,116 +26,104 @@ import dummyToday from "../data/dag.json";
 import dummyWeek from "../data/uke.json";
 import dummyMonth from "../data/month.json";
 
-           
-
 const Production: React.FC = () => {
-
   const [filterGraph, setFilterGraph] = useState<string>("today");
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
   const cancelRef = React.useRef(null);
   const border = useColorModeValue("gray.100", "gray.700");
-  
+  let mockData = dummyToday;
+  let time = [];
+  let timeweek = [];
+  let timemonth = [];
 
-let mockData = dummyToday;
+  let data = [];
+  let dataweek = [];
+  let datamonth = [];
 
+  for (let i = 0; i < mockData.length; i++) {
+    let times = new Date(mockData[i].timestamp).toUTCString().slice(17, 26);
+    time.push(times);
+    timeweek.push(new Date(dummyWeek[i].timestamp).toUTCString().slice(0, 11));
+    timemonth.push(
+      new Date(dummyMonth[i].timestamp).toUTCString().slice(0, 11)
+    );
 
-let time = []
-let timeweek = []
-let timemonth = [ ]
+    mockData.sort(function (a, b) {
+      return +new Date(a.timestamp) - +new Date(b.timestamp);
+    });
 
-let data = []
-let dataweek = []
-let datamonth = [] 
+    dummyWeek.sort(function (a, b) {
+      return +new Date(a.timestamp) - +new Date(b.timestamp);
+    });
 
+    dummyMonth.sort(function (a, b) {
+      return +new Date(a.timestamp) - +new Date(b.timestamp);
+    });
 
+    let totalproduction = 0;
+    let totalprodweek = 0;
+    let totalprodmonth = 0;
 
-for (let i = 0; i< mockData.length; i++){
-
-  let times = new Date(mockData[i].timestamp).toUTCString().slice(17,26)
-  time.push(times)
-  timeweek.push(new Date(dummyWeek[i].timestamp).toUTCString().slice(0,11))
-  timemonth.push(new Date(dummyMonth[i].timestamp).toUTCString().slice(0,11))
-  
-
-
-  mockData.sort(function(a,b){
-    return + new Date(a.timestamp)-+new Date(b.timestamp);
-  })
-
-  dummyWeek.sort(function(a,b){
-    return + new Date(a.timestamp)-+new Date(b.timestamp);
-  })
-
-  dummyMonth.sort(function(a,b){
-    return + new Date(a.timestamp)-+new Date(b.timestamp);
-  })
-
-  let totalproduction = 0
-  let totalprodweek = 0
-  let totalprodmonth = 0
-
-  //Pluss sammen produksjon i hver turbin. i er en dag. Hver dag har mange turbiner
-  for(let j = 0; j < mockData[i].turbiner.length; j++){
-    totalproduction+= mockData[i].turbiner[j].production
-    totalprodweek +=dummyWeek[i].turbiner[j].production
-    totalprodmonth +=dummyMonth[i].turbiner[j].production
+    //Pluss sammen produksjon i hver turbin. i er en dag. Hver dag har mange turbiner
+    for (let j = 0; j < mockData[i].turbiner.length; j++) {
+      totalproduction += mockData[i].turbiner[j].production;
+      totalprodweek += dummyWeek[i].turbiner[j].production;
+      totalprodmonth += dummyMonth[i].turbiner[j].production;
+    }
+    data.push(totalproduction);
+    dataweek.push(totalprodweek);
+    datamonth.push(totalprodmonth);
   }
-  data.push(totalproduction)
-  dataweek.push(totalprodweek)
-  datamonth.push(totalprodmonth)
-}
 
-console.log(data)
-console.log(time)
+  console.log(data);
+  console.log(time);
 
-
-
-const graphExampleData = {
-  labels: time,
-  datasets: [
-    {
-      label: "Production",
-      data: data,
-      fill: false,
-      backgroundColor: "rgb(255, 99, 132)",
-      borderColor: "rgba(255, 99, 132, 0.2)",
-    },
-  ],
-};
-
-const options = {
-  scales: {
-    yAxes: [
+  const graphExampleData = {
+    labels: time,
+    datasets: [
       {
-        ticks: {
-          beginAtZero: false,
-        },
+        label: "Production",
+        data: data,
+        fill: false,
+        backgroundColor: "rgb(255, 99, 132)",
+        borderColor: "rgba(255, 99, 132, 0.2)",
       },
     ],
-  },
-};
+  };
 
+  const options = {
+    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: false,
+          },
+        },
+      ],
+    },
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  };
 
   if (filterGraph === "week") {
-      mockData = dummyWeek;
-      for (let i = 0; i < graphExampleData.datasets.length; i++){
-          
-          graphExampleData.datasets[i].data = dataweek
-          graphExampleData.labels = timeweek
-
-      }
+    mockData = dummyWeek;
+    for (let i = 0; i < graphExampleData.datasets.length; i++) {
+      graphExampleData.datasets[i].data = dataweek;
+      graphExampleData.labels = timeweek;
+    }
   }
-  if (filterGraph === "month"){ 
-      mockData = dummyMonth;
-      for (let i = 0; i < graphExampleData.datasets.length; i++){
-          
-          graphExampleData.datasets[i].data = datamonth
-          graphExampleData.labels = timemonth
-
-      }
+  if (filterGraph === "month") {
+    mockData = dummyMonth;
+    for (let i = 0; i < graphExampleData.datasets.length; i++) {
+      graphExampleData.datasets[i].data = datamonth;
+      graphExampleData.labels = timemonth;
+    }
   }
-  
+
   return (
     <>
       <Meta title="Production" />
