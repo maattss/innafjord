@@ -76,9 +76,6 @@ const Production: React.FC = () => {
     datamonth.push(totalprodmonth);
   }
 
-  console.log(data);
-  console.log(time);
-
   const graphExampleData = {
     labels: time,
     datasets: [
@@ -172,7 +169,7 @@ const Production: React.FC = () => {
             <Tr>
               <Th textAlign="center">Date</Th>
               <Th textAlign="center">Time</Th>
-              <Th textAlign="center">Production (MW)</Th>
+              <Th textAlign="center">Production (kWh/s)</Th>
             </Tr>
           </Thead>
           <Tbody>
