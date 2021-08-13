@@ -117,7 +117,12 @@ const EnvironmentCost: React.FC = () => {
   return (
     <>
       <Meta title="Environmental Cost" />
-      <Flex justifyContent="space-between" alignItems="center" mb="2">
+      <Flex
+        justifyContent="space-between"
+        alignItems="center"
+        mb="2"
+        wrap="wrap"
+      >
         <Heading>Environment Cost</Heading>
         <Flex>
           <Button
@@ -130,7 +135,7 @@ const EnvironmentCost: React.FC = () => {
             Generate report
           </Button>
           <Select
-            width="200px"
+            width="160px"
             onChange={(event) => setFilterGraph(event.target.value)}
           >
             <option value="today">Last 24 hours</option>
