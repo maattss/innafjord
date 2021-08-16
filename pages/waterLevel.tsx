@@ -29,7 +29,7 @@ import {
 import { getSortedDayWaterLevel } from "../helpers/getDayData";
 import { getSortedWeekWaterLevel } from "../helpers/getWeekData";
 import { getSortedMonthWaterLevel } from "../helpers/getMonthData";
-import { graphOptions } from "../helpers/graphConfig";
+import { graphOptions, getGraphDataSet } from "../helpers/graphConfig";
 
 const WaterLevel: React.FC = () => {
   const [tableData, setTableData] = useState<mockData[]>(getSortedDayData());
@@ -60,11 +60,6 @@ const WaterLevel: React.FC = () => {
       setGraphLabels(getSortedMonthLabels());
       setTableData(getSortedMonthData());
     }
-  };
-
-  const chartJSData = {
-    labels: graphLabels,
-    datasets: [{ data: graphData }],
   };
 
   return (
@@ -98,7 +93,10 @@ const WaterLevel: React.FC = () => {
         </Flex>
       </Flex>
 
-      <Line data={chartJSData} options={graphOptions} />
+      <Line
+        data={getGraphDataSet(graphData, graphLabels)}
+        options={graphOptions}
+      />
 
       <Box
         maxH="330px"
