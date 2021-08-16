@@ -29,7 +29,7 @@ import {
 import { getSortedDayWaterLevel } from "../helpers/getDayData";
 import { getSortedWeekWaterLevel } from "../helpers/getWeekData";
 import { getSortedMonthWaterLevel } from "../helpers/getMonthData";
-import { graphOptions, getGraphDataSet } from "../helpers/graphConfig";
+import { graphOptions, getGraphDataset } from "../helpers/graphConfig";
 
 const WaterLevel: React.FC = () => {
   const [tableData, setTableData] = useState<mockData[]>(getSortedDayData());
@@ -94,7 +94,7 @@ const WaterLevel: React.FC = () => {
       </Flex>
 
       <Line
-        data={getGraphDataSet(graphData, graphLabels)}
+        data={getGraphDataset(graphData, graphLabels)}
         options={graphOptions}
       />
 
