@@ -1,0 +1,1898 @@
+[
+  {
+    "money": 1474912,
+    "waterlevel": 33,
+    "environmentCost": 18,
+    "powerPrice": 425,
+    "timestamp": "2021-08-11T00:09:50.616Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.3722132859111098,
+        "production": 4.990876027572234
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.301035959144172,
+        "production": 7.715963425592818
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.2956035975342308,
+        "production": 0.3349656639191866
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.08077101142441134,
+        "production": 17.99818406729762
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.56151751099598,
+        "production": 10.77464794415748
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.6139803594780284,
+        "production": 3.0012124250083683
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.22029626850731643,
+        "production": 6.641560830753422
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.01834766179613956,
+        "production": 13.234168267380722
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.200349032235283,
+        "production": 11.852186203341764
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.49953136702976897,
+        "production": 8.998244128412757
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.6035929177385146,
+        "production": 10.83142153893867
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.920654419519906,
+        "production": 14.940998535491076
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.5285944576193573,
+        "production": 0.717085852774603
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.5917176079890047,
+        "production": 12.353065394023615
+      }
+    ]
+  },
+  {
+    "money": 312725,
+    "waterlevel": 32,
+    "environmentCost": 69,
+    "powerPrice": 639,
+    "timestamp": "2021-08-11T18:46:00.561Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.7949810137022055,
+        "production": 14.50504226504014
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.12215791112414598,
+        "production": 9.003241090134605
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.7756097876012795,
+        "production": 9.947730321514962
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.8508469914937953,
+        "production": 18.406280611130924
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.3955932588665785,
+        "production": 14.313732686975712
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.4301278482655595,
+        "production": 5.191394459238069
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.6156247428948785,
+        "production": 12.997246708608337
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.3264340503150447,
+        "production": 2.753900979014551
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.8509592890407438,
+        "production": 11.736854793618983
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.852206607840398,
+        "production": 8.125373917810503
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.4481631349478592,
+        "production": 13.796581291292188
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.6534383422224872,
+        "production": 10.184896965915737
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.159444364273841,
+        "production": 15.764105165212955
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.06656384396749226,
+        "production": 5.652514952646451
+      }
+    ]
+  },
+  {
+    "money": 50232,
+    "waterlevel": 43,
+    "environmentCost": 53,
+    "powerPrice": 634,
+    "timestamp": "2021-08-10T03:52:36.642Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.31918886117948175,
+        "production": 13.204200303311987
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.5899850479956097,
+        "production": 4.8935910925347885
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.3620114042891005,
+        "production": 9.531309629507959
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.2648756363116944,
+        "production": 15.337147311058956
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.0038140379899382904,
+        "production": 14.410776073301571
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.2258214403093366,
+        "production": 3.3009126986848356
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.7762594031305066,
+        "production": 18.228902847054666
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.04007341142193277,
+        "production": 18.79201946437453
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.03702400564988717,
+        "production": 12.313641503491429
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.9933057174246458,
+        "production": 7.651157328192481
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.5973381033325758,
+        "production": 7.586410436420607
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.26249307621223994,
+        "production": 6.661441192756455
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.5488832930551546,
+        "production": 10.286439196360968
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.2533355683143015,
+        "production": 14.314782110076795
+      }
+    ]
+  },
+  {
+    "money": 1428646,
+    "waterlevel": 36,
+    "environmentCost": 37,
+    "powerPrice": 433,
+    "timestamp": "2021-08-12T06:53:32.856Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.9708248020840018,
+        "production": 9.392230459073708
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.10181491787496544,
+        "production": 7.03182020851052
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.8038777629013869,
+        "production": 11.605004406906577
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.09408952807624194,
+        "production": 16.74223907558973
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.21583444728255152,
+        "production": 6.124241371745721
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.6436588230946134,
+        "production": 11.253729005407518
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.8815076428642636,
+        "production": 7.969447012632818
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.024723232212564783,
+        "production": 16.889922705719655
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.20388521699347728,
+        "production": 14.550617571925534
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.9177392927453172,
+        "production": 4.043749210508331
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.1552467513210467,
+        "production": 5.887120487911966
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.8195415566809927,
+        "production": 6.59350486900682
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.9347242945925962,
+        "production": 11.23343653078596
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.44932517918220816,
+        "production": 1.4855403735949975
+      }
+    ]
+  },
+  {
+    "money": 113444,
+    "waterlevel": 41,
+    "environmentCost": 33,
+    "powerPrice": 642,
+    "timestamp": "2021-08-14T06:13:43.990Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.29276037492927065,
+        "production": 16.180404164174117
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.8485010172317329,
+        "production": 11.141540593834636
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.3627844599171921,
+        "production": 15.849486657172196
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.7088487451405292,
+        "production": 4.730196004156064
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.07520204306926415,
+        "production": 10.342720209831716
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.5544126140956089,
+        "production": 3.83139183497628
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.9142044792219635,
+        "production": 16.08886385693168
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.8580908877757527,
+        "production": 17.785187686931298
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.881825721731065,
+        "production": 3.813690086524811
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.28179538455532227,
+        "production": 14.833532772696936
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.16891323267335534,
+        "production": 16.539589628663993
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.9172880330870494,
+        "production": 2.129857733436861
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.6434852549994647,
+        "production": 14.921383406126537
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.4567625735215719,
+        "production": 13.364069060495524
+      }
+    ]
+  },
+  {
+    "money": 191899,
+    "waterlevel": 32,
+    "environmentCost": 89,
+    "powerPrice": 443,
+    "timestamp": "2021-08-09T04:55:21.636Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.6652076237977136,
+        "production": 18.730611694342855
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.5503349261239836,
+        "production": 10.013001391217697
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.5976344819437445,
+        "production": 18.313427098778664
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.7913729639189191,
+        "production": 4.739369921675314
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.7478328561905492,
+        "production": 5.807858396954113
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.6480784590615143,
+        "production": 1.942837184171737
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.31532536330698036,
+        "production": 5.228671511688378
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.4894184370440544,
+        "production": 10.793326176637324
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.4302099497948577,
+        "production": 17.26907830556414
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.8235043687432657,
+        "production": 16.20957338422988
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.5944247949150978,
+        "production": 12.966668760715342
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.41500572624939247,
+        "production": 18.92019785379411
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.13277917318143584,
+        "production": 5.809927572021374
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.37422349307185354,
+        "production": 12.691138117319758
+      }
+    ]
+  },
+  {
+    "money": 497419,
+    "waterlevel": 29,
+    "environmentCost": 67,
+    "powerPrice": 551,
+    "timestamp": "2021-08-10T18:34:55.118Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.15067646913917443,
+        "production": 9.445048114196366
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.5420030098312527,
+        "production": 18.598821860048538
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.6097007784873243,
+        "production": 10.975786729584192
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.9212143403537192,
+        "production": 18.824616039163622
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.14016008290056736,
+        "production": 14.227331900425469
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.7032093268273161,
+        "production": 10.471276433249445
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.66671325091611,
+        "production": 18.189252942807602
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.1377650350948154,
+        "production": 13.59117522770182
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.2498435192542201,
+        "production": 14.486241616903841
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.5270700482712862,
+        "production": 14.469128923188155
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.3323764059615273,
+        "production": 8.039999248879308
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.6786349092965533,
+        "production": 15.616832006709618
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.09929393840606604,
+        "production": 14.442327259545973
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.6491646747183875,
+        "production": 11.333680940858493
+      }
+    ]
+  },
+  {
+    "money": 600889,
+    "waterlevel": 36,
+    "environmentCost": 16,
+    "powerPrice": 441,
+    "timestamp": "2021-08-10T12:27:48.610Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.4027087050301781,
+        "production": 11.914590345157261
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.33616514594959157,
+        "production": 18.586084349170125
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.8266203616019663,
+        "production": 17.012356490660817
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.7399246206245722,
+        "production": 4.914537735331743
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.8513318504574994,
+        "production": 8.393343875300072
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.7213935828607085,
+        "production": 0.026148693785576715
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.05243959950846944,
+        "production": 10.877516442042817
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.3978208462203119,
+        "production": 9.35003424349207
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.6133021672526864,
+        "production": 16.43309768478662
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.37757613218120634,
+        "production": 0.10165761673083828
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.4069853707536184,
+        "production": 15.410435378473853
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.8757923292917935,
+        "production": 14.174414154882005
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.15832724581165447,
+        "production": 16.065529498488406
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.7778828842992798,
+        "production": 14.672297915238149
+      }
+    ]
+  },
+  {
+    "money": 1148102,
+    "waterlevel": 39,
+    "environmentCost": 19,
+    "powerPrice": 452,
+    "timestamp": "2021-08-14T19:40:58.766Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.7288086130823974,
+        "production": 0.6003509244629575
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.7795986636293619,
+        "production": 10.49864336260651
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.4786107115660674,
+        "production": 13.393304984558304
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.9752987380353211,
+        "production": 12.747387629730419
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.2726226553253901,
+        "production": 19.0567971660147
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.22592359995953082,
+        "production": 13.739417919830453
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.45674371517312906,
+        "production": 11.55732052399239
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.284216897074796,
+        "production": 11.349911652464222
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.24907279569011243,
+        "production": 7.831372847354933
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.4148248740194549,
+        "production": 4.77727340049702
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.7626789292872307,
+        "production": 1.3639417678250982
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.36683127776873725,
+        "production": 14.251750970787116
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.22425599781269745,
+        "production": 17.81059637093766
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.8678198035246265,
+        "production": 18.44869538948343
+      }
+    ]
+  },
+  {
+    "money": 790027,
+    "waterlevel": 39,
+    "environmentCost": 30,
+    "powerPrice": 437,
+    "timestamp": "2021-08-13T15:53:44.773Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.029318998785146766,
+        "production": 11.33108222384754
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.7775045208176525,
+        "production": 3.5674769267472435
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.2622840316120254,
+        "production": 8.253629499638837
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.9143662140777928,
+        "production": 12.514505248529625
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.4252620405950913,
+        "production": 5.127388323168558
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.4167696771802727,
+        "production": 18.810995497664198
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.022094301867688015,
+        "production": 19.130632611210356
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.9928275352191815,
+        "production": 10.03002960816788
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.18739406246688883,
+        "production": 18.684420376194556
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.568733814332407,
+        "production": 5.529345691801295
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.6642538966654581,
+        "production": 6.262154943470326
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.6143609205734548,
+        "production": 5.676312095869897
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.9193588162708535,
+        "production": 15.792765802065478
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.15641906516820692,
+        "production": 12.878686431027141
+      }
+    ]
+  },
+  {
+    "money": 524183,
+    "waterlevel": 45,
+    "environmentCost": 12,
+    "powerPrice": 543,
+    "timestamp": "2021-08-10T20:04:32.635Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.8122557948707352,
+        "production": 17.643577944714053
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.030144344596316985,
+        "production": 4.011068792116565
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.7983130946104138,
+        "production": 2.655025912361359
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.4349183654489257,
+        "production": 6.365565224858831
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.24349450475179935,
+        "production": 0.9232384917224059
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.05075511481827877,
+        "production": 13.876066683229684
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.5480203181868359,
+        "production": 7.191078263724011
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.15135102647896992,
+        "production": 18.226957526257067
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.4199134551271211,
+        "production": 17.10581268256382
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.203965162926123,
+        "production": 17.654329087748636
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.9684668489615269,
+        "production": 2.915419187276067
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.9006481869027221,
+        "production": 13.848462029388324
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.6445097750567956,
+        "production": 15.989337126219453
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.9332965912334441,
+        "production": 5.152037015525242
+      }
+    ]
+  },
+  {
+    "money": 1406955,
+    "waterlevel": 39,
+    "environmentCost": 53,
+    "powerPrice": 402,
+    "timestamp": "2021-08-10T02:53:51.982Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.8639213709810081,
+        "production": 5.15294285349763
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.4150445437593713,
+        "production": 6.672598880980465
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.34034601220102045,
+        "production": 17.70208168760519
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.10192609533188568,
+        "production": 12.99655898906593
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.7599362659302982,
+        "production": 0.1624109373629687
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.6573909041728909,
+        "production": 8.03175291526363
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.17264038089687506,
+        "production": 8.024868380938042
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.7730663376163625,
+        "production": 18.203984343647473
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.10262817124740353,
+        "production": 10.886410716985543
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.6297340513825089,
+        "production": 2.2467495728882225
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.9520164189765496,
+        "production": 13.230697024218246
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.6159090851681246,
+        "production": 0.6239867544468639
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.17153206527354925,
+        "production": 18.905495837324974
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.6611184069546281,
+        "production": 6.708927730970154
+      }
+    ]
+  },
+  {
+    "money": 566100,
+    "waterlevel": 33,
+    "environmentCost": 52,
+    "powerPrice": 503,
+    "timestamp": "2021-08-10T03:27:27.557Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.40572232373106165,
+        "production": 18.23549920637797
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.6293084682621382,
+        "production": 13.151877736493928
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.06284248822665894,
+        "production": 15.055717048178517
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.4468375120267216,
+        "production": 12.514395429656673
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.5943643258817866,
+        "production": 13.783261434613344
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.5444562952176244,
+        "production": 4.654609094679892
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.40624568691417884,
+        "production": 5.432462313979946
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.8946120761536953,
+        "production": 1.7374193711294863
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.683837233209551,
+        "production": 4.242789904885929
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.47636818163215877,
+        "production": 5.423409194310461
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.1614414726618456,
+        "production": 9.016356363746107
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.8695220452821131,
+        "production": 2.8230145968861606
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.102380264479073,
+        "production": 17.101763355778875
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.8144054409476056,
+        "production": 13.82149200144991
+      }
+    ]
+  },
+  {
+    "money": 1445035,
+    "waterlevel": 41,
+    "environmentCost": 56,
+    "powerPrice": 532,
+    "timestamp": "2021-08-11T19:41:08.194Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.013074036752493079,
+        "production": 4.022699955454943
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.25964892477834534,
+        "production": 1.68257064402856
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.2938805301677254,
+        "production": 14.473003882894016
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.6284276644680578,
+        "production": 15.14990916642667
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.11792410243106821,
+        "production": 2.1521819273406
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.130613194466362,
+        "production": 10.91008873138884
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.43984735031996625,
+        "production": 18.855256523830352
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.9743762946586789,
+        "production": 0.030397456125315858
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.7098962468909229,
+        "production": 16.19073430950301
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.752590881393638,
+        "production": 13.113997118392122
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.2688439200522945,
+        "production": 18.673892591484048
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.6808426379378734,
+        "production": 2.558550679640494
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.9427866355364893,
+        "production": 18.67466674781931
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.47191793366036694,
+        "production": 5.4223011445532485
+      }
+    ]
+  },
+  {
+    "money": 295552,
+    "waterlevel": 22,
+    "environmentCost": 25,
+    "powerPrice": 619,
+    "timestamp": "2021-08-09T23:38:20.435Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.35393261649605323,
+        "production": 17.281856283174964
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.31317958275154645,
+        "production": 4.096994369025315
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.2731831219006644,
+        "production": 8.905156369042793
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.4798861371267422,
+        "production": 5.9579772516336735
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.7648987716179458,
+        "production": 17.060478224372
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.611015620388748,
+        "production": 4.70860276165991
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.41570158798035095,
+        "production": 17.55940248184668
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.5670528459724724,
+        "production": 4.406894201512729
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.028793891197386623,
+        "production": 8.163507251162336
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.1173835077406884,
+        "production": 15.440161475517264
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.31951634290326325,
+        "production": 12.322422692754238
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.229149562362166,
+        "production": 2.4427106782323516
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.8487962560712217,
+        "production": 5.94133863105032
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.6387769813655022,
+        "production": 0.4253732645881628
+      }
+    ]
+  },
+  {
+    "money": 384560,
+    "waterlevel": 23,
+    "environmentCost": 25,
+    "powerPrice": 534,
+    "timestamp": "2021-08-10T14:40:05.701Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.07407635116801226,
+        "production": 7.729816183822257
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.32033097592829307,
+        "production": 1.7941641375684054
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.7739766823726388,
+        "production": 2.5512030170915807
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.3735276449066187,
+        "production": 8.829976798919583
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.5176848688686342,
+        "production": 11.926636620796815
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.701669769168348,
+        "production": 6.227046039488593
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.3072287659736985,
+        "production": 1.0654793825224167
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.5567574281165857,
+        "production": 8.29884713526532
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.8791929451702789,
+        "production": 9.990561049339474
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.4349968675764213,
+        "production": 8.532587700034627
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.3774387381421287,
+        "production": 7.6974512569451905
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.23040362669945225,
+        "production": 0.5379978949843287
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.013689256197983557,
+        "production": 9.726177989470992
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.09708600348192697,
+        "production": 2.743071482790013
+      }
+    ]
+  },
+  {
+    "money": 50378,
+    "waterlevel": 39,
+    "environmentCost": 31,
+    "powerPrice": 585,
+    "timestamp": "2021-08-09T13:30:39.426Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.8984613707083147,
+        "production": 13.669148308001972
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.7990368630652849,
+        "production": 13.733244737108292
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.5915880535649973,
+        "production": 13.70825332366566
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.40708675145809825,
+        "production": 2.0015123332587135
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.3243847315215542,
+        "production": 1.6180460001714927
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.5740576040511323,
+        "production": 15.954029065286095
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.41955267877098423,
+        "production": 17.50449551441908
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.6603486702969701,
+        "production": 15.088457667144645
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.905817362068577,
+        "production": 7.983066892783009
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.7371910495928327,
+        "production": 13.26243699954738
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.7166957553557236,
+        "production": 8.851554871890944
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.11825509082470065,
+        "production": 16.907201402930465
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.14729814230643457,
+        "production": 2.1477313534606886
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.7404312782415827,
+        "production": 2.4063131461942433
+      }
+    ]
+  },
+  {
+    "money": 232410,
+    "waterlevel": 33,
+    "environmentCost": 49,
+    "powerPrice": 537,
+    "timestamp": "2021-08-13T13:26:36.420Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.00697208775696434,
+        "production": 2.6902254081869224
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.08237040879036894,
+        "production": 0.921422883002543
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.6159859469375024,
+        "production": 11.481473802149546
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.9362266033156834,
+        "production": 14.541068971902872
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.44000263421767105,
+        "production": 13.36416563200162
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.05174388980947664,
+        "production": 1.5081665118079872
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.23988453599760184,
+        "production": 15.481924606328139
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.41791831176944605,
+        "production": 16.809059280476163
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.9664173982479685,
+        "production": 16.851603348608254
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.4971906711102152,
+        "production": 15.065013783680664
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.11976913206106032,
+        "production": 7.55042857045457
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.6078163927031055,
+        "production": 3.48675118315523
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.5826992996380036,
+        "production": 3.394249256368209
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.3460532766566511,
+        "production": 1.4688667399777813
+      }
+    ]
+  },
+  {
+    "money": 551413,
+    "waterlevel": 44,
+    "environmentCost": 42,
+    "powerPrice": 418,
+    "timestamp": "2021-08-11T02:47:40.244Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.8308880611000728,
+        "production": 4.423704248134447
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.5602391133083171,
+        "production": 2.0572326908104777
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.23498529722010564,
+        "production": 16.152965982296234
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.2005168015666765,
+        "production": 19.078964605545572
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.9445333298990133,
+        "production": 0.5149577083641925
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.17029619009670172,
+        "production": 1.3267196433776423
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.8985960470531416,
+        "production": 0.599322048062066
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.4546840555456959,
+        "production": 16.30233007370649
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.6418961580011595,
+        "production": 9.297914425360199
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.10383233246910595,
+        "production": 16.862051473883554
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.22411412528286112,
+        "production": 8.119216539852717
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.9739396385637391,
+        "production": 18.258592645219657
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.1593595500856344,
+        "production": 11.10187458885162
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.49354992922355057,
+        "production": 17.790394402249646
+      }
+    ]
+  },
+  {
+    "money": 353816,
+    "waterlevel": 44,
+    "environmentCost": 84,
+    "powerPrice": 617,
+    "timestamp": "2021-08-12T21:13:58.065Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.4408977639233289,
+        "production": 8.23798310333101
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.4794905797121056,
+        "production": 8.298545855290529
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.7361814060087091,
+        "production": 0.3192009704099099
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.5758530740985865,
+        "production": 3.6704233810036215
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.49334346509513227,
+        "production": 1.0879641937121034
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.6513329773821417,
+        "production": 7.319633954209155
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.056734730355100016,
+        "production": 4.829634154199369
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.1457680542287254,
+        "production": 11.504900781369123
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.17555818227328523,
+        "production": 0.1056779046071773
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.0054835897484295515,
+        "production": 3.923244989981832
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.8107829532345474,
+        "production": 7.567023012464479
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.006356754058536307,
+        "production": 2.3378873706755225
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.2976888795779693,
+        "production": 1.3565789603734433
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.49009475637002686,
+        "production": 4.544842064721859
+      }
+    ]
+  },
+  {
+    "money": 250516,
+    "waterlevel": 40,
+    "environmentCost": 40,
+    "powerPrice": 474,
+    "timestamp": "2021-08-12T14:57:30.855Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.19067753846824997,
+        "production": 11.791055644402467
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.9793110411461592,
+        "production": 16.15699261920197
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.353117881149124,
+        "production": 11.549542873745098
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.6168160855583813,
+        "production": 4.31297950934891
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.772571223890308,
+        "production": 18.27676728248365
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.2600284879071084,
+        "production": 8.466625192899373
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.9937244421371441,
+        "production": 15.585083922404186
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.42146046698288875,
+        "production": 3.1858903730367985
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.4985047289189386,
+        "production": 13.64337943842635
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.0714218445883501,
+        "production": 2.30611098549387
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.12478207780547623,
+        "production": 2.6532855674208378
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.03984534435008058,
+        "production": 4.699003871353866
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.878145318758653,
+        "production": 12.543800287294651
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.669567707910697,
+        "production": 3.4346742772981576
+      }
+    ]
+  },
+  {
+    "money": 291713,
+    "waterlevel": 20,
+    "environmentCost": 27,
+    "powerPrice": 605,
+    "timestamp": "2021-08-09T14:46:33.274Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.21721170193660644,
+        "production": 3.0852127709665407
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.7106959567387279,
+        "production": 8.577948715648116
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.10138089989393606,
+        "production": 8.579904814573144
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.36810693835142794,
+        "production": 18.05554895087619
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.6966881310173276,
+        "production": 12.916116377879233
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.8062059692410803,
+        "production": 8.767966220079362
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.8663619584683062,
+        "production": 19.004496876283127
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.09737265506575632,
+        "production": 2.853473022480976
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.16512624865640735,
+        "production": 10.304404822204992
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.11032059576695863,
+        "production": 5.856182004242941
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.27822721869781364,
+        "production": 15.712609592353605
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.7225247556146217,
+        "production": 9.029822850760468
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.39378936841875944,
+        "production": 8.310804304427515
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.5196436078470323,
+        "production": 3.0042970769100146
+      }
+    ]
+  },
+  {
+    "money": 389402,
+    "waterlevel": 25,
+    "environmentCost": 58,
+    "powerPrice": 612,
+    "timestamp": "2021-08-11T04:43:30.895Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.6398852840647065,
+        "production": 0.499854328776994
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.5138785687486187,
+        "production": 10.62537456068983
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.32814202317927244,
+        "production": 15.693414180440698
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.6082088821360159,
+        "production": 0.5040453170292266
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.14855423347260155,
+        "production": 17.311730072471157
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.24895280496643335,
+        "production": 0.9066620763141162
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.05720433498595123,
+        "production": 1.18794715933179
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.9470654648867756,
+        "production": 18.072920842431113
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.8174327786607327,
+        "production": 7.916673880720653
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.6682711610022731,
+        "production": 10.888877106476125
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.8846896912816307,
+        "production": 2.296426417363941
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.12171308674729042,
+        "production": 8.865987687297928
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.138358812397686,
+        "production": 1.5887461416704554
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.29590901333401876,
+        "production": 17.538378810917667
+      }
+    ]
+  },
+  {
+    "money": 956567,
+    "waterlevel": 24,
+    "environmentCost": 72,
+    "powerPrice": 472,
+    "timestamp": "2021-08-14T01:37:40.370Z",
+    "turbines": [
+      {
+        "id": 0,
+        "capasityUsage": 0.0057405356581252676,
+        "production": 12.81358291559226
+      },
+      {
+        "id": 1,
+        "capasityUsage": 0.8392845209887168,
+        "production": 5.644235955787353
+      },
+      {
+        "id": 2,
+        "capasityUsage": 0.16326404325959376,
+        "production": 4.11737887929199
+      },
+      {
+        "id": 3,
+        "capasityUsage": 0.28516665059922564,
+        "production": 11.66548624917855
+      },
+      {
+        "id": 4,
+        "capasityUsage": 0.038882767345682634,
+        "production": 15.720042457419893
+      },
+      {
+        "id": 5,
+        "capasityUsage": 0.09569447221103355,
+        "production": 4.6860463897366085
+      },
+      {
+        "id": 6,
+        "capasityUsage": 0.4276687139715789,
+        "production": 11.379766226953278
+      },
+      {
+        "id": 7,
+        "capasityUsage": 0.96989476050072,
+        "production": 6.696515663078911
+      },
+      {
+        "id": 8,
+        "capasityUsage": 0.8835474854449665,
+        "production": 0.8092588651439963
+      },
+      {
+        "id": 9,
+        "capasityUsage": 0.23523808504039279,
+        "production": 10.046965435102528
+      },
+      {
+        "id": 10,
+        "capasityUsage": 0.9809141394466747,
+        "production": 15.84430638997068
+      },
+      {
+        "id": 11,
+        "capasityUsage": 0.5187184600329751,
+        "production": 6.33754957034563
+      },
+      {
+        "id": 12,
+        "capasityUsage": 0.9526224476355689,
+        "production": 9.50149989554781
+      },
+      {
+        "id": 13,
+        "capasityUsage": 0.679860932476646,
+        "production": 18.715933514290285
+      }
+    ]
+  }
+]
