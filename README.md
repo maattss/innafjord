@@ -1,4 +1,4 @@
-# Intro project for newly hired consultants @ Bouvet - Innafjord 2.0
+# Intro project @ Bouvet - Innafjord 2.0
 The task was to create a web portal for the (fictional) hydro power company Innafjord. 
 The result is deployed and viewable at [innafjord.vercel.app](https://innafjord.vercel.app)
 
