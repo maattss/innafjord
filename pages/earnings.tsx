@@ -1,9 +1,4 @@
 import {
-  AlertDialog,
-  AlertDialogContent,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogOverlay,
   Box,
   Button,
   Flex,
@@ -12,7 +7,6 @@ import {
   Table,
   Tbody,
   Td,
-  Text,
   Th,
   Thead,
   Tr,
@@ -21,97 +15,50 @@ import {
 import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Bar } from "react-chartjs-2";
-import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
-import dummyToday from "../data/dummyToday.json";
-import dummyWeek from "../data/dummyWeek.json";
-import dummyMonth from "../data/dummyMonth.json";
+import { DownloadIcon } from "@chakra-ui/icons";
+import GenerateReport from "../components/GenerateReport";
+import { getSortedDayEarnings } from "../helpers/getDayData";
+import {
+  getSortedDayData,
+  getSortedDayLabels,
+  getSortedMonthData,
+  getSortedMonthLabels,
+  getSortedWeekData,
+  getSortedWeekLabels,
+  mockData,
+} from "../helpers/arrangeData";
+import { getSortedWeekEarnings } from "../helpers/getWeekData";
+import { getSortedMonthEarnings } from "../helpers/getMonthData";
+import { getGraphDataset, graphOptions } from "../helpers/graphConfig";
 
 const Earnings: React.FC = () => {
-  const [filterGraph, setFilterGraph] = useState<string>("today");
+  const [tableData, setTableData] = useState<mockData[]>(getSortedDayData());
+  const [graphData, setGraphData] = useState<number[]>(getSortedDayEarnings());
+  const [graphLabels, setGraphLabels] = useState<string[]>(
+    getSortedDayLabels()
+  );
+
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
-  const cancelRef = React.useRef(null);
 
   const border = useColorModeValue("gray.100", "gray.700");
 
-  let mockData = dummyToday;
-
-  let time = [];
-  let timeweek = [];
-  let timemonth = [];
-
-  let data = [];
-  let dataweek = [];
-  let datamonth = [];
-
-  for (let i = 0; i < mockData.length; i++) {
-    let times = new Date(mockData[i].timestamp).toUTCString().slice(17, 26);
-    time.push(times);
-    timeweek.push(new Date(dummyWeek[i].timestamp).toUTCString().slice(0, 11));
-    timemonth.push(
-      new Date(dummyMonth[i].timestamp).toUTCString().slice(0, 11)
-    );
-
-    data.push(mockData[i].money);
-    dataweek.push(dummyWeek[i].money);
-    datamonth.push(dummyMonth[i].money);
-
-    mockData.sort(function (a, b) {
-      return +new Date(a.timestamp) - +new Date(b.timestamp);
-    });
-    dummyWeek.sort(function (a, b) {
-      return +new Date(a.timestamp) - +new Date(b.timestamp);
-    });
-
-    dummyMonth.sort(function (a, b) {
-      return +new Date(a.timestamp) - +new Date(b.timestamp);
-    });
-  }
-
-  const graphExampleData = {
-    labels: time,
-    datasets: [
-      {
-        label: "Earnings",
-        data: data,
-        fill: false,
-        backgroundColor: "rgb(255, 99, 132)",
-        borderColor: "rgba(255, 99, 132, 0.2)",
-      },
-    ],
-  };
-
-  const options = {
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: false,
-          },
-        },
-      ],
-    },
-    plugins: {
-      legend: {
-        display: false,
-      },
-    },
-  };
-
-  if (filterGraph === "week") {
-    mockData = dummyWeek;
-    for (let i = 0; i < graphExampleData.datasets.length; i++) {
-      graphExampleData.datasets[i].data = dataweek;
-      graphExampleData.labels = timeweek;
+  const setData = (value: string) => {
+    if (value === "day") {
+      setGraphData(getSortedDayEarnings());
+      setGraphLabels(getSortedDayLabels());
+      setTableData(getSortedDayData());
+    } else if (value === "week") {
+      setGraphData(getSortedWeekEarnings());
+      setGraphLabels(getSortedWeekLabels());
+      setTableData(getSortedWeekData());
+    } else {
+      // Month
+      setGraphData(getSortedMonthEarnings());
+      setGraphLabels(getSortedMonthLabels());
+      setTableData(getSortedMonthData());
     }
-  }
-  if (filterGraph === "month") {
-    mockData = dummyMonth;
-    for (let i = 0; i < graphExampleData.datasets.length; i++) {
-      graphExampleData.datasets[i].data = datamonth;
-      graphExampleData.labels = timemonth;
-    }
-  }
+  };
 
   return (
     <>
@@ -135,16 +82,19 @@ const Earnings: React.FC = () => {
           </Button>
           <Select
             width="160px"
-            onChange={(event) => setFilterGraph(event.target.value)}
+            onChange={(event) => setData(event.target.value)}
           >
-            <option value="today">Last 24 hours</option>
+            <option value="day">Last 24 hours</option>
             <option value="week">Last week</option>
             <option value="month">Last month</option>
           </Select>
         </Flex>
       </Flex>
 
-      <Bar data={graphExampleData} options={options} />
+      <Bar
+        data={getGraphDataset(graphData, graphLabels)}
+        options={graphOptions}
+      />
 
       <Box
         maxH="330px"
@@ -165,7 +115,7 @@ const Earnings: React.FC = () => {
             </Tr>
           </Thead>
           <Tbody>
-            {mockData.map((item, key) => {
+            {tableData.map((item, key) => {
               return (
                 <Tr key={key}>
                   <Td textAlign="center">{item.timestamp.slice(0, 10)}</Td>
@@ -177,38 +127,7 @@ const Earnings: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
-      <AlertDialog
-        isOpen={isOpen}
-        leastDestructiveRef={cancelRef}
-        onClose={onClose}
-      >
-        <AlertDialogOverlay>
-          <AlertDialogContent>
-            <AlertDialogHeader fontSize="lg" fontWeight="medium">
-              <Flex justifyContent="space-between" alignItems="center">
-                <Text>Report is generated successfully!</Text>
-                <Button onClick={onClose}>
-                  <CloseIcon />
-                </Button>
-              </Flex>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <Text fontSize="lg" mr={4} fontWeight="medium">
-                Download as{" "}
-              </Text>
-              <Button ref={cancelRef} onClick={onClose} mr={2}>
-                . CSV
-              </Button>
-              <Button ref={cancelRef} onClick={onClose} mr={2}>
-                . PDF
-              </Button>
-              <Button ref={cancelRef} onClick={onClose}>
-                . JSON
-              </Button>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialogOverlay>
-      </AlertDialog>
+      <GenerateReport isOpen={isOpen} onClose={onClose} />
     </>
   );
 };

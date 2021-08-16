@@ -348,6 +348,7 @@ const Home: React.FC<Props> = ({
           <Link
             href="https://github.com/maattss/innafjord/issues"
             style={{ textDecoration: "none" }}
+            isExternal
           >
             <Button leftIcon={<ExternalLinkIcon />} variant={"outline"}>
               Report issue
