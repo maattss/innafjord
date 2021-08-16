@@ -1,9 +1,4 @@
 import {
-  AlertDialog,
-  AlertDialogContent,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogOverlay,
   Box,
   Button,
   Flex,
@@ -12,7 +7,6 @@ import {
   Table,
   Tbody,
   Td,
-  Text,
   Th,
   Thead,
   Tr,
@@ -21,16 +15,17 @@ import {
 import React, { useState } from "react";
 import Meta from "../components/Meta";
 import { Line } from "react-chartjs-2";
-import { CloseIcon, DownloadIcon } from "@chakra-ui/icons";
+import { DownloadIcon } from "@chakra-ui/icons";
 import dummyToday from "../data/dummyToday.json";
 import dummyWeek from "../data/dummyWeek.json";
 import dummyMonth from "../data/dummyMonth.json";
+import GenerateReport from "../components/GenerateReport";
 
 const Production: React.FC = () => {
   const [filterGraph, setFilterGraph] = useState<string>("today");
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const onClose = () => setIsOpen(false);
-  const cancelRef = React.useRef(null);
+
   const border = useColorModeValue("gray.100", "gray.700");
   let mockData = dummyToday;
   let time = [];
@@ -188,38 +183,7 @@ const Production: React.FC = () => {
           </Tbody>
         </Table>
       </Box>
-      <AlertDialog
-        isOpen={isOpen}
-        leastDestructiveRef={cancelRef}
-        onClose={onClose}
-      >
-        <AlertDialogOverlay>
-          <AlertDialogContent>
-            <AlertDialogHeader fontSize="lg" fontWeight="medium">
-              <Flex justifyContent="space-between" alignItems="center">
-                <Text>Report is generated successfully!</Text>
-                <Button onClick={onClose}>
-                  <CloseIcon />
-                </Button>
-              </Flex>
-            </AlertDialogHeader>
-            <AlertDialogFooter>
-              <Text fontSize="lg" mr={4} fontWeight="medium">
-                Download as{" "}
-              </Text>
-              <Button ref={cancelRef} onClick={onClose} mr={2}>
-                . CSV
-              </Button>
-              <Button ref={cancelRef} onClick={onClose} mr={2}>
-                . PDF
-              </Button>
-              <Button ref={cancelRef} onClick={onClose}>
-                . JSON
-              </Button>
-            </AlertDialogFooter>
-          </AlertDialogContent>
-        </AlertDialogOverlay>
-      </AlertDialog>
+      <GenerateReport isOpen={isOpen} onClose={onClose} />
     </>
   );
 };
