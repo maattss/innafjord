@@ -64,15 +64,7 @@ const WaterLevel: React.FC = () => {
 
   const chartJSData = {
     labels: graphLabels,
-    datasets: [
-      {
-        label: "Water Level",
-        data: graphData,
-        fill: false,
-        backgroundColor: "rgb(255, 99, 132)",
-        borderColor: "rgba(255, 99, 132, 0.2)",
-      },
-    ],
+    datasets: [{ data: graphData }],
   };
 
   return (
