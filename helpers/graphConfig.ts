@@ -15,7 +15,7 @@ export const graphOptions = {
   },
 };
 
-export const getGraphDataSet = (graphData: number[], graphLabels: string[]) => {
+export const getGraphDataset = (graphData: number[], graphLabels: string[]) => {
   return {
     labels: graphLabels,
     datasets: [
