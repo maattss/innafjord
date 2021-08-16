@@ -29,7 +29,7 @@ import {
 import { getSortedDayProduction } from "../helpers/getDayData";
 import { getSortedWeekProduction } from "../helpers/getWeekData";
 import { getSortedMonthProduction } from "../helpers/getMonthData";
-import { getGraphDataSet, graphOptions } from "../helpers/graphConfig";
+import { getGraphDataset, graphOptions } from "../helpers/graphConfig";
 
 const Production: React.FC = () => {
   const [tableData, setTableData] = useState<mockData[]>(getSortedDayData());
@@ -95,7 +95,7 @@ const Production: React.FC = () => {
       </Flex>
 
       <Line
-        data={getGraphDataSet(graphData, graphLabels)}
+        data={getGraphDataet(graphData, graphLabels)}
         options={graphOptions}
       />
       <Box
