@@ -25,9 +25,11 @@ import {
   getSortedMonthLabels,
   getSortedWeekData,
   getSortedWeekLabels,
+  mockData,
 } from "../helpers/arrangeData";
 import { getSortedWeekEarnings } from "../helpers/getWeekData";
 import { getSortedMonthEarnings } from "../helpers/getMonthData";
+import { getGraphDataset, graphOptions } from "../helpers/graphConfig";
 
 const Earnings: React.FC = () => {
   const [tableData, setTableData] = useState<mockData[]>(getSortedDayData());

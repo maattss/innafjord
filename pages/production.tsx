@@ -95,7 +95,7 @@ const Production: React.FC = () => {
       </Flex>
 
       <Line
-        data={getGraphDataet(graphData, graphLabels)}
+        data={getGraphDataset(graphData, graphLabels)}
         options={graphOptions}
       />
       <Box
