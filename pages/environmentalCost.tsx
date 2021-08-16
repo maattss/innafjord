@@ -25,6 +25,7 @@ import {
   getSortedMonthLabels,
   getSortedWeekData,
   getSortedWeekLabels,
+  mockData,
 } from "../helpers/arrangeData";
 import { getSortedWeekEnvironmentalCost } from "../helpers/getWeekData";
 import { getSortedMonthEnvironmentalCost } from "../helpers/getMonthData";
