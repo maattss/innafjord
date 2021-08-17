@@ -21,6 +21,7 @@ import {
   getDummyPowerPrice,
   getDummyTurbinesData,
 } from "../helpers/getDummyAPIData";
+import Weather from "../components/Weather.tsx";
 
 type Props = {
   powerPriceData: string;
@@ -329,21 +330,7 @@ const Home: React.FC<Props> = ({
             justifyContent="center"
             alignItems="center"
           >
-            <Image
-              src="./images/sunny.svg"
-              alt="Recycle Emoji"
-              height="50px"
-              mr={4}
-              ml={4}
-            />
-            <Text
-              fontWeight="medium"
-              textAlign="center"
-              fontSize="2xl"
-              width="400px"
-            >
-              Currently 18 °C and clear skyes.
-            </Text>
+            <Weather />
           </Flex>
         </Box>
         <Flex
@@ -373,7 +360,15 @@ const Home: React.FC<Props> = ({
 };
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  if (
+  return {
+    props: {
+      powerPriceData: getDummyPowerPrice(),
+      groupStateData: getDummyGroupStateData(),
+      turbinesData: getDummyTurbinesData(),
+      dummyData: true,
+    },
+  };
+  /* if (
     !process.env.API_URL ||
     !process.env.GROUP_ID ||
     !process.env.GROUP_API_KEY
@@ -430,6 +425,6 @@ export const getServerSideProps: GetServerSideProps = async () => {
       turbinesData,
       dummyData: false,
     },
-  };
+  }; */
 };
 export default Home;
