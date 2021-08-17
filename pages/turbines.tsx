@@ -9,6 +9,7 @@ import {
 import { GetServerSideProps } from "next";
 import React from "react";
 import Meta from "../components/Meta";
+import { getDummyTurbinesData } from "../helpers/getDummyAPIData";
 
 export type TurbineData = {
   id: string;
@@ -17,9 +18,10 @@ export type TurbineData = {
 
 type Props = {
   turbinesData: [TurbineData];
+  dummyData: boolean;
 };
 
-const Turbines: React.FC<Props> = ({ turbinesData }) => {
+const Turbines: React.FC<Props> = ({ turbinesData, dummyData }) => {
   let counter = 0;
   return (
     <>
@@ -39,7 +41,9 @@ const Turbines: React.FC<Props> = ({ turbinesData }) => {
       </Flex>
       <Box w="100%" mt="2">
         <Text fontStyle="italic" textAlign="right" pr={2}>
-          Updated at {new Date().toLocaleTimeString()}
+          {dummyData
+            ? "Using dummy data."
+            : "Updated at " + new Date().toLocaleTimeString()}
         </Text>
       </Box>
     </>
@@ -64,7 +68,7 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
         />
         <Box bg={bgColor} px={4} py={2} borderRadius="lg" width="140px">
           <Text fontWeight="medium" fontSize="lg" textAlign="center">
-            {capacityUsage * 100 + "%"}
+            {Math.round(capacityUsage * 10000) / 100 + " %"}
             <br />
             {Math.round(capacityUsage * 1925) / 100} kWh/s
             <br />
@@ -102,22 +106,21 @@ export const getServerSideProps: GetServerSideProps = async () => {
   });
 
   if (!turbinesRes) {
+    console.log("No response from API, using dummy data.");
     return {
-      notFound: true,
+      props: {
+        turbinesData: getDummyTurbinesData(),
+        dummyData: true,
+      },
     };
   }
 
   const turbinesData = await turbinesRes.json();
 
-  if (!turbinesData) {
-    return {
-      notFound: true,
-    };
-  }
-
   return {
     props: {
       turbinesData,
+      dummyData: false,
     },
   };
 };

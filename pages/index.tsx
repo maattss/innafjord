@@ -16,14 +16,20 @@ import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { TurbineData } from "./turbines";
+import {
+  getDummyGroupStateData,
+  getDummyPowerPrice,
+  getDummyTurbinesData,
+} from "../helpers/getDummyAPIData";
 
 type Props = {
   powerPriceData: string;
   groupStateData: GroupStateData;
   turbinesData: [TurbineData];
+  dummyData: boolean;
 };
 
-type GroupStateData = {
+export type GroupStateData = {
   groupName: string;
   money: number;
   waterLevel: number;
@@ -34,6 +40,7 @@ const Home: React.FC<Props> = ({
   powerPriceData,
   groupStateData,
   turbinesData,
+  dummyData,
 }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
@@ -355,7 +362,9 @@ const Home: React.FC<Props> = ({
             </Button>
           </Link>
           <Text fontStyle="italic" textAlign="right" pr={2}>
-            Updated at {new Date().toLocaleTimeString()}
+            {dummyData
+              ? "Using dummy data."
+              : "Updated at " + new Date().toLocaleTimeString()}
           </Text>
         </Flex>
       </Flex>
@@ -401,7 +410,12 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
   if (!powerPriceRes || !groupStateRes || !turbinesRes) {
     return {
-      notFound: true,
+      props: {
+        powerPriceData: getDummyPowerPrice(),
+        groupStateData: getDummyGroupStateData(),
+        turbinesData: getDummyTurbinesData(),
+        dummyData: true,
+      },
     };
   }
 
@@ -409,17 +423,12 @@ export const getServerSideProps: GetServerSideProps = async () => {
   const turbinesData = await turbinesRes.json();
   const powerPriceData = await powerPriceRes.json();
 
-  if (!powerPriceData || !groupStateData || !turbinesData) {
-    return {
-      notFound: true,
-    };
-  }
-
   return {
     props: {
       powerPriceData,
       groupStateData,
       turbinesData,
+      dummyData: false,
     },
   };
 };
