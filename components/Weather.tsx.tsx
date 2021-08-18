@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Image, LinkBox, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import useSWR from "swr";
 
 const apiUrlYr = "https://api.met.no/weatherapi/locationforecast/2.0/compact";
@@ -19,18 +19,20 @@ export const Weather: React.FC = () => {
     data.properties.timeseries[0].data.next_6_hours.details
       .precipitation_amount;
   const wind = data.properties.timeseries[0].data.instant.details.wind_speed;
-  console.log("Data", data);
+  const updatedAt = new Date(
+    data.properties.meta.updated_at
+  ).toLocaleTimeString("it-IT");
 
   return (
     <Flex justifyContent="left" alignItems="center" w="100%">
-      <Box width="25%" borderRadius={"lg"} mr={4}>
+      <Box width="20%" mr={4}>
         <Image
           src={"./weather/" + weatherIcon + ".svg"}
           alt="Recycle Emoji"
           width="100%"
         />
       </Box>
-      <Flex flexDirection="column">
+      <Flex flexDirection="column" width="75%">
         <Text fontWeight="medium" fontSize="2xl">
           Temperature: {airTemperatur} °C
         </Text>
@@ -39,6 +41,9 @@ export const Weather: React.FC = () => {
         </Text>
         <Text fontWeight="medium" fontSize="2xl">
           Wind: {wind} m/s
+        </Text>
+        <Text fontStyle="italic" fontSize="lg" textAlign="right" mt="2">
+          Updated at: {updatedAt}
         </Text>
       </Flex>
     </Flex>
