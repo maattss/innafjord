@@ -6,7 +6,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { GetServerSideProps } from "next";
+import { GetStaticProps } from "next";
 import React from "react";
 import Meta from "../components/Meta";
 import { getDummyTurbinesData } from "../helpers/getDummyAPIData";
@@ -18,10 +18,9 @@ export type TurbineData = {
 
 type Props = {
   turbinesData: [TurbineData];
-  dummyData: boolean;
 };
 
-const Turbines: React.FC<Props> = ({ turbinesData, dummyData }) => {
+const Turbines: React.FC<Props> = ({ turbinesData }) => {
   let counter = 0;
   return (
     <>
@@ -39,13 +38,6 @@ const Turbines: React.FC<Props> = ({ turbinesData, dummyData }) => {
           );
         })}
       </Flex>
-      <Box w="100%" mt="2">
-        <Text fontStyle="italic" textAlign="right" pr={2}>
-          {dummyData
-            ? "Using dummy data."
-            : "Updated at " + new Date().toLocaleTimeString()}
-        </Text>
-      </Box>
     </>
   );
 };
@@ -80,47 +72,10 @@ const TurbineBox: React.FC<TurbineData> = ({ id, capacityUsage }) => {
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  if (
-    !process.env.API_URL ||
-    !process.env.GROUP_ID ||
-    !process.env.GROUP_API_KEY
-  )
-    return {
-      props: { data: "Missing API URL and key" },
-    };
-
-  const apiUrl = process.env.API_URL;
-
-  // eslint-disable-next-line no-undef
-  const groupHeaders: HeadersInit = new Headers();
-  groupHeaders.append("GroupId", process.env.GROUP_ID);
-  groupHeaders.append("GroupKey", process.env.GROUP_API_KEY);
-
-  const turbinesRes = await fetch(apiUrl + "Turbines", {
-    method: "GET",
-    headers: groupHeaders,
-    redirect: "follow",
-  }).catch((error) => {
-    console.error(error);
-  });
-
-  if (!turbinesRes) {
-    console.log("No response from API, using dummy data.");
-    return {
-      props: {
-        turbinesData: getDummyTurbinesData(),
-        dummyData: true,
-      },
-    };
-  }
-
-  const turbinesData = await turbinesRes.json();
-
+export const getStaticProps: GetStaticProps = () => {
   return {
     props: {
-      turbinesData,
-      dummyData: false,
+      turbinesData: getDummyTurbinesData(),
     },
   };
 };

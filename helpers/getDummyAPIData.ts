@@ -15,7 +15,7 @@ export const getDummyWaterLevel = () => {
 
 export const getDummyGroupStateData = () => {
   const data: GroupStateData = {
-    groupName: "Gruppe 1",
+    groupName: "Gruppe 14",
     money: getDummyMoney(),
     waterLevel: getDummyWaterLevel(),
     environmentCost: getDummyMoney(),

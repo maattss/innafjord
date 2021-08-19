@@ -11,7 +11,7 @@ import {
   Image,
   Button,
 } from "@chakra-ui/react";
-import { GetServerSideProps } from "next";
+import { GetStaticProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
@@ -21,12 +21,12 @@ import {
   getDummyPowerPrice,
   getDummyTurbinesData,
 } from "../helpers/getDummyAPIData";
+import Weather from "../components/Weather.tsx";
 
 type Props = {
   powerPriceData: string;
   groupStateData: GroupStateData;
   turbinesData: [TurbineData];
-  dummyData: boolean;
 };
 
 export type GroupStateData = {
@@ -40,10 +40,10 @@ const Home: React.FC<Props> = ({
   powerPriceData,
   groupStateData,
   turbinesData,
-  dummyData,
 }) => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
+
   let status: Status = "success";
   let statusText = "Water level normal.";
 
@@ -321,7 +321,7 @@ const Home: React.FC<Props> = ({
         <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
           Weather
         </Text>
-        <Box bg={bg} borderRadius="lg" w="100%" p={6} mb="2">
+        <Box bg={bg} borderRadius="lg" w="100%" p={6} mt="2" mb="2">
           <Flex
             bg={bg}
             borderRadius="lg"
@@ -329,21 +329,7 @@ const Home: React.FC<Props> = ({
             justifyContent="center"
             alignItems="center"
           >
-            <Image
-              src="./images/sunny.svg"
-              alt="Recycle Emoji"
-              height="50px"
-              mr={4}
-              ml={4}
-            />
-            <Text
-              fontWeight="medium"
-              textAlign="center"
-              fontSize="2xl"
-              width="400px"
-            >
-              Currently 18 °C and clear skyes.
-            </Text>
+            <Weather />
           </Flex>
         </Box>
         <Flex
@@ -361,74 +347,18 @@ const Home: React.FC<Props> = ({
               Report issue
             </Button>
           </Link>
-          <Text fontStyle="italic" textAlign="right" pr={2}>
-            {dummyData
-              ? "Using dummy data."
-              : "Updated at " + new Date().toLocaleTimeString()}
-          </Text>
         </Flex>
       </Flex>
     </>
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  if (
-    !process.env.API_URL ||
-    !process.env.GROUP_ID ||
-    !process.env.GROUP_API_KEY
-  )
-    return {
-      props: { data: "Missing API URL and key" },
-    };
-
-  const apiUrl = process.env.API_URL;
-  const powerPriceRes = await fetch(apiUrl + "PowerPrice").catch((error) => {
-    console.error(error);
-  });
-
-  // eslint-disable-next-line no-undef
-  const groupHeaders: HeadersInit = new Headers();
-  groupHeaders.append("GroupId", process.env.GROUP_ID);
-  groupHeaders.append("GroupKey", process.env.GROUP_API_KEY);
-
-  const groupStateRes = await fetch(apiUrl + "GroupState", {
-    method: "GET",
-    headers: groupHeaders,
-    redirect: "follow",
-  }).catch((error) => {
-    console.error(error);
-  });
-
-  const turbinesRes = await fetch(apiUrl + "Turbines", {
-    method: "GET",
-    headers: groupHeaders,
-    redirect: "follow",
-  }).catch((error) => {
-    console.error(error);
-  });
-
-  if (!powerPriceRes || !groupStateRes || !turbinesRes) {
-    return {
-      props: {
-        powerPriceData: getDummyPowerPrice(),
-        groupStateData: getDummyGroupStateData(),
-        turbinesData: getDummyTurbinesData(),
-        dummyData: true,
-      },
-    };
-  }
-
-  const groupStateData = await groupStateRes.json();
-  const turbinesData = await turbinesRes.json();
-  const powerPriceData = await powerPriceRes.json();
-
+export const getStaticProps: GetStaticProps = () => {
   return {
     props: {
-      powerPriceData,
-      groupStateData,
-      turbinesData,
-      dummyData: false,
+      powerPriceData: getDummyPowerPrice(),
+      groupStateData: getDummyGroupStateData(),
+      turbinesData: getDummyTurbinesData(),
     },
   };
 };
