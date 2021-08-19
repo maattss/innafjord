@@ -321,7 +321,7 @@ const Home: React.FC<Props> = ({
         <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
           Weather
         </Text>
-        <Box bg={bg} borderRadius="lg" w="100%" p={6} mb="2">
+        <Box bg={bg} borderRadius="lg" w="100%" p={6} mt="2" mb="2">
           <Flex
             bg={bg}
             borderRadius="lg"
@@ -347,9 +347,6 @@ const Home: React.FC<Props> = ({
               Report issue
             </Button>
           </Link>
-          <Text fontStyle="italic" textAlign="right" pr={2}>
-            Using dummy data.
-          </Text>
         </Flex>
       </Flex>
     </>

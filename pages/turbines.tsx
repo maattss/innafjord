@@ -20,7 +20,7 @@ type Props = {
   turbinesData: [TurbineData];
 };
 
-const Turbines: React.FC<Props> = ({ turbinesData, dummyData }) => {
+const Turbines: React.FC<Props> = ({ turbinesData }) => {
   let counter = 0;
   return (
     <>
@@ -38,11 +38,6 @@ const Turbines: React.FC<Props> = ({ turbinesData, dummyData }) => {
           );
         })}
       </Flex>
-      <Box w="100%" mt="2">
-        <Text fontStyle="italic" textAlign="right" pr={2}>
-          Using dummy data.
-        </Text>
-      </Box>
     </>
   );
 };

@@ -19,32 +19,29 @@ export const Weather: React.FC = () => {
     data.properties.timeseries[0].data.next_6_hours.details
       .precipitation_amount;
   const wind = data.properties.timeseries[0].data.instant.details.wind_speed;
-  const updatedAt = new Date(
-    data.properties.meta.updated_at
-  ).toLocaleTimeString("it-IT");
 
   return (
-    <Flex justifyContent="left" alignItems="center" w="100%">
-      <Box width="20%" mr={4}>
-        <Image
-          src={"./weather/" + weatherIcon + ".svg"}
-          alt="Recycle Emoji"
-          width="100%"
-        />
-      </Box>
-      <Flex flexDirection="column" width="75%">
-        <Text fontWeight="medium" fontSize="2xl">
-          Temperature: {airTemperatur} °C
-        </Text>
-        <Text fontWeight="medium" fontSize="2xl">
-          Precipitation: {precipitation} mm (next 6 hours)
-        </Text>
-        <Text fontWeight="medium" fontSize="2xl">
-          Wind: {wind} m/s
-        </Text>
-        <Text fontStyle="italic" fontSize="lg" textAlign="right" mt="2">
-          Updated at: {updatedAt}
-        </Text>
+    <Flex justifyContent="center" alignItems="center" w="100%">
+      <Flex width="100%" justifyContent="center">
+        <Box mr={2} mt={2}>
+          <Image
+            src={"./weather/" + weatherIcon + ".svg"}
+            alt="Current weather icon Emoji"
+            height="100px"
+            ml={-2}
+          />
+        </Box>
+        <Flex flexDirection="column">
+          <Text fontWeight="medium" fontSize="2xl">
+            Temp: {airTemperatur} °C
+          </Text>
+          <Text fontWeight="medium" fontSize="2xl">
+            Rain: {precipitation} mm
+          </Text>
+          <Text fontWeight="medium" fontSize="2xl">
+            Wind: {wind} m/s
+          </Text>
+        </Flex>
       </Flex>
     </Flex>
   );
