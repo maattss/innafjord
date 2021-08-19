@@ -11,24 +11,19 @@ import {
   Image,
   Button,
 } from "@chakra-ui/react";
-import { GetServerSideProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { TurbineData } from "./turbines";
-import {
-  getDummyGroupStateData,
-  getDummyPowerPrice,
-  getDummyTurbinesData,
-} from "../helpers/getDummyAPIData";
 import Weather from "../components/Weather.tsx";
+import useSWR from "swr";
 
-type Props = {
+/* type Props = {
   powerPriceData: string;
   groupStateData: GroupStateData;
   turbinesData: [TurbineData];
   dummyData: boolean;
-};
+}; */
 
 export type GroupStateData = {
   groupName: string;
@@ -37,14 +32,50 @@ export type GroupStateData = {
   environmentCost: number;
 };
 
-const Home: React.FC<Props> = ({
-  powerPriceData,
-  groupStateData,
-  turbinesData,
-  dummyData,
-}) => {
+const Home: React.FC = () => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
+
+  if (
+    !process.env.API_URL ||
+    !process.env.GROUP_ID ||
+    !process.env.GROUP_API_KEY
+  )
+    return {
+      props: { data: "Missing API URL and key" },
+    };
+
+  const simpleFetcher = (url: string) =>
+    fetch(process.env.API_UR + url).then((res) => res.json());
+
+  const groupHeaders: HeadersInit = new Headers();
+  groupHeaders.append("GroupId", process.env.GROUP_ID);
+  groupHeaders.append("GroupKey", process.env.GROUP_API_KEY);
+  const groupFetcher = (url: string) =>
+    fetch(process.env.API_UR + url, {
+      method: "GET",
+      headers: groupHeaders,
+      redirect: "follow",
+    });
+
+  const { data: powerPricedata, error: powerPriceError } = useSWR(
+    "PowerPrice",
+    simpleFetcher
+  );
+  const { data: groupStateData, error: groupStateError } = useSWR(
+    "GroupState",
+    groupFetcher
+  );
+  const { data: turbinesData, error: turbinesError } = useSWR(
+    "Turbines",
+    groupFetcher
+  );
+
+  if (powerPriceError || groupStateError || turbinesError)
+    return <div>Failed to load data...</div>;
+  if (!powerPricedata || !groupStateData || !turbinesData)
+    return <div>Loading...</div>;
+
   let status: Status = "success";
   let statusText = "Water level normal.";
 
@@ -348,83 +379,10 @@ const Home: React.FC<Props> = ({
               Report issue
             </Button>
           </Link>
-          <Text fontStyle="italic" textAlign="right" pr={2}>
-            {dummyData
-              ? "Using dummy data."
-              : "Updated at " + new Date().toLocaleTimeString()}
-          </Text>
         </Flex>
       </Flex>
     </>
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  return {
-    props: {
-      powerPriceData: getDummyPowerPrice(),
-      groupStateData: getDummyGroupStateData(),
-      turbinesData: getDummyTurbinesData(),
-      dummyData: true,
-    },
-  };
-  /* if (
-    !process.env.API_URL ||
-    !process.env.GROUP_ID ||
-    !process.env.GROUP_API_KEY
-  )
-    return {
-      props: { data: "Missing API URL and key" },
-    };
-
-  const apiUrl = process.env.API_URL;
-  const powerPriceRes = await fetch(apiUrl + "PowerPrice").catch((error) => {
-    console.error(error);
-  });
-
-  // eslint-disable-next-line no-undef
-  const groupHeaders: HeadersInit = new Headers();
-  groupHeaders.append("GroupId", process.env.GROUP_ID);
-  groupHeaders.append("GroupKey", process.env.GROUP_API_KEY);
-
-  const groupStateRes = await fetch(apiUrl + "GroupState", {
-    method: "GET",
-    headers: groupHeaders,
-    redirect: "follow",
-  }).catch((error) => {
-    console.error(error);
-  });
-
-  const turbinesRes = await fetch(apiUrl + "Turbines", {
-    method: "GET",
-    headers: groupHeaders,
-    redirect: "follow",
-  }).catch((error) => {
-    console.error(error);
-  });
-
-  if (!powerPriceRes || !groupStateRes || !turbinesRes) {
-    return {
-      props: {
-        powerPriceData: getDummyPowerPrice(),
-        groupStateData: getDummyGroupStateData(),
-        turbinesData: getDummyTurbinesData(),
-        dummyData: true,
-      },
-    };
-  }
-
-  const groupStateData = await groupStateRes.json();
-  const turbinesData = await turbinesRes.json();
-  const powerPriceData = await powerPriceRes.json();
-
-  return {
-    props: {
-      powerPriceData,
-      groupStateData,
-      turbinesData,
-      dummyData: false,
-    },
-  }; */
-};
 export default Home;
