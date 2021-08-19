@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Image, Text } from "@chakra-ui/react";
 import useSWR from "swr";
 
 const apiUrlYr = "https://api.met.no/weatherapi/locationforecast/2.0/compact";
