@@ -23,21 +23,27 @@ export const Weather: React.FC = () => {
   return (
     <Flex justifyContent="center" alignItems="center" w="100%">
       <Flex width="100%" justifyContent="center">
-        <Box mr={2} mt={2}>
+        <Flex flexDirection="column" width="40%">
           <Image
             src={"./weather/" + weatherIcon + ".svg"}
             alt="Current weather icon Emoji"
             height="100px"
-            ml={-2}
           />
-        </Box>
-        <Flex flexDirection="column">
+          <Text fontWeight="medium" textAlign="center" mt={-5}>
+            Bodø
+          </Text>
+        </Flex>
+        <Flex flexDirection="column" width="20%" justifyContent="center">
           <Text fontWeight="medium" fontSize="2xl">
             Temp: {airTemperatur} °C
           </Text>
+        </Flex>
+        <Flex flexDirection="column" width="20%" justifyContent="center">
           <Text fontWeight="medium" fontSize="2xl">
             Rain: {precipitation} mm
           </Text>
+        </Flex>
+        <Flex flexDirection="column" width="20%" justifyContent="center">
           <Text fontWeight="medium" fontSize="2xl">
             Wind: {wind} m/s
           </Text>
