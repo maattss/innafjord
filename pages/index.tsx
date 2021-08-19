@@ -11,19 +11,23 @@ import {
   Image,
   Button,
 } from "@chakra-ui/react";
+import { GetStaticProps } from "next";
 import StatusBox, { Status } from "../components/StatusBox";
 import Meta from "../components/Meta";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { TurbineData } from "./turbines";
+import {
+  getDummyGroupStateData,
+  getDummyPowerPrice,
+  getDummyTurbinesData,
+} from "../helpers/getDummyAPIData";
 import Weather from "../components/Weather.tsx";
-import useSWR from "swr";
 
-/* type Props = {
+type Props = {
   powerPriceData: string;
   groupStateData: GroupStateData;
   turbinesData: [TurbineData];
-  dummyData: boolean;
-}; */
+};
 
 export type GroupStateData = {
   groupName: string;
@@ -32,49 +36,13 @@ export type GroupStateData = {
   environmentCost: number;
 };
 
-const Home: React.FC = () => {
+const Home: React.FC<Props> = ({
+  powerPriceData,
+  groupStateData,
+  turbinesData,
+}) => {
   const bg = useColorModeValue("gray.100", "gray.700");
   const bgHover = useColorModeValue("gray.200", "gray.600");
-
-  if (
-    !process.env.API_URL ||
-    !process.env.GROUP_ID ||
-    !process.env.GROUP_API_KEY
-  )
-    return {
-      props: { data: "Missing API URL and key" },
-    };
-
-  const simpleFetcher = (url: string) =>
-    fetch(process.env.API_UR + url).then((res) => res.json());
-
-  const groupHeaders: HeadersInit = new Headers();
-  groupHeaders.append("GroupId", process.env.GROUP_ID);
-  groupHeaders.append("GroupKey", process.env.GROUP_API_KEY);
-  const groupFetcher = (url: string) =>
-    fetch(process.env.API_UR + url, {
-      method: "GET",
-      headers: groupHeaders,
-      redirect: "follow",
-    });
-
-  const { data: powerPricedata, error: powerPriceError } = useSWR(
-    "PowerPrice",
-    simpleFetcher
-  );
-  const { data: groupStateData, error: groupStateError } = useSWR(
-    "GroupState",
-    groupFetcher
-  );
-  const { data: turbinesData, error: turbinesError } = useSWR(
-    "Turbines",
-    groupFetcher
-  );
-
-  if (powerPriceError || groupStateError || turbinesError)
-    return <div>Failed to load data...</div>;
-  if (!powerPricedata || !groupStateData || !turbinesData)
-    return <div>Loading...</div>;
 
   let status: Status = "success";
   let statusText = "Water level normal.";
@@ -379,10 +347,22 @@ const Home: React.FC = () => {
               Report issue
             </Button>
           </Link>
+          <Text fontStyle="italic" textAlign="right" pr={2}>
+            Using dummy data.
+          </Text>
         </Flex>
       </Flex>
     </>
   );
 };
 
+export const getStaticProps: GetStaticProps = () => {
+  return {
+    props: {
+      powerPriceData: getDummyPowerPrice(),
+      groupStateData: getDummyGroupStateData(),
+      turbinesData: getDummyTurbinesData(),
+    },
+  };
+};
 export default Home;
