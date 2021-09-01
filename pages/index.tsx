@@ -319,7 +319,7 @@ const Home: React.FC<Props> = ({
           </Link>
         </VStack>
         <Text fontWeight="medium" fontSize="xl" textAlign="left" w="100%">
-          Weather
+          Weather at the plant
         </Text>
         <Box bg={bg} borderRadius="lg" w="100%" p={6} mt="2" mb="2">
           <Flex

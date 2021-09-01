@@ -29,9 +29,6 @@ export const Weather: React.FC = () => {
             alt="Current weather icon Emoji"
             height="100px"
           />
-          <Text fontWeight="medium" textAlign="center" mt={-5}>
-            Bodø
-          </Text>
         </Flex>
         <Flex flexDirection="column" width="20%" justifyContent="center">
           <Text fontWeight="medium" fontSize="2xl">
